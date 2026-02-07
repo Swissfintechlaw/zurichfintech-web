@@ -1,43 +1,65 @@
 {
-  "home": {
-    "title": "Swiss Fintech Law",
-    "subtitle": "Construire l'avenir de la technologie en Suisse",
-    "description": "Plateforme complète de connaissances et documentation technique pour la technologie financière innovante et les cadres juridiques en juridiction suisse",
-    "exploreKnowledge": "Explorer les connaissances",
-    "viewDocs": "Voir la documentation",
-    "footer": "Tous droits réservés. Précision suisse et innovation."
-  },
   "nav": {
     "home": "Accueil",
     "knowledge": "Savoir",
-    "docs": "Documentation"
+    "docs": "Documentation",
+    "contact": "Contact"
   },
-  "features": {
-    "title": "Pourquoi Swiss Fintech Law",
-    "subtitle": "Leader à l'intersection de la finance, de la technologie et de la réglementation en Suisse",
-    "innovation": {
-      "title": "Innovation d'abord",
-      "description": "Approches pionnières de la technologie financière avec des solutions de pointe et des stratégies avant-gardistes"
+  "home": {
+    "hero": {
+      "badge": "Premier cabinet suisse de droit fintech",
+      "title": {
+        "line1": "Construire l'avenir",
+        "line2": "de la tech en Suisse"
+      },
+      "subtitle": "Expertise juridique complète et innovation technique pour la prochaine génération de technologie financière",
+      "cta": {
+        "primary": "Commencer",
+        "secondary": "En savoir plus"
+      },
+      "stats": {
+        "clients": "Clients",
+        "years": "Années d'expérience",
+        "swiss": "Excellence suisse"
+      }
     },
-    "knowledge": {
-      "title": "Expertise approfondie",
-      "description": "Ressources complètes couvrant la fintech, la blockchain, les actifs numériques et la conformité réglementaire dans le contexte suisse"
+    "services": {
+      "title": "Nos services",
+      "subtitle": "Solutions complètes à l'intersection du droit et de la technologie",
+      "legal": {
+        "title": "Excellence juridique",
+        "description": "Conseils d'experts sur la réglementation financière suisse, les cadres de conformité et les meilleures pratiques juridiques"
+      },
+      "innovation": {
+        "title": "Innovation technologique",
+        "description": "Approches pionnières de la technologie financière avec des solutions de pointe"
+      },
+      "compliance": {
+        "title": "Conformité réglementaire",
+        "description": "Naviguez dans des paysages réglementaires complexes avec confiance et précision"
+      },
+      "advisory": {
+        "title": "Conseil stratégique",
+        "description": "Conseil stratégique pour les entreprises fintech, du démarrage à l'expansion"
+      }
     },
-    "legal": {
-      "title": "Excellence juridique",
-      "description": "Conseils d'experts sur la réglementation financière suisse, les cadres de conformité et les meilleures pratiques juridiques"
-    },
-    "technology": {
-      "title": "Leadership technologique",
-      "description": "Solutions technologiques de pointe soutenues par une documentation robuste et des ressources pour développeurs"
-    },
-    "global": {
-      "title": "Perspective mondiale",
-      "description": "Basé en Suisse avec une portée internationale, reliant l'expertise locale à l'innovation fintech mondiale"
-    },
-    "community": {
-      "title": "Communauté collaborative",
-      "description": "Créer des ponts entre professionnels du droit, développeurs et innovateurs fintech"
+    "mission": {
+      "title": "Notre mission",
+      "description": "Nous comblons le fossé entre les cadres juridiques traditionnels et les technologies émergentes, créant des voies pour l'innovation tout en assurant la conformité réglementaire",
+      "vision": {
+        "title": "Notre vision",
+        "description": "Être le premier partenaire juridique et technique de Suisse pour les entreprises fintech, stimulant l'innovation tout en maintenant les plus hauts standards d'excellence juridique"
+      },
+      "approach": {
+        "title": "Notre approche",
+        "description": "Précision suisse et innovation moderne. Nous combinons une expertise juridique approfondie avec des connaissances techniques pour offrir des solutions qui fonctionnent dans le monde réel"
+      },
+      "features": {
+        "swiss": "Qualité suisse",
+        "innovation": "Innovation d'abord",
+        "security": "Sécurité et confidentialité",
+        "global": "Portée mondiale"
+      }
     }
   },
   "knowledge": {

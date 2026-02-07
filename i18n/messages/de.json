@@ -1,43 +1,65 @@
 {
-  "home": {
-    "title": "Swiss Fintech Law",
-    "subtitle": "Die Zukunft der Technologie in der Schweiz gestalten",
-    "description": "Umfassende Wissensplattform und technische Dokumentation für innovative Finanztechnologie und rechtliche Rahmenbedingungen in der Schweizer Jurisdiktion",
-    "exploreKnowledge": "Wissen erkunden",
-    "viewDocs": "Dokumentation ansehen",
-    "footer": "Alle Rechte vorbehalten. Schweizer Präzision trifft Innovation."
-  },
   "nav": {
     "home": "Start",
     "knowledge": "Wissen",
-    "docs": "Dokumentation"
+    "docs": "Dokumentation",
+    "contact": "Kontakt"
   },
-  "features": {
-    "title": "Warum Swiss Fintech Law",
-    "subtitle": "Führend an der Schnittstelle von Finanzen, Technologie und Regulierung in der Schweiz",
-    "innovation": {
-      "title": "Innovation zuerst",
-      "description": "Wegweisende neue Ansätze für Finanztechnologie mit modernsten Lösungen und zukunftsweisenden Strategien"
+  "home": {
+    "hero": {
+      "badge": "Führende Schweizer Fintech-Rechts kanzlei",
+      "title": {
+        "line1": "Die Zukunft gestalten",
+        "line2": "der Tech in der Schweiz"
+      },
+      "subtitle": "Umfassende rechtliche Expertise und technische Innovation für die nächste Generation der Finanztechnologie",
+      "cta": {
+        "primary": "Jetzt starten",
+        "secondary": "Mehr erfahren"
+      },
+      "stats": {
+        "clients": "Kunden",
+        "years": "Jahre Erfahrung",
+        "swiss": "Schweizer Exzellenz"
+      }
     },
-    "knowledge": {
-      "title": "Tiefes Fachwissen",
-      "description": "Umfassende Ressourcen zu Fintech, Blockchain, digitalen Assets und regulatorischer Compliance im Schweizer Kontext"
+    "services": {
+      "title": "Unsere Dienstleistungen",
+      "subtitle": "Umfassende Lösungen an der Schnittstelle von Recht und Technologie",
+      "legal": {
+        "title": "Rechtliche Exzellenz",
+        "description": "Expertenberatung zu Schweizer Finanzregulierung, Compliance-Rahmenwerken und rechtlichen Best Practices"
+      },
+      "innovation": {
+        "title": "Tech-Innovation",
+        "description": "Wegweisende neue Ansätze für Finanztechnologie mit modernsten Lösungen"
+      },
+      "compliance": {
+        "title": "Regulatorische Compliance",
+        "description": "Navigieren Sie mit Vertrauen und Präzision durch komplexe regulatorische Landschaften"
+      },
+      "advisory": {
+        "title": "Strategische Beratung",
+        "description": "Strategische Beratung für Fintech-Unternehmen, vom Startup bis zur Skalierung"
+      }
     },
-    "legal": {
-      "title": "Rechtliche Exzellenz",
-      "description": "Expertenberatung zu Schweizer Finanzregulierung, Compliance-Rahmenwerken und rechtlichen Best Practices"
-    },
-    "technology": {
-      "title": "Technologieführerschaft",
-      "description": "Modernste Technologielösungen mit robuster Dokumentation und Entwicklerressourcen"
-    },
-    "global": {
-      "title": "Globale Perspektive",
-      "description": "Schweizer Basis mit internationaler Reichweite, Verbindung lokaler Expertise mit globaler Fintech-Innovation"
-    },
-    "community": {
-      "title": "Kollaborative Gemeinschaft",
-      "description": "Brücken bauen zwischen Rechtsexperten, Entwicklern und Fintech-Innovatoren"
+    "mission": {
+      "title": "Unsere Mission",
+      "description": "Wir überbrücken die Lücke zwischen traditionellen rechtlichen Rahmenbedingungen und aufkommenden Technologien und schaffen Wege für Innovation bei gleichzeitiger Einhaltung regulatorischer Vorschriften",
+      "vision": {
+        "title": "Unsere Vision",
+        "description": "Der führende rechtliche und technische Partner der Schweiz für Fintech-Unternehmen zu sein, Innovation voranzutreiben und dabei höchste Standards rechtlicher Exzellenz zu wahren"
+      },
+      "approach": {
+        "title": "Unser Ansatz",
+        "description": "Schweizer Präzision trifft moderne Innovation. Wir kombinieren tiefes rechtliches Fachwissen mit technischem Know-how, um Lösungen zu liefern, die in der realen Welt funktionieren"
+      },
+      "features": {
+        "swiss": "Schweizer Qualität",
+        "innovation": "Innovation zuerst",
+        "security": "Sicherheit & Datenschutz",
+        "global": "Globale Reichweite"
+      }
     }
   },
   "knowledge": {
