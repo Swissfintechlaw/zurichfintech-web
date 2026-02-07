@@ -1,0 +1,12 @@
+{
+  "home": {
+    "title": "Zurich Fintech",
+    "subtitle": "Building the future of tech in Switzerland",
+    "description": "Knowledge hub and documentation for technology innovation and legal frameworks"
+  },
+  "nav": {
+    "home": "Home",
+    "knowledge": "Knowledge",
+    "docs": "Documentation"
+  }
+}

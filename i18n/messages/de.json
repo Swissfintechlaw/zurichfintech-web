@@ -1,0 +1,12 @@
+{
+  "home": {
+    "title": "Zurich Fintech",
+    "subtitle": "Die Zukunft der Technologie in der Schweiz gestalten",
+    "description": "Wissensdatenbank und Dokumentation für technologische Innovation und rechtliche Rahmenbedingungen"
+  },
+  "nav": {
+    "home": "Startseite",
+    "knowledge": "Wissen",
+    "docs": "Dokumentation"
+  }
+}
