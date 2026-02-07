@@ -8,6 +8,12 @@ export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
 
+export const metadata = {
+  title: 'Swiss Fintech Law AG - Building the Future of Tech in Switzerland',
+  description: 'Comprehensive knowledge hub and technical documentation for innovative financial technology and legal frameworks in Swiss jurisdiction',
+  keywords: 'fintech, blockchain, swiss law, financial technology, regulation, compliance',
+};
+
 export default async function LocaleLayout({
   children,
   params
@@ -25,7 +31,11 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale}>
-      <body>
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+      </head>
+      <body className="antialiased">
         <NextIntlClientProvider messages={messages}>
           {children}
         </NextIntlClientProvider>

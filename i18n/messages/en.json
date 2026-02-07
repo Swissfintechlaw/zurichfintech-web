@@ -1,12 +1,175 @@
 {
-  "home": {
-    "title": "Zurich Fintech",
-    "subtitle": "Building the future of tech in Switzerland",
-    "description": "Knowledge hub and documentation for technology innovation and legal frameworks"
-  },
   "nav": {
     "home": "Home",
     "knowledge": "Knowledge",
-    "docs": "Documentation"
+    "docs": "Documentation",
+    "contact": "Contact"
+  },
+  "home": {
+    "hero": {
+      "badge": "Switzerland's Leading Fintech Law Firm",
+      "title": {
+        "line1": "Building the Future",
+        "line2": "of Tech in Switzerland"
+      },
+      "subtitle": "Comprehensive legal expertise and technical innovation for the next generation of financial technology",
+      "cta": {
+        "primary": "Get Started",
+        "secondary": "Learn More"
+      },
+      "stats": {
+        "clients": "Clients",
+        "years": "Years Experience",
+        "swiss": "Swiss Excellence"
+      }
+    },
+    "services": {
+      "title": "Our Services",
+      "subtitle": "Comprehensive solutions at the intersection of law and technology",
+      "legal": {
+        "title": "Legal Excellence",
+        "description": "Expert guidance on Swiss financial regulation, compliance frameworks, and legal best practices"
+      },
+      "innovation": {
+        "title": "Tech Innovation",
+        "description": "Pioneering new approaches to financial technology with cutting-edge solutions"
+      },
+      "compliance": {
+        "title": "Regulatory Compliance",
+        "description": "Navigate complex regulatory landscapes with confidence and precision"
+      },
+      "advisory": {
+        "title": "Strategic Advisory",
+        "description": "Strategic counsel for fintech ventures, from startup to scale"
+      }
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "We bridge the gap between traditional legal frameworks and emerging technologies, creating pathways for innovation while ensuring regulatory compliance",
+      "vision": {
+        "title": "Our Vision",
+        "description": "To be Switzerland's premier legal and technical partner for fintech companies, driving innovation while maintaining the highest standards of legal excellence"
+      },
+      "approach": {
+        "title": "Our Approach",
+        "description": "Swiss precision meets modern innovation. We combine deep legal expertise with technical knowledge to deliver solutions that work in the real world"
+      },
+      "features": {
+        "swiss": "Swiss Quality",
+        "innovation": "Innovation First",
+        "security": "Security & Privacy",
+        "global": "Global Reach"
+      }
+    }
+  },
+  "knowledge": {
+    "title": "Knowledge Hub",
+    "subtitle": "Explore comprehensive resources on fintech, blockchain, regulation, and innovation",
+    "learnMore": "Learn more",
+    "backToHome": "Back to Home",
+    "categories": {
+      "fintech": {
+        "title": "Fintech Fundamentals",
+        "description": "Core concepts, market trends, and innovations shaping the financial technology landscape"
+      },
+      "blockchain": {
+        "title": "Blockchain & DLT",
+        "description": "Distributed ledger technologies, smart contracts, and decentralized finance applications"
+      },
+      "regulation": {
+        "title": "Regulatory Frameworks",
+        "description": "Swiss and international financial regulations, compliance requirements, and legal structures"
+      },
+      "innovation": {
+        "title": "Innovation & Trends",
+        "description": "Emerging technologies, market innovations, and future directions in fintech"
+      },
+      "compliance": {
+        "title": "Compliance & AML",
+        "description": "Anti-money laundering, KYC procedures, and regulatory compliance best practices"
+      },
+      "digital": {
+        "title": "Digital Assets",
+        "description": "Cryptocurrencies, tokens, NFTs, and digital asset custody and management"
+      }
+    },
+    "featured": {
+      "title": "Featured Articles",
+      "article1": {
+        "title": "The Future of Digital Banking in Switzerland",
+        "description": "How Swiss banks are embracing digital transformation and blockchain technology",
+        "date": "February 5, 2026"
+      },
+      "article2": {
+        "title": "Understanding Swiss FinTech Regulation",
+        "description": "A comprehensive guide to navigating FINMA requirements and licensing",
+        "date": "January 28, 2026"
+      },
+      "article3": {
+        "title": "DeFi and Swiss Law: Compliance Strategies",
+        "description": "Legal frameworks for decentralized finance protocols operating in Switzerland",
+        "date": "January 15, 2026"
+      }
+    }
+  },
+  "docs": {
+    "title": "API Documentation",
+    "subtitle": "Complete technical reference and integration guides for developers",
+    "navigation": "Navigation",
+    "backToHome": "Back to Home",
+    "sections": {
+      "getting-started": {
+        "title": "Getting Started",
+        "description": "Quick start guide to integrate with Swiss Fintech Law APIs and services",
+        "step1": {
+          "title": "Install the SDK",
+          "description": "Begin by installing our official SDK package for your preferred platform"
+        },
+        "step2": {
+          "title": "Initialize the Client",
+          "description": "Configure the client with your API credentials and environment settings"
+        }
+      },
+      "authentication": {
+        "title": "Authentication",
+        "description": "Secure your API requests with proper authentication mechanisms",
+        "apiKeys": {
+          "title": "API Keys",
+          "description": "Generate and manage your API keys from the developer dashboard. Each key is unique and should be kept secure."
+        },
+        "security": "Never expose your API keys in client-side code or public repositories"
+      },
+      "endpoints": {
+        "title": "API Endpoints",
+        "description": "Complete reference of available API endpoints and their usage",
+        "transactions": "Manage and query financial transactions",
+        "accounts": "Account management and balance operations",
+        "compliance": "Compliance checks and regulatory reporting",
+        "reports": "Generate and retrieve analytics reports"
+      },
+      "webhooks": {
+        "title": "Webhooks",
+        "description": "Configure webhooks to receive real-time notifications for events",
+        "content": "Webhooks allow you to receive HTTP callbacks when specific events occur in your account. Configure webhook endpoints in your dashboard."
+      },
+      "examples": {
+        "title": "Code Examples",
+        "description": "Practical examples demonstrating common integration patterns",
+        "basic": {
+          "title": "Basic Operations"
+        }
+      },
+      "support": {
+        "title": "Support & Resources",
+        "description": "Get help and connect with our developer community",
+        "content": "We're here to help! Reach out through any of these channels:",
+        "email": {
+          "title": "Email Support"
+        },
+        "github": {
+          "title": "GitHub"
+        }
+      }
+    }
   }
 }

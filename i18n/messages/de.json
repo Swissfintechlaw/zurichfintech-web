@@ -1,12 +1,153 @@
 {
   "home": {
-    "title": "Zurich Fintech",
+    "title": "Swiss Fintech Law",
     "subtitle": "Die Zukunft der Technologie in der Schweiz gestalten",
-    "description": "Wissensdatenbank und Dokumentation für technologische Innovation und rechtliche Rahmenbedingungen"
+    "description": "Umfassende Wissensplattform und technische Dokumentation für innovative Finanztechnologie und rechtliche Rahmenbedingungen in der Schweizer Jurisdiktion",
+    "exploreKnowledge": "Wissen erkunden",
+    "viewDocs": "Dokumentation ansehen",
+    "footer": "Alle Rechte vorbehalten. Schweizer Präzision trifft Innovation."
   },
   "nav": {
-    "home": "Startseite",
+    "home": "Start",
     "knowledge": "Wissen",
     "docs": "Dokumentation"
+  },
+  "features": {
+    "title": "Warum Swiss Fintech Law",
+    "subtitle": "Führend an der Schnittstelle von Finanzen, Technologie und Regulierung in der Schweiz",
+    "innovation": {
+      "title": "Innovation zuerst",
+      "description": "Wegweisende neue Ansätze für Finanztechnologie mit modernsten Lösungen und zukunftsweisenden Strategien"
+    },
+    "knowledge": {
+      "title": "Tiefes Fachwissen",
+      "description": "Umfassende Ressourcen zu Fintech, Blockchain, digitalen Assets und regulatorischer Compliance im Schweizer Kontext"
+    },
+    "legal": {
+      "title": "Rechtliche Exzellenz",
+      "description": "Expertenberatung zu Schweizer Finanzregulierung, Compliance-Rahmenwerken und rechtlichen Best Practices"
+    },
+    "technology": {
+      "title": "Technologieführerschaft",
+      "description": "Modernste Technologielösungen mit robuster Dokumentation und Entwicklerressourcen"
+    },
+    "global": {
+      "title": "Globale Perspektive",
+      "description": "Schweizer Basis mit internationaler Reichweite, Verbindung lokaler Expertise mit globaler Fintech-Innovation"
+    },
+    "community": {
+      "title": "Kollaborative Gemeinschaft",
+      "description": "Brücken bauen zwischen Rechtsexperten, Entwicklern und Fintech-Innovatoren"
+    }
+  },
+  "knowledge": {
+    "title": "Wissenszentrum",
+    "subtitle": "Erkunden Sie umfassende Ressourcen zu Fintech, Blockchain, Regulierung und Innovation",
+    "learnMore": "Mehr erfahren",
+    "backToHome": "Zurück zur Startseite",
+    "categories": {
+      "fintech": {
+        "title": "Fintech-Grundlagen",
+        "description": "Kernkonzepte, Markttrends und Innovationen, die die Finanztechnologie-Landschaft prägen"
+      },
+      "blockchain": {
+        "title": "Blockchain & DLT",
+        "description": "Distributed-Ledger-Technologien, Smart Contracts und dezentrale Finanzanwendungen"
+      },
+      "regulation": {
+        "title": "Regulierungsrahmen",
+        "description": "Schweizer und internationale Finanzregulierungen, Compliance-Anforderungen und rechtliche Strukturen"
+      },
+      "innovation": {
+        "title": "Innovation & Trends",
+        "description": "Aufkommende Technologien, Marktinnovationen und zukünftige Richtungen im Fintech"
+      },
+      "compliance": {
+        "title": "Compliance & GwG",
+        "description": "Geldwäschebekämpfung, KYC-Verfahren und regulatorische Compliance-Best-Practices"
+      },
+      "digital": {
+        "title": "Digitale Assets",
+        "description": "Kryptowährungen, Token, NFTs und Verwahrung und Verwaltung digitaler Assets"
+      }
+    },
+    "featured": {
+      "title": "Ausgewählte Artikel",
+      "article1": {
+        "title": "Die Zukunft des digitalen Bankings in der Schweiz",
+        "description": "Wie Schweizer Banken die digitale Transformation und Blockchain-Technologie annehmen",
+        "date": "5. Februar 2026"
+      },
+      "article2": {
+        "title": "Schweizer FinTech-Regulierung verstehen",
+        "description": "Ein umfassender Leitfaden zur Navigation durch FINMA-Anforderungen und Lizenzierung",
+        "date": "28. Januar 2026"
+      },
+      "article3": {
+        "title": "DeFi und Schweizer Recht: Compliance-Strategien",
+        "description": "Rechtliche Rahmenbedingungen für dezentrale Finanzprotokolle in der Schweiz",
+        "date": "15. Januar 2026"
+      }
+    }
+  },
+  "docs": {
+    "title": "API-Dokumentation",
+    "subtitle": "Vollständige technische Referenz und Integrationsleitfäden für Entwickler",
+    "navigation": "Navigation",
+    "backToHome": "Zurück zur Startseite",
+    "sections": {
+      "getting-started": {
+        "title": "Erste Schritte",
+        "description": "Schnellstartanleitung zur Integration mit Swiss Fintech Law APIs und Services",
+        "step1": {
+          "title": "SDK installieren",
+          "description": "Beginnen Sie mit der Installation unseres offiziellen SDK-Pakets für Ihre bevorzugte Plattform"
+        },
+        "step2": {
+          "title": "Client initialisieren",
+          "description": "Konfigurieren Sie den Client mit Ihren API-Anmeldedaten und Umgebungseinstellungen"
+        }
+      },
+      "authentication": {
+        "title": "Authentifizierung",
+        "description": "Sichern Sie Ihre API-Anfragen mit geeigneten Authentifizierungsmechanismen",
+        "apiKeys": {
+          "title": "API-Schlüssel",
+          "description": "Generieren und verwalten Sie Ihre API-Schlüssel über das Entwickler-Dashboard. Jeder Schlüssel ist eindeutig und sollte sicher aufbewahrt werden."
+        },
+        "security": "Legen Sie Ihre API-Schlüssel niemals im clientseitigen Code oder öffentlichen Repositories offen"
+      },
+      "endpoints": {
+        "title": "API-Endpunkte",
+        "description": "Vollständige Referenz verfügbarer API-Endpunkte und deren Verwendung",
+        "transactions": "Finanztransaktionen verwalten und abfragen",
+        "accounts": "Kontoverwaltung und Saldooperationen",
+        "compliance": "Compliance-Prüfungen und regulatorisches Reporting",
+        "reports": "Analyseberichte generieren und abrufen"
+      },
+      "webhooks": {
+        "title": "Webhooks",
+        "description": "Konfigurieren Sie Webhooks, um Echtzeit-Benachrichtigungen für Ereignisse zu erhalten",
+        "content": "Webhooks ermöglichen es Ihnen, HTTP-Callbacks zu erhalten, wenn bestimmte Ereignisse in Ihrem Konto auftreten. Konfigurieren Sie Webhook-Endpunkte in Ihrem Dashboard."
+      },
+      "examples": {
+        "title": "Code-Beispiele",
+        "description": "Praktische Beispiele, die gängige Integrationsmuster demonstrieren",
+        "basic": {
+          "title": "Grundlegende Operationen"
+        }
+      },
+      "support": {
+        "title": "Support & Ressourcen",
+        "description": "Holen Sie sich Hilfe und vernetzen Sie sich mit unserer Entwickler-Community",
+        "content": "Wir sind hier, um zu helfen! Erreichen Sie uns über einen dieser Kanäle:",
+        "email": {
+          "title": "E-Mail-Support"
+        },
+        "github": {
+          "title": "GitHub"
+        }
+      }
+    }
   }
 }
