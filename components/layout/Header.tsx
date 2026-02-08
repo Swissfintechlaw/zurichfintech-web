@@ -3,17 +3,21 @@
 import { Link } from '@/i18n/routing';
 import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import LanguageSwitcher from './LanguageSwitcher';
 
 export default function Header() {
   const nav = useTranslations('nav');
   const [isScrolled, setIsScrolled] = useState(false);
 
-  if (typeof window !== 'undefined') {
-    window.addEventListener('scroll', () => {
+  useEffect(() => {
+    const handleScroll = () => {
       setIsScrolled(window.scrollY > 20);
-    });
-  }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   return (
     <motion.nav
@@ -75,6 +79,7 @@ export default function Header() {
             >
               {nav('contact')}
             </a>
+            <LanguageSwitcher />
           </motion.div>
         </div>
       </div>
