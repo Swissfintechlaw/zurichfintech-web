@@ -9,8 +9,8 @@
     "hero": {
       "badge": "Führende Schweizer Fintech-Rechts kanzlei",
       "title": {
-        "line1": "Die Zukunft gestalten",
-        "line2": "der Tech in der Schweiz"
+        "line1": "Die Zukunft der Technologie",
+        "line2": "in der Schweiz gestalten"
       },
       "subtitle": "Umfassende rechtliche Expertise und technische Innovation für die nächste Generation der Finanztechnologie",
       "cta": {
@@ -60,6 +60,15 @@
         "security": "Sicherheit & Datenschutz",
         "global": "Globale Reichweite"
       }
+    }
+  },
+  "contact": {
+    "eyebrow": "Kontakt",
+    "title": "Gestalten wir, was als Nächstes kommt",
+    "labels": {
+      "phone": "Telefon",
+      "email": "E-Mail",
+      "address": "Adresse"
     }
   },
   "knowledge": {

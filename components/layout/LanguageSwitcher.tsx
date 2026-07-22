@@ -4,36 +4,35 @@ import { useLocale } from 'next-intl';
 import { usePathname, useRouter } from '@/i18n/routing';
 import { routing } from '@/i18n/routing';
 
+const LANGUAGE_NAMES: Record<string, string> = {
+  en: 'EN',
+  fr: 'FR',
+  de: 'DE',
+};
+
 export default function LanguageSwitcher() {
   const locale = useLocale();
   const pathname = usePathname();
   const router = useRouter();
 
-  const handleChange = (newLocale: string) => {
-    router.push(pathname, { locale: newLocale });
-  };
-
-  const languageNames: Record<string, string> = {
-    en: 'EN',
-    fr: 'FR',
-    de: 'DE'
-  };
-
   return (
-    <div className="flex gap-2">
-      {routing.locales.map((loc) => (
-        <button
-          key={loc}
-          onClick={() => handleChange(loc)}
-          className={`px-3 py-1 rounded-md text-sm font-medium transition-colors ${
-            locale === loc
-              ? 'bg-blue-600 text-white'
-              : 'text-slate-700 hover:bg-slate-100'
-          }`}
-        >
-          {languageNames[loc]}
-        </button>
-      ))}
+    <div className="flex items-center gap-3">
+      {routing.locales.map((loc) => {
+        const isActive = locale === loc;
+        return (
+          <button
+            key={loc}
+            type="button"
+            onClick={() => router.push(pathname, { locale: loc })}
+            aria-current={isActive ? 'true' : undefined}
+            className={`font-mono text-[0.6875rem] tracking-[0.12em] transition-colors duration-200 ${
+              isActive ? 'text-ink-900' : 'text-ink-400 hover:text-ink-700'
+            }`}
+          >
+            {LANGUAGE_NAMES[loc]}
+          </button>
+        );
+      })}
     </div>
   );
 }

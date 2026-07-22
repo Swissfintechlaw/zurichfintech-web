@@ -3,66 +3,150 @@
 @source "../components/**/*.{js,ts,jsx,tsx}";
 @source "./**/*.{js,ts,jsx,tsx}";
 
-/* Custom animations */
-@keyframes float {
-  0%, 100% {
-    transform: translateY(0px);
+/* ==========================================================================
+   Swiss FinTech Law — design tokens
+   Understated Swiss grayscale + warm alpine sand, bronze (accent) and
+   terracotta/coral (single-CTA signal). Signature 1px gray hairline rule.
+   ========================================================================== */
+
+@theme {
+  /* --- Type ------------------------------------------------------------ */
+  --font-serif: var(--font-spectral), Georgia, 'Times New Roman', serif;
+  --font-sans: var(--font-arimo), 'Helvetica Neue', Arial, sans-serif;
+  --font-mono: var(--font-plex-mono), ui-monospace, 'SFMono-Regular', monospace;
+
+  --text-display: 5.25rem;
+  --text-display--line-height: 1.02;
+
+  /* --- Ink (grayscale) ------------------------------------------------- */
+  --color-ink-000: #ffffff;
+  --color-ink-100: #ececec;
+  --color-ink-200: #d9d9d9;
+  --color-ink-300: #c4c4c4;
+  --color-ink-400: #9a9a9a;
+  --color-ink-500: #858585;
+  --color-ink-600: #666666;
+  --color-ink-700: #3d3d3d;
+  --color-ink-800: #222222;
+  --color-ink-900: #171717;
+
+  /* --- Sand (warm neutral) --------------------------------------------- */
+  --color-sand-50: #f8f5ef;
+  --color-sand-100: #f1ebe0;
+  --color-sand-200: #e6ddcc;
+  --color-sand-300: #d8cdba;
+  --color-sand-400: #bcac93;
+  --color-sand-500: #9a8c72;
+  --color-sand-600: #7a6e58;
+
+  /* --- Bronze (accent) -------------------------------------------------- */
+  --color-bronze-100: #eadfca;
+  --color-bronze-300: #cbab7c;
+  --color-bronze-500: #b08d57;
+  --color-bronze-600: #96733f;
+  --color-bronze-700: #785a2f;
+
+  /* --- Coral / terracotta (single-CTA signal) --------------------------- */
+  --color-coral-100: #f3ddd4;
+  --color-coral-300: #e4917a;
+  --color-coral-500: #c05746;
+  --color-coral-600: #a5412f;
+  --color-coral-700: #822f20;
+
+  /* --- Semantic surfaces ------------------------------------------------ */
+  --color-canvas: #f8f5ef;
+  --color-surface: #ffffff;
+  --color-surface-warm: #fdfbf7;
+  --color-surface-sunk: #f1ebe0;
+  --color-surface-ink: #171717;
+
+  /* --- Radii ------------------------------------------------------------ */
+  --radius-sm: 2px;
+  --radius-md: 4px;
+  --radius-lg: 8px;
+  --radius-xl: 14px;
+
+  /* --- Shadows (quiet) --------------------------------------------------- */
+  --shadow-xs: 0 1px 2px rgba(23, 23, 23, 0.05);
+  --shadow-sm: 0 2px 6px rgba(23, 23, 23, 0.06);
+  --shadow-md: 0 6px 20px rgba(23, 23, 23, 0.08);
+  --shadow-lg: 0 20px 48px rgba(23, 23, 23, 0.12);
+
+  /* --- Motion (quiet, no bounce) ---------------------------------------- */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-standard: cubic-bezier(0.2, 0, 0, 1);
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    /* Header is 72px tall; keep anchored sections clear of it */
+    scroll-padding-top: 5rem;
   }
-  50% {
-    transform: translateY(-20px);
+
+  body {
+    background-color: var(--color-canvas);
+    color: var(--color-ink-800);
+    font-family: var(--font-sans);
+  }
+
+  /* The signature hairline: 1px gray rule */
+  hr {
+    border: 0;
+    border-top: 1px solid var(--color-ink-200);
+  }
+
+  ::selection {
+    background: var(--color-bronze-100);
+    color: var(--color-ink-900);
+  }
+
+  :focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(176, 141, 87, 0.35);
+  }
+
+  /* Scrollbar, tuned to the warm neutral palette */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--color-sand-100);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-sand-300);
+    border-radius: 999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-sand-400);
   }
 }
 
-@keyframes pulse-slow {
-  0%, 100% {
-    opacity: 1;
+/* ==========================================================================
+   Utilities
+   ========================================================================== */
+
+/* Eyebrow label: mono, tracked-out, uppercase */
+@utility eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+/* Respect users who prefer reduced motion. The brand is quiet by default,
+   so there is nothing here worth forcing on anyone. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
   }
-  50% {
-    opacity: 0.5;
-  }
-}
-
-@keyframes gradient-shift {
-  0%, 100% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-}
-
-.animate-float {
-  animation: float 6s ease-in-out infinite;
-}
-
-.animate-pulse-slow {
-  animation: pulse-slow 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
-}
-
-.animate-gradient {
-  background-size: 200% 200%;
-  animation: gradient-shift 8s ease infinite;
-}
-
-/* Smooth scrolling */
-html {
-  scroll-behavior: smooth;
-}
-
-/* Custom scrollbar */
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-::-webkit-scrollbar-track {
-  background: #f1f5f9;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #cbd5e1;
-  border-radius: 5px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #94a3b8;
 }
