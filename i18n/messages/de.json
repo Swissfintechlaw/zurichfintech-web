@@ -62,6 +62,15 @@
       }
     }
   },
+  "contact": {
+    "eyebrow": "Kontakt",
+    "title": "Gestalten wir, was als Nächstes kommt",
+    "labels": {
+      "phone": "Telefon",
+      "email": "E-Mail",
+      "address": "Adresse"
+    }
+  },
   "knowledge": {
     "title": "Wissenszentrum",
     "subtitle": "Erkunden Sie umfassende Ressourcen zu Fintech, Blockchain, Regulierung und Innovation",

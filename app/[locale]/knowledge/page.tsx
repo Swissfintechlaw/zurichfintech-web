@@ -91,7 +91,7 @@ export default function KnowledgePage() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50">
+    <div className="min-h-screen bg-gradient-to-br from-sand-50 via-surface to-sand-100">
       <Header />
 
       <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
@@ -99,11 +99,11 @@ export default function KnowledgePage() {
           <AnimatedSection>
             <div className="text-center mb-16">
               <h1 className="text-5xl md:text-6xl font-bold mb-6">
-                <span className="bg-gradient-to-r from-blue-600 to-slate-900 bg-clip-text text-transparent">
+                <span className="bg-gradient-to-r from-coral-500 to-ink-900 bg-clip-text text-transparent">
                   {t('title')}
                 </span>
               </h1>
-              <p className="text-xl text-slate-600 max-w-3xl mx-auto">
+              <p className="text-xl text-ink-600 max-w-3xl mx-auto">
                 {t('subtitle')}
               </p>
             </div>
@@ -113,23 +113,23 @@ export default function KnowledgePage() {
             {categories.map((category, index) => (
               <motion.div
                 key={category.id}
-                className="group bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-slate-200/50 cursor-pointer"
+                className="group bg-surface rounded-md p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-ink-200 cursor-pointer"
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 whileHover={{ y: -5 }}
               >
-                <div className="text-blue-600 mb-4 group-hover:scale-110 transition-transform">
+                <div className="text-bronze-600 mb-4 group-hover:scale-110 transition-transform">
                   {category.icon}
                 </div>
-                <h3 className="text-2xl font-bold text-slate-900 mb-3">
+                <h3 className="text-2xl font-bold text-ink-900 mb-3">
                   {t(`categories.${category.id}.title`)}
                 </h3>
-                <p className="text-slate-600 mb-4">
+                <p className="text-ink-600 mb-4">
                   {t(`categories.${category.id}.description`)}
                 </p>
-                <div className="text-blue-600 font-semibold group-hover:translate-x-2 transition-transform inline-flex items-center gap-2">
+                <div className="text-bronze-600 font-semibold group-hover:translate-x-2 transition-transform inline-flex items-center gap-2">
                   {t('learnMore')}
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -141,27 +141,27 @@ export default function KnowledgePage() {
 
           {/* Featured Articles */}
           <AnimatedSection delay={0.3}>
-            <div className="bg-white rounded-2xl p-10 shadow-xl border border-slate-200/50">
-              <h2 className="text-3xl font-bold text-slate-900 mb-8">
+            <div className="bg-surface rounded-md p-10 shadow-xl border border-ink-200">
+              <h2 className="text-3xl font-bold text-ink-900 mb-8">
                 {t('featured.title')}
               </h2>
               <div className="space-y-6">
                 {['article1', 'article2', 'article3'].map((article, index) => (
                   <motion.div
                     key={article}
-                    className="border-l-4 border-blue-600 pl-6 py-2 hover:bg-slate-50 transition-colors cursor-pointer"
+                    className="border-l-4 border-coral-500 pl-6 py-2 hover:bg-sand-50 transition-colors cursor-pointer"
                     initial={{ opacity: 0, x: -20 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.5, delay: index * 0.1 }}
                   >
-                    <h3 className="text-xl font-semibold text-slate-900 mb-2">
+                    <h3 className="text-xl font-semibold text-ink-900 mb-2">
                       {t(`featured.${article}.title`)}
                     </h3>
-                    <p className="text-slate-600 mb-2">
+                    <p className="text-ink-600 mb-2">
                       {t(`featured.${article}.description`)}
                     </p>
-                    <span className="text-sm text-blue-600 font-medium">
+                    <span className="text-sm text-bronze-600 font-medium">
                       {t(`featured.${article}.date`)}
                     </span>
                   </motion.div>
@@ -172,9 +172,9 @@ export default function KnowledgePage() {
         </div>
       </section>
 
-      <footer className="bg-slate-900 text-white py-12 px-4">
+      <footer className="bg-surface-ink text-white py-12 px-4">
         <div className="max-w-7xl mx-auto text-center">
-          <Link href="/" className="text-slate-400 hover:text-white transition">
+          <Link href="/" className="text-ink-400 hover:text-white transition">
             ← {t('backToHome')}
           </Link>
         </div>

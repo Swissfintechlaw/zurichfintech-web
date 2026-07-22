@@ -62,6 +62,15 @@
       }
     }
   },
+  "contact": {
+    "eyebrow": "Contact us",
+    "title": "Let's build what's next",
+    "labels": {
+      "phone": "Phone",
+      "email": "Email",
+      "address": "Address"
+    }
+  },
   "knowledge": {
     "title": "Knowledge Hub",
     "subtitle": "Explore comprehensive resources on fintech, blockchain, regulation, and innovation",

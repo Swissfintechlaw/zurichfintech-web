@@ -1,7 +1,9 @@
 import Header from '@/components/layout/Header';
+import Footer from '@/components/layout/Footer';
 import Hero from '@/components/home/Hero';
 import Services from '@/components/home/Services';
 import Mission from '@/components/home/Mission';
+import Contact from '@/components/home/Contact';
 
 export default function HomePage() {
   return (
@@ -11,14 +13,9 @@ export default function HomePage() {
         <Hero />
         <Services />
         <Mission />
+        <Contact />
       </main>
-      <footer className="bg-slate-900 text-white py-12 px-4">
-        <div className="max-w-7xl mx-auto text-center">
-          <p className="text-slate-400">
-            © 2026 Swiss Fintech Law AG. All rights reserved.
-          </p>
-        </div>
-      </footer>
+      <Footer />
     </>
   );
 }

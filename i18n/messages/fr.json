@@ -62,6 +62,15 @@
       }
     }
   },
+  "contact": {
+    "eyebrow": "Nous contacter",
+    "title": "Construisons la suite",
+    "labels": {
+      "phone": "Téléphone",
+      "email": "E-mail",
+      "address": "Adresse"
+    }
+  },
   "knowledge": {
     "title": "Centre de connaissances",
     "subtitle": "Explorez des ressources complètes sur la fintech, la blockchain, la réglementation et l'innovation",
