@@ -31,8 +31,11 @@ export default function Hero() {
             <span className="eyebrow">{t('badge')}</span>
           </p>
 
-          {/* max-w-4xl keeps the two authored lines from wrapping a third time */}
-          <h1 className="mt-8 max-w-4xl font-serif text-5xl font-normal leading-[1.05] tracking-[-0.01em] text-ink-900 sm:text-6xl lg:text-7xl">
+          {/* The title is authored as two lines. max-w-5xl fits the longest of
+              them across all locales at the lg size — German's "Die Zukunft der
+              Technologie" is the widest at ~918px — so neither line wraps a
+              third time. text-balance keeps any wrap even at smaller sizes. */}
+          <h1 className="mt-8 max-w-5xl text-balance font-serif text-5xl font-normal leading-[1.05] tracking-[-0.01em] text-ink-900 sm:text-6xl lg:text-7xl">
             {t('title.line1')}
             <br />
             {t('title.line2')}
