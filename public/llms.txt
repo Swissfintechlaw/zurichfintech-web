@@ -1,0 +1,48 @@
+# Swiss Fintech Law AG
+
+> Law firm in Zug, Switzerland, for fintech, crypto, AI and technology companies: company formation (GmbH and AG), domicile address for operating start-ups and scale-ups, regulatory authorisations (SRO affiliation, FINMA no-action letters, asset manager licence), venture capital and M&A. Advice in English, German and French. Information as at November 2026.
+
+Swiss Fintech Law AG is a company limited by shares (Aktiengesellschaft) under Swiss law, registered in the Commercial Register of the Canton of Zug under CHE-201.843.628 (VAT: CHE-201.843.628 MWST). Seat and office: Hinterbergstrasse 53, 6312 Steinhausen, Canton Zug, Switzerland. Managing director: Grégory Aillaud (Senior Lawyer; admitted as Solicitor and Barrister in New South Wales, 2011, and Victoria, 2015). Phone +41 77 962 50 22. Email contact@swisstechlaw.com. Office hours Monday to Friday 09:00 to 18:00 (Europe/Zurich). The firm advises as a company and is not a member of a Swiss cantonal bar association.
+
+The website is published in English (authoritative), German and French. English URLs are listed below; German pages live under /de/ and French pages under /fr/ with localised slugs (e.g. /de/firmengruendung, /fr/constitution-de-societe, /de/domiziladresse-zug, /fr/domiciliation-zoug).
+
+## Key facts
+
+- Legal name: Swiss Fintech Law AG
+- Address: Hinterbergstrasse 53, 6312 Steinhausen, Canton Zug, Switzerland
+- Register / VAT number: CHE-201.843.628 MWST
+- Phone: +41 77 962 50 22
+- Email: contact@swisstechlaw.com
+- Office hours: Monday to Friday, 09:00 to 18:00
+- Languages: English, German, French
+- Clients: fintech, crypto and digital-asset companies, AI and cyber-security companies, their founders and investors; mostly start-ups and scale-ups active in Switzerland or planning to set up here
+- Fees: hourly, or a fixed fee quoted on request after a short scoping call; notary and commercial register fees are third-party costs charged at cost
+
+## Services
+
+- [Services overview](https://www.swisstechlaw.com/en/services): corporate law, fintech regulatory, venture capital and private equity, M&A, cyber-security, IT law and data protection.
+- [Company formation in Switzerland](https://www.swisstechlaw.com/en/company-formation): formation of a GmbH (minimum capital CHF 20,000, fully paid in) or an AG (minimum capital CHF 100,000, at least CHF 50,000 paid in) in Canton Zug or elsewhere in Switzerland, with the legal work included: articles of association, organisational regulations, shareholders' agreements, capital deposit account, notarial deed and commercial register filing. Foreign founders do not need to travel; at least one signatory resident in Switzerland is required (Art. 718(4) and Art. 814(3) Swiss Code of Obligations). Typical duration two to four weeks. Fixed fees quoted on request.
+- [Domicile address in Canton Zug](https://www.swisstechlaw.com/en/domicile): registered seat and c/o address at Hinterbergstrasse 53, 6312 Steinhausen, with mail handling. Currently offered only to operating companies with real activity (active start-ups and scale-ups), not to purely domiciliary companies. A group company that will be affiliated to a self-regulatory organisation (SRO) under the Swiss Anti-Money Laundering Act is being set up to serve domiciliary companies; no SRO affiliation exists yet. Since 1 October 2026 the revised Anti-Money Laundering Act subjects providers of addresses to domiciliary companies to the Act; clients are identified (identity documents, beneficial owners, business activity, origin of funds) before the domicile starts.
+- [Innovation and regulatory](https://www.swisstechlaw.com/en/innovation): SRO affiliation for financial intermediaries (what the market calls a "VASP licence"; there is no separate VASP licence in Swiss law), FINMA no-action letters, asset manager and trustee licence under the Financial Institutions Act, payment services, Swiss representative under Art. 14 of the revised Federal Act on Data Protection, AI governance and the EU AI Act, funding rounds (SAFE, convertible loans, equity rounds) and M&A.
+
+## Firm
+
+- [About the firm and team](https://www.swisstechlaw.com/en/about): Grégory Aillaud (Senior Lawyer, Managing Director) and Sandra Schnider (Finance and Compliance).
+- [Contact](https://www.swisstechlaw.com/en/contact): address, phone, email, office hours and a Google Maps link. No contact form; email is the preferred channel.
+
+## Guides
+
+- [Domicile and the revised Anti-Money Laundering Act from 1 October 2026](https://www.swisstechlaw.com/en/knowledge/domicile-revised-amla-2026)
+- [GmbH or AG for a Swiss start-up](https://www.swisstechlaw.com/en/knowledge/gmbh-vs-ag-swiss-startup)
+- [The Swiss representative under the revised Federal Act on Data Protection](https://www.swisstechlaw.com/en/knowledge/swiss-representative-revdsg)
+
+## Legal
+
+- [Legal notice](https://www.swisstechlaw.com/en/legal-notice)
+- [Privacy policy](https://www.swisstechlaw.com/en/privacy-policy)
+- [Terms of service](https://www.swisstechlaw.com/en/terms)
+
+## Optional
+
+- [Sitemap](https://www.swisstechlaw.com/sitemap.xml)
+- Former domains zurichfintech.com and swissbl.com redirect to www.swisstechlaw.com.
