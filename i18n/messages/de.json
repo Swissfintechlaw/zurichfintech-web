@@ -1,184 +1,935 @@
 {
+  "meta": {
+    "siteDescription": "Kanzlei in Zug für Fintech-, Krypto-, KI- und Technologieunternehmen: Firmengründung, Domiziladresse für operative Start-ups, aufsichtsrechtliche Bewilligungen, Venture Capital und M&A.",
+    "home": {
+      "title": "Kanzlei in Zug für Fintech-, Krypto-, KI- und Technologieunternehmen",
+      "description": "Swiss Fintech Law AG, Steinhausen (Kanton Zug): Firmengründung, Domiziladresse für operative Start-ups, aufsichtsrechtliche Bewilligungen, Venture Capital und M&A für Fintech-, Krypto-, KI- und Technologieunternehmen. Beratung auf Deutsch, Englisch und Französisch."
+    },
+    "services": {
+      "title": "Leistungen",
+      "description": "Gesellschaftsrecht, Fintech-Regulierung, Venture Capital und Private Equity, M&A, Cybersicherheit, IT-Recht und Datenschutz. Der vollständige Leistungskatalog der Swiss Fintech Law AG, Zug."
+    },
+    "formation": {
+      "title": "Firmengründung in der Schweiz: GmbH und AG",
+      "description": "Gründung einer GmbH oder AG im Kanton Zug inklusive juristischer Arbeit: Statuten, Organisationsreglement, Aktionärbindungsvertrag, Handelsregisteranmeldung und Kapitaleinzahlungskonto. Für Gründer aus der Schweiz und dem Ausland. Pauschalhonorare auf Anfrage."
+    },
+    "domicile": {
+      "title": "Domiziladresse im Kanton Zug",
+      "description": "Sitz und c/o-Adresse im Kanton Zug mit Postbearbeitung für operative Start-ups und Scale-ups. Was das seit 1. Oktober 2026 revidierte Geldwäschereigesetz für Domizilkunden bedeutet."
+    },
+    "innovation": {
+      "title": "Rechtsberatung für Fintech-, Krypto-, KI- und Cyber-Unternehmen",
+      "description": "SRO-Anschluss (sogenannte VASP-Lizenz), FINMA-Unterstellungsanfragen (No-Action Letters), Bewilligung als Vermögensverwalter, Zahlungsdienste, Vertretung in der Schweiz nach revidiertem DSG, EU AI Act, Venture-Finanzierung und M&A."
+    },
+    "about": {
+      "title": "Über die Kanzlei und das Team",
+      "description": "Grégory Aillaud, Senior Lawyer und Geschäftsführer, und Sandra Schnider, Finance und Compliance. Swiss Fintech Law AG, Hinterbergstrasse 53, 6312 Steinhausen, Kanton Zug."
+    },
+    "contact": {
+      "title": "Kontakt",
+      "description": "Swiss Fintech Law AG, Hinterbergstrasse 53, 6312 Steinhausen, Kanton Zug. Telefon +41 77 962 50 22, contact@swisstechlaw.com. Montag bis Freitag 09:00 bis 18:00 Uhr."
+    },
+    "knowledge": {
+      "title": "Wissen",
+      "description": "Kurze, datierte Beiträge der Swiss Fintech Law AG zum schweizerischen Gesellschaftsrecht, zur Finanzmarktregulierung und zum Datenschutz für Technologieunternehmen."
+    },
+    "legalNotice": {
+      "title": "Impressum",
+      "description": "Impressum der Swiss Fintech Law AG, Hinterbergstrasse 53, 6312 Steinhausen, Kanton Zug, CHE-201.843.628 MWST."
+    },
+    "privacy": {
+      "title": "Datenschutzerklärung",
+      "description": "Wie die Swiss Fintech Law AG Personendaten bearbeitet, wenn Sie www.swisstechlaw.com besuchen oder uns kontaktieren. Stand: 5. Oktober 2026."
+    },
+    "terms": {
+      "title": "Allgemeine Geschäftsbedingungen",
+      "description": "Allgemeine Geschäftsbedingungen (Terms of Service) der Legal and Compliance Department der Swiss Fintech Law AG."
+    }
+  },
   "nav": {
     "home": "Start",
+    "services": "Leistungen",
+    "formation": "Firmengründung",
+    "domicile": "Domiziladresse",
+    "innovation": "Innovation",
     "knowledge": "Wissen",
-    "docs": "Dokumentation",
-    "contact": "Kontakt"
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schliessen",
+    "wordmarkLabel": "Swiss Fintech Law AG, Startseite"
+  },
+  "footer": {
+    "tagline": "Kanzlei in Zug für Fintech-, Krypto-, KI- und Technologieunternehmen.",
+    "columns": {
+      "services": "Leistungen",
+      "firm": "Kanzlei",
+      "legal": "Rechtliches"
+    },
+    "legalNotice": "Impressum",
+    "privacy": "Datenschutzerklärung",
+    "terms": "AGB",
+    "hours": "Mo–Fr 09:00–18:00",
+    "rights": "Alle Rechte vorbehalten."
+  },
+  "common": {
+    "home": "Start",
+    "contactUs": "Kontakt aufnehmen",
+    "ourServices": "Unsere Leistungen",
+    "learnMore": "Mehr erfahren",
+    "faqTitle": "Häufige Fragen",
+    "feesOnRequest": "Pauschalhonorare auf Anfrage.",
+    "readGuide": "Beitrag lesen",
+    "published": "Veröffentlicht",
+    "allGuides": "Alle Beiträge",
+    "labels": {
+      "phone": "Telefon",
+      "email": "E-Mail",
+      "address": "Adresse",
+      "hours": "Bürozeiten",
+      "languages": "Sprachen",
+      "register": "Handelsregister",
+      "vat": "MWST-Nummer",
+      "office": "Büro"
+    },
+    "languagesValue": "Deutsch, Englisch, Französisch",
+    "englishPrevails": "Diese Seite wird auf Englisch veröffentlicht. Im Zweifel geht die englische Fassung vor."
   },
   "home": {
     "hero": {
-      "badge": "Führende Schweizer Fintech-Rechts kanzlei",
+      "eyebrow": "Swiss Fintech Law AG · Steinhausen, Kanton Zug",
       "title": {
-        "line1": "Die Zukunft der Technologie",
-        "line2": "in der Schweiz gestalten"
+        "line1": "Kanzlei in Zug für Fintech-, Krypto-,",
+        "line2": "KI- und Technologieunternehmen"
       },
-      "subtitle": "Umfassende rechtliche Expertise und technische Innovation für die nächste Generation der Finanztechnologie",
+      "subtitle": "Firmengründung, Domiziladresse für operative Start-ups, aufsichtsrechtliche Bewilligungen, Venture Capital und M&A. Beratung auf Deutsch, Englisch und Französisch.",
       "cta": {
-        "primary": "Jetzt starten",
-        "secondary": "Mehr erfahren"
-      },
-      "stats": {
-        "clients": "Kunden",
-        "years": "Jahre Erfahrung",
-        "swiss": "Schweizer Exzellenz"
+        "primary": "Kontakt aufnehmen",
+        "secondary": "Unsere Leistungen"
       }
     },
-    "services": {
-      "title": "Unsere Dienstleistungen",
-      "subtitle": "Umfassende Lösungen an der Schnittstelle von Recht und Technologie",
-      "legal": {
-        "title": "Rechtliche Exzellenz",
-        "description": "Expertenberatung zu Schweizer Finanzregulierung, Compliance-Rahmenwerken und rechtlichen Best Practices"
-      },
-      "innovation": {
-        "title": "Tech-Innovation",
-        "description": "Wegweisende neue Ansätze für Finanztechnologie mit modernsten Lösungen"
-      },
-      "compliance": {
-        "title": "Regulatorische Compliance",
-        "description": "Navigieren Sie mit Vertrauen und Präzision durch komplexe regulatorische Landschaften"
-      },
-      "advisory": {
-        "title": "Strategische Beratung",
-        "description": "Strategische Beratung für Fintech-Unternehmen, vom Startup bis zur Skalierung"
+    "entry": {
+      "eyebrow": "Wie wir helfen",
+      "title": "Drei Einstiege",
+      "items": {
+        "innovation": {
+          "title": "Innovation & Regulierung",
+          "description": "Rechtsberatung für Fintech-, Krypto-, KI- und Cybersicherheitsunternehmen: SRO-Anschluss, FINMA-Unterstellungsanfragen, Bewilligungen, Datenschutzvertretung, Finanzierungsrunden und M&A.",
+          "cta": "Innovation & Regulierung"
+        },
+        "formation": {
+          "title": "Firmengründung",
+          "description": "Gründung einer GmbH oder AG in der Schweiz inklusive juristischer Arbeit: Statuten, Organisationsreglement, Aktionärbindungsvertrag und Handelsregisteranmeldung.",
+          "cta": "Firmengründung"
+        },
+        "domicile": {
+          "title": "Domiziladresse in Zug",
+          "description": "Sitz und c/o-Adresse im Kanton Zug mit Postbearbeitung für operative Start-ups und Scale-ups.",
+          "cta": "Domiziladresse"
+        }
       }
     },
-    "mission": {
-      "title": "Unsere Mission",
-      "description": "Wir überbrücken die Lücke zwischen traditionellen rechtlichen Rahmenbedingungen und aufkommenden Technologien und schaffen Wege für Innovation bei gleichzeitiger Einhaltung regulatorischer Vorschriften",
-      "vision": {
-        "title": "Unsere Vision",
-        "description": "Der führende rechtliche und technische Partner der Schweiz für Fintech-Unternehmen zu sein, Innovation voranzutreiben und dabei höchste Standards rechtlicher Exzellenz zu wahren"
+    "practice": {
+      "eyebrow": "Tätigkeitsgebiete",
+      "title": "Gesellschafts- und Finanzmarktrecht für Technologieunternehmen",
+      "intro": "Vier Tätigkeitsgebiete, ein Team. Wir beraten Gründer, Investoren und operative Unternehmen von der Gründung bis zum Exit.",
+      "items": {
+        "corporate": {
+          "title": "Gesellschaftsrecht",
+          "description": "Allgemeines Gesellschaftsrecht von der Governance bis zur Transaktion: Gründung, Statuten, Aktionärbindungsverträge, Generalversammlungen, Kapitalveränderungen und Liquidationen."
+        },
+        "regulatory": {
+          "title": "Fintech-Regulierung",
+          "description": "Aufsichtsrechtliche Bewilligungen für Fintech-Unternehmen wie Finanzintermediäre und Zahlungsdienstleister: SRO-Anschluss, FINMA-Unterstellungsanfragen, Bewilligung als Vermögensverwalter."
+        },
+        "venture": {
+          "title": "Venture Capital & Private Equity",
+          "description": "Finanzierungstransaktionen für Start-ups, Venture-Capital- und Private-Equity-Investoren: SAFE, Investitionsverträge und Begleitung von Finanzierungsrunden."
+        },
+        "ma": {
+          "title": "M&A",
+          "description": "Kauf und Verkauf kleiner und mittlerer operativer Unternehmen, vom Start-up bis zur Series C, in Fintech, DLT, KI und Cybersicherheit."
+        }
       },
-      "approach": {
-        "title": "Unser Ansatz",
-        "description": "Schweizer Präzision trifft moderne Innovation. Wir kombinieren tiefes rechtliches Fachwissen mit technischem Know-how, um Lösungen zu liefern, die in der realen Welt funktionieren"
+      "cta": "Vollständiger Leistungskatalog"
+    },
+    "team": {
+      "eyebrow": "Team",
+      "title": "Mit wem Sie arbeiten",
+      "intro": "Ein kleines Team mit juristischer, finanzieller und Compliance-Erfahrung in Steinhausen im Kanton Zug.",
+      "cta": "Über die Kanzlei"
+    },
+    "contact": {
+      "eyebrow": "Kontakt",
+      "title": "Erzählen Sie uns von Ihrem Projekt",
+      "intro": "Schreiben Sie uns oder rufen Sie während der Bürozeiten an. Wir antworten auf Deutsch, Englisch oder Französisch.",
+      "cta": "Zur Kontaktseite"
+    }
+  },
+  "services": {
+    "eyebrow": "Leistungen",
+    "title": "Leistungen",
+    "intro": "Die Swiss Fintech Law AG berät Technologieunternehmen, ihre Gründer und Investoren im schweizerischen Gesellschafts- und Finanzmarktrecht. Diese Seite zeigt den gesamten Katalog; die drei Einstiegsseiten zu Firmengründung, Domiziladresse und Innovation beschreiben die am häufigsten nachgefragten Leistungen im Detail.",
+    "areas": [
+      {
+        "id": "corporate-law",
+        "title": "Gesellschaftsrecht",
+        "intro": "Ein solider Hintergrund im allgemeinen Gesellschaftsrecht, von der Governance bis zur Transaktion.",
+        "items": [
+          {
+            "title": "Beratung vor der Gründung",
+            "description": "Rechtsberatung vor der Gründung: Wahl der Rechtsform, Kapital, Governance und aufsichtsrechtliche Einordnung des Projekts."
+          },
+          {
+            "title": "Gründung von Gesellschaften und Stiftungen",
+            "description": "Statuten, Organisationsreglement, Gründer- und Aktionärbindungsverträge, Koordination mit dem Notar und Handelsregisteranmeldung. Siehe die Seite Firmengründung."
+          },
+          {
+            "title": "Corporate Governance",
+            "description": "Begleitung ordentlicher und ausserordentlicher Generalversammlungen, Kapitalveränderungen, Verwaltungsratsangelegenheiten und Liquidation operativer Gesellschaften."
+          },
+          {
+            "title": "Gesellschaftsrechtliche Transaktionen",
+            "description": "Entwurf und Verhandlung gesellschaftsrechtlicher Verträge und Transaktionsdokumente."
+          }
+        ]
       },
-      "features": {
-        "swiss": "Schweizer Qualität",
-        "innovation": "Innovation zuerst",
-        "security": "Sicherheit & Datenschutz",
-        "global": "Globale Reichweite"
+      {
+        "id": "fintech-regulatory",
+        "title": "Fintech-Regulierung",
+        "intro": "Aufsichtsrechtliche Bewilligungen für Fintech-Unternehmen wie Finanzintermediäre und Zahlungsdienstleister. Wir verbinden Interesse an Technologie mit Erfahrung in der Finanzmarktregulierung und ordnen neue Technologien in bestehende Rechtsregime ein.",
+        "items": [
+          {
+            "title": "SRO-Anschluss von Finanzintermediären",
+            "description": "Gesuch um Anschluss neuer Finanzintermediäre an eine von der FINMA anerkannte Selbstregulierungsorganisation (SRO). Der SRO-Anschluss wird umgangssprachlich als VASP-Lizenz bezeichnet."
+          },
+          {
+            "title": "Bewilligung als Vermögensverwalter",
+            "description": "Gesuch an die FINMA um Bewilligung als Vermögensverwalter oder Trustee nach Finanzinstitutsgesetz und Anschluss an eine Aufsichtsorganisation."
+          },
+          {
+            "title": "Zahlungsdienstleister",
+            "description": "Erstellung der vertraglichen und aufsichtsrechtlichen Dokumente für den Betrieb von Zahlungsdienstleistern."
+          },
+          {
+            "title": "FINMA-Unterstellungsanfragen (No-Action Letters)",
+            "description": "Anfragen an die FINMA um Bestätigung, dass ein Projekt keiner Bewilligung bedarf. Die FINMA erteilt solche Schreiben, nachdem sie das Projekt geprüft und verstanden hat; das Schreiben hält fest, dass die Behörde aufgrund des dargelegten Sachverhalts keinen Anlass für ein Enforcementverfahren sieht."
+          }
+        ]
+      },
+      {
+        "id": "venture-capital",
+        "title": "Venture Capital & Private Equity",
+        "intro": "Finanzierungstransaktionen für Start-ups, Venture-Capital- und Private-Equity-Investoren.",
+        "items": [
+          {
+            "title": "SAFE",
+            "description": "Entwurf von Simple Agreements for Future Equity und aller nachfolgenden Wandlungsschritte nach Schweizer Recht."
+          },
+          {
+            "title": "Investitionsverträge",
+            "description": "Entwurf und Verhandlung von Investitions- und Aktionärbindungsverträgen und aller nachfolgenden finanzierungsbezogenen Gesellschaftshandlungen."
+          },
+          {
+            "title": "Begleitung von Finanzierungsrunden",
+            "description": "Begleitung von Start-ups, Venture-Capital- und Private-Equity-Investoren bei Finanzierungsrunden und Beteiligungen, einschliesslich Kapitalerhöhungen und Handelsregisteranmeldungen."
+          }
+        ]
+      },
+      {
+        "id": "mergers-acquisitions",
+        "title": "M&A",
+        "intro": "Kauf und Verkauf kleiner und mittlerer operativer Unternehmen, vom Start-up bis zur Series C, in Fintech, DLT, KI und Cybersicherheit.",
+        "items": [
+          {
+            "title": "Kauf und Verkauf kleiner und mittlerer Unternehmen",
+            "description": "Rechtsberatung von Käufern und Verkäufern kleiner und mittlerer operativer Unternehmen, insbesondere Technologie- und Fintech-Unternehmen."
+          },
+          {
+            "title": "Grenzüberschreitende Transaktionen",
+            "description": "Vertretung strategischer und finanzieller Käufer, Verkäufer und Zielgesellschaften in grenzüberschreitenden und inländischen M&A-Transaktionen."
+          },
+          {
+            "title": "Spin-offs und Carve-outs",
+            "description": "Strukturierung und Umsetzung von Joint Ventures, Spin-offs und Carve-outs mit Fokus auf Fintech-, DLT-, Cybersicherheits- und KI-Unternehmen."
+          }
+        ]
+      },
+      {
+        "id": "cyber-it-data",
+        "title": "Cybersicherheit, IT-Recht & Datenschutz",
+        "intro": "Ungenügender Schutz vor Cyberrisiken exponiert das Unternehmen und persönlich seine Führung. Wir beraten Unternehmen und ihre Organe zum rechtlichen Umgang mit Cyberrisiken, zu IT-Verträgen und zum Datenschutz.",
+        "items": [
+          {
+            "title": "Cyberrisiko und Organhaftung",
+            "description": "Pflichten von Verwaltungsrat und Geschäftsleitung in der Informationssicherheit, Incident-Response-Planung und rechtliche Bewältigung eines Sicherheitsvorfalls."
+          },
+          {
+            "title": "IT- und Technologieverträge",
+            "description": "Softwarelizenzen, SaaS- und Entwicklungsverträge, Service Level Agreements und Auftragsbearbeitungsverträge."
+          },
+          {
+            "title": "Datenschutz (DSG und DSGVO)",
+            "description": "Datenschutzerklärungen, Bearbeitungsverzeichnisse, Datenschutz-Folgenabschätzungen und die Rolle als Vertretung in der Schweiz für ausländische Unternehmen nach Art. 14 des revidierten Datenschutzgesetzes."
+          }
+        ]
       }
+    ],
+    "faq": [
+      {
+        "q": "Wen berät die Swiss Fintech Law AG?",
+        "a": "Technologieunternehmen sowie deren Gründer und Investoren: Fintech-, Krypto- und Digital-Asset-Unternehmen, KI- und Cybersicherheitsunternehmen und die Venture-Capital- und Private-Equity-Investoren, die sie finanzieren. Die meisten Kunden sind Start-ups und Scale-ups mit Tätigkeit in der Schweiz oder mit Plänen, sich hier niederzulassen."
+      },
+      {
+        "q": "In welchen Sprachen arbeiten Sie?",
+        "a": "Deutsch, Englisch und Französisch. Eingaben an Schweizer Behörden werden je nach Kanton auf Deutsch oder Französisch erstellt; Verträge werden meist auf Englisch verfasst."
+      },
+      {
+        "q": "Wie rechnen Sie ab?",
+        "a": "Nach Stundenaufwand oder zu einem im Voraus vereinbarten Pauschalhonorar für definierte Arbeiten wie eine Firmengründung oder ein SRO-Gesuch. Pauschalhonorare werden nach einem kurzen Vorgespräch auf Anfrage offeriert. Unsere Allgemeinen Geschäftsbedingungen sind auf dieser Website veröffentlicht."
+      },
+      {
+        "q": "Wo befindet sich die Kanzlei?",
+        "a": "Hinterbergstrasse 53, 6312 Steinhausen, Kanton Zug, Schweiz. Besprechungen finden im Büro oder per Videokonferenz statt."
+      },
+      {
+        "q": "Arbeiten Sie mit Unternehmen ausserhalb der Schweiz?",
+        "a": "Ja. Ein grosser Teil unserer Arbeit betrifft ausländische Gründer und Unternehmen, die eine Schweizer Gesellschaft gründen, eine Vertretung in der Schweiz nach Datenschutzrecht benötigen oder ein Schweizer Unternehmen erwerben."
+      }
+    ],
+    "cta": {
+      "title": "Unsicher, welche Leistung Sie brauchen?",
+      "text": "Beschreiben Sie Ihr Projekt in wenigen Zeilen. Wir sagen Ihnen, welche Schritte das Schweizer Recht verlangt und was sie kosten.",
+      "cta": "Kontakt aufnehmen"
+    }
+  },
+  "formation": {
+    "eyebrow": "Firmengründung",
+    "title": "Firmengründung in der Schweiz: GmbH und AG",
+    "intro": "Wir gründen Gesellschaften mit beschränkter Haftung (GmbH) und Aktiengesellschaften (AG) im Kanton Zug und in der übrigen Schweiz, inklusive der juristischen Arbeit. Gründer erhalten Statuten, Reglemente und Aktionärbindungsverträge, die zu ihrem Projekt passen, keine Vorlage.",
+    "forms": {
+      "eyebrow": "Rechtsformen",
+      "title": "GmbH oder AG?",
+      "intro": "Beide sind Kapitalgesellschaften mit beschränkter Haftung nach dem Obligationenrecht. Die Wahl hängt vom Kapital, der Anonymität der Eigentümer, den geplanten Investoren und dem gewünschten Auftritt ab.",
+      "gmbh": {
+        "title": "GmbH (Gesellschaft mit beschränkter Haftung)",
+        "points": [
+          "Mindestkapital CHF 20 000, voll liberiert.",
+          "Die Gesellschafter werden im Handelsregister eingetragen und sind damit öffentlich.",
+          "Mindestens ein Geschäftsführer mit Vertretungsbefugnis muss in der Schweiz wohnhaft sein.",
+          "Geeignet für inhabergeführte Unternehmen und kleine Teams; die Übertragung von Stammanteilen bedarf der Schriftform und, soweit die Statuten nichts anderes vorsehen, der Zustimmung der Gesellschafterversammlung."
+        ]
+      },
+      "ag": {
+        "title": "AG (Aktiengesellschaft)",
+        "points": [
+          "Mindestkapital CHF 100 000, davon mindestens CHF 50 000 bei der Gründung einbezahlt.",
+          "Aktionäre werden nicht im Handelsregister publiziert; die Gesellschaft führt ein Aktienbuch und ein Verzeichnis der wirtschaftlich berechtigten Personen.",
+          "Mindestens ein Mitglied des Verwaltungsrats oder der Geschäftsleitung mit Zeichnungsberechtigung muss in der Schweiz wohnhaft sein.",
+          "Bevorzugt von Unternehmen, die Venture Capital aufnehmen oder Mitarbeiterbeteiligungen ausgeben wollen, weil Aktien einfach übertragbar sind und Aktienkategorien möglich sind."
+        ]
+      }
+    },
+    "included": {
+      "eyebrow": "Umfang",
+      "title": "Juristische Arbeit, die in einer Gründung enthalten ist",
+      "items": [
+        "Beratung zur Rechtsform, zur Kapitalstruktur und zur Governance der neuen Gesellschaft.",
+        "Auf das Projekt zugeschnittene Statuten, einschliesslich allfälliger Aktienkategorien, Vorkaufsrechte und Vinkulierung.",
+        "Organisationsreglement für den Verwaltungsrat oder die Geschäftsführung.",
+        "Gründer- und Aktionärbindungsverträge, wenn mehrere Gründer beteiligt sind oder ein Investor bereits zugesagt hat.",
+        "Koordination des Kapitaleinzahlungskontos mit einer Schweizer Bank und der öffentlichen Gründungsurkunde mit dem Notar.",
+        "Handelsregisteranmeldung mit allen Beilagen und Nachverfolgung beim Handelsregisteramt bis zur Publikation des Eintrags.",
+        "Meldungen der wirtschaftlich berechtigten Personen und Einrichtung des Aktienbuchs oder Anteilbuchs.",
+        "Begleitung nach der Eintragung: UID- und MWST-Registrierung, Anmeldung bei den Sozialversicherungen für Mitarbeitende und erste Beschlüsse des Verwaltungsrats oder der Gesellschafter."
+      ]
+    },
+    "timeline": {
+      "eyebrow": "Ablauf",
+      "title": "So läuft eine Gründung",
+      "intro": "Eine Gründung mit vollständigen Unterlagen und einem Schweizer Bankkonto dauert typischerweise zwei bis vier Wochen vom ersten Gespräch bis zum Handelsregistereintrag. Die Eröffnung des Kapitaleinzahlungskontos ist meist der längste Schritt.",
+      "steps": [
+        {
+          "title": "Vorgespräch und Konfliktprüfung",
+          "description": "Wir besprechen das Projekt, die Rechtsform, das Kapital und die beteiligten Personen und bestätigen, dass wir für Sie tätig werden können."
+        },
+        {
+          "title": "Identifikation der Gründer und wirtschaftlich Berechtigten",
+          "description": "Sie senden uns die unten aufgeführten Ausweis- und Gesellschaftsdokumente. Wir identifizieren die Gründer und wirtschaftlich Berechtigten, wie es das Schweizer Recht verlangt."
+        },
+        {
+          "title": "Entwurf der Dokumente",
+          "description": "Statuten, Organisationsreglement, bei Bedarf Aktionärbindungsvertrag sowie die vom Notar und vom Handelsregister verlangten Erklärungen."
+        },
+        {
+          "title": "Kapitaleinzahlung",
+          "description": "Die Gründer zahlen das Kapital auf ein Sperrkonto bei einer Schweizer Bank ein. Die Bank stellt die für die Urkunde nötige Kapitaleinzahlungsbestätigung aus."
+        },
+        {
+          "title": "Beurkundung",
+          "description": "Die Gründer oder ihre Bevollmächtigten unterzeichnen die öffentliche Gründungsurkunde vor einem Schweizer Notar. Die Unterschriften für das Handelsregister werden gleichzeitig beglaubigt."
+        },
+        {
+          "title": "Handelsregistereintrag",
+          "description": "Wir reichen die Anmeldung ein. Die Gesellschaft entsteht mit der Eintragung ins Tagesregister; die Bank gibt das Kapital gegen den Handelsregisterauszug frei."
+        }
+      ]
+    },
+    "documents": {
+      "eyebrow": "Unterlagen",
+      "title": "Was wir von Ihnen brauchen",
+      "items": [
+        "Für jeden Gründer, der eine natürliche Person ist: Kopie von Pass oder Identitätskarte und Wohnsitzbestätigung, nicht älter als drei Monate.",
+        "Für jeden Gründer, der eine Gesellschaft ist: aktueller Handelsregisterauszug, Statuten, Nachweis der Zeichnungsberechtigten und Organigramm mit den wirtschaftlich berechtigten Personen.",
+        "Die gewünschte Firma (wir prüfen die Verfügbarkeit beim Handelsregister) und die Sitzadresse oder ein Antrag auf Domizil an unserer Adresse.",
+        "Eine kurze Beschreibung des Gesellschaftszwecks und der geplanten Tätigkeit.",
+        "Die Höhe des Kapitals und seine Aufteilung unter den Gründern.",
+        "Namen, Staatsangehörigkeit und Wohnadressen der Verwaltungsratsmitglieder oder Geschäftsführer sowie einer allfälligen Revisionsstelle."
+      ]
+    },
+    "foreign": {
+      "eyebrow": "Ausländische Gründer",
+      "title": "Eine Schweizer Gesellschaft aus dem Ausland gründen",
+      "paragraphs": [
+        "Das Schweizer Recht verlangt nicht, dass Gründer oder Aktionäre Schweizer Staatsangehörige oder in der Schweiz wohnhaft sind. Es verlangt aber, dass mindestens eine zeichnungsberechtigte Person in der Schweiz wohnhaft ist (Art. 718 Abs. 4 und Art. 814 Abs. 3 OR). Ausländische Gründer ziehen deshalb entweder in die Schweiz, ernennen ein in der Schweiz wohnhaftes Verwaltungsratsmitglied oder einen Geschäftsführer oder beauftragen einen ansässigen Direktor; wir beraten zu den Optionen und ihren Folgen.",
+        "Gründer müssen für die Gründung nicht anreisen. Die öffentliche Urkunde kann von einem Bevollmächtigten aufgrund einer beglaubigten und, wo nötig, apostillierten Vollmacht unterzeichnet werden. Ausländische Gesellschaftsdokumente müssen in der Regel legalisiert oder apostilliert und übersetzt werden.",
+        "Die Eröffnung des Kapitaleinzahlungskontos ist der Schritt, der eine Gründung durch ausländische Gründer am häufigsten verzögert. Schweizer Banken prüfen die Gründer und das Geschäftsmodell selbst; Krypto- und Zahlungsunternehmen müssen mit mehr Fragen rechnen. Wir bereiten das Dossier so vor, dass die Bank bei der ersten Anfrage vollständige Antworten erhält.",
+        "Gesellschaften mit echter Geschäftstätigkeit in der Schweiz können ein Domizil an unserer Adresse in Steinhausen als Sitz nutzen. Die Seite Domiziladresse erklärt die Bedingungen."
+      ]
+    },
+    "fees": {
+      "title": "Honorar",
+      "text": "Pauschalhonorare werden nach einem kurzen Vorgespräch auf Anfrage offeriert, abhängig von der Rechtsform, der Zahl der Gründer und den benötigten Dokumenten. Notariats- und Handelsregistergebühren sind Drittkosten und werden zum Selbstkostenpreis weiterverrechnet."
+    },
+    "faq": [
+      {
+        "q": "Wie lange dauert die Gründung einer GmbH oder AG in der Schweiz?",
+        "a": "Typischerweise zwei bis vier Wochen, sobald alle Unterlagen und die Kapitaleinzahlungsbestätigung vorliegen. Das Handelsregisteramt des Kantons Zug bearbeitet eine vollständige Anmeldung in der Regel innert weniger Arbeitstage; der Eintrag wird mit der Aufnahme ins Tagesregister wirksam und im Schweizerischen Handelsamtsblatt publiziert."
+      },
+      {
+        "q": "Wie hoch ist das Mindestkapital?",
+        "a": "CHF 20 000 für eine GmbH, voll liberiert. CHF 100 000 für eine AG, davon mindestens CHF 50 000 bei der Gründung einbezahlt. Sacheinlagen sind mit Gründungsbericht und Prüfungsbestätigung möglich."
+      },
+      {
+        "q": "Muss ein Gründer in der Schweiz wohnen?",
+        "a": "Nein, aber mindestens eine zeichnungsberechtigte Person der Gesellschaft muss in der Schweiz wohnhaft sein. Das kann ein Verwaltungsratsmitglied, ein Geschäftsführer oder ein anderer Zeichnungsberechtigter sein."
+      },
+      {
+        "q": "Muss ich zum Unterzeichnen in die Schweiz kommen?",
+        "a": "Nein. Die Gründungsurkunde kann von einem Bevollmächtigten mit beglaubigter Vollmacht unterzeichnet werden. Wenn Sie selbst unterzeichnen möchten, organisieren wir den Termin beim Notar."
+      },
+      {
+        "q": "Kann die Gesellschaft ihren Sitz an Ihrer Adresse haben?",
+        "a": "Ja, für operative Gesellschaften mit echter Geschäftstätigkeit. Die Seite Domiziladresse erklärt, was wir anbieten und was wir vom Kunden brauchen."
+      },
+      {
+        "q": "Wem werden die Aktionäre offengelegt?",
+        "a": "Die Gesellschafter einer GmbH werden im Handelsregister eingetragen und sind öffentlich. Die Aktionäre einer AG sind nicht öffentlich, die Gesellschaft muss aber ein Aktienbuch und ein Verzeichnis der wirtschaftlich berechtigten Personen mit 25 Prozent oder mehr führen und der Bank bei der Kontoeröffnung Auskunft geben."
+      },
+      {
+        "q": "Was braucht die Gesellschaft nach der Eintragung?",
+        "a": "Die UID wird automatisch mit dem Handelsregistereintrag zugeteilt. Die MWST-Registrierung ist ab einem weltweiten Umsatz von CHF 100 000 pro Jahr obligatorisch und davor freiwillig möglich. Arbeitgeber melden sich bei einer Ausgleichskasse an. Regulierte Tätigkeiten brauchen vor Geschäftsaufnahme allenfalls einen SRO-Anschluss oder eine FINMA-Bewilligung."
+      },
+      {
+        "q": "Was kostet eine Gründung?",
+        "a": "Wir offerieren nach einem kurzen Vorgespräch ein Pauschalhonorar auf Anfrage. Notariats- und Handelsregistergebühren sind Drittkosten und werden zum Selbstkostenpreis weiterverrechnet."
+      }
+    ],
+    "cta": {
+      "title": "Planen Sie eine Schweizer Gesellschaft?",
+      "text": "Senden Sie uns ein paar Zeilen zum Projekt, zu den Gründern und zum geplanten Kapital. Wir antworten mit den Schritten, den nötigen Unterlagen und einem Pauschalhonorar.",
+      "cta": "Offerte anfragen"
+    }
+  },
+  "domicile": {
+    "eyebrow": "Domiziladresse",
+    "title": "Domiziladresse im Kanton Zug",
+    "intro": "Sitz und c/o-Adresse an der Hinterbergstrasse 53, 6312 Steinhausen, mit Postbearbeitung, für operative Gesellschaften mit echter Geschäftstätigkeit: Start-ups und Scale-ups, die ihr Geschäft von der Schweiz aus führen oder hier aufbauen.",
+    "who": {
+      "eyebrow": "Für wen",
+      "title": "Vorerst nur operative Gesellschaften",
+      "paragraphs": [
+        "Die Swiss Fintech Law AG stellt ein Domizil derzeit nur operativen Gesellschaften zur Verfügung: Gesellschaften mit eigener Geschäftstätigkeit, Mitarbeitenden, Kunden oder einem Produkt in Entwicklung. Reinen Sitzgesellschaften, also Gesellschaften ohne eigenen operativen Betrieb wie Holding- oder Vermögensverwaltungsvehikel, bieten wir derzeit kein Domizil an.",
+        "Eine Gruppengesellschaft, die einer Selbstregulierungsorganisation (SRO) nach dem Geldwäschereigesetz angeschlossen sein wird, wird derzeit aufgebaut, um Sitzgesellschaften zu bedienen. Bis dieser Anschluss besteht, nehmen wir keine Sitzgesellschaften an und werben nicht mit einer SRO-Mitgliedschaft, die noch nicht existiert. Diese Seite wird aktualisiert, sobald die Gruppengesellschaft operativ ist."
+      ]
+    },
+    "amla": {
+      "eyebrow": "Rechtlicher Hintergrund",
+      "title": "Das revidierte Geldwäschereigesetz seit 1. Oktober 2026, einfach erklärt",
+      "paragraphs": [
+        "Seit dem 1. Oktober 2026 unterstellt das revidierte Geldwäschereigesetz (GwG) die berufsmässige Zurverfügungstellung eines Sitzes oder einer Adresse für Sitzgesellschaften dem Gesetz. Wer solche Adressen anbietet, ist Finanzintermediär: Er muss einer von der FINMA anerkannten SRO angeschlossen sein, die Vertragspartei und die wirtschaftlich berechtigten Personen identifizieren, den Zweck der Geschäftsbeziehung verstehen, Unterlagen aufbewahren und Verdachtsfälle der Meldestelle für Geldwäscherei melden.",
+        "Für den Kunden bedeutet das: Ein Domizilanbieter muss nach Ausweisdokumenten der für die Gesellschaft handelnden Personen fragen, nach einer Erklärung, wer die Gesellschaft letztlich besitzt oder kontrolliert, und nach einer verständlichen Erklärung, was die Gesellschaft tut und woher ihre Mittel stammen. Ein Anbieter, der diese Fragen nicht stellt, hält das Gesetz nicht ein.",
+        "Die Adresse für eine Gesellschaft mit eigener Geschäftstätigkeit wird anders behandelt als die Adresse für eine Sitzgesellschaft. Deshalb steht unser Domizilangebot heute operativen Gesellschaften offen, während die SRO-angeschlossene Gruppengesellschaft für Sitzgesellschaften aufgebaut wird. In jedem Fall identifizieren wir den Kunden und die wirtschaftlich Berechtigten, bevor das Domizil beginnt."
+      ]
+    },
+    "included": {
+      "eyebrow": "Umfang",
+      "title": "Was das Domizil umfasst",
+      "items": [
+        "Nutzung der Hinterbergstrasse 53, 6312 Steinhausen als Sitz der Gesellschaft im Handelsregister des Kantons Zug.",
+        "Die Domizilhaltererklärung, die das Handelsregister verlangt, wenn eine Gesellschaft ihren Sitz an der Adresse eines Dritten hat.",
+        "Nutzung der Adresse als c/o-Adresse auf Briefpapier, in Verträgen und im Verkehr mit Behörden.",
+        "Entgegennahme der Post, einschliesslich eingeschriebener Sendungen und amtlicher Zustellungen, mit Scan an den Kunden bei Eingang und Weiterleitung der Originale nach Vereinbarung.",
+        "Eine Anlaufstelle in der Schweiz für Behörden, Bank und Geschäftspartner.",
+        "Rechtsberatung zu Fragen, die sich aus dem Sitz im Kanton Zug ergeben, separat verrechnet."
+      ]
+    },
+    "supply": {
+      "eyebrow": "Onboarding",
+      "title": "Was der Kunde beibringen muss",
+      "items": [
+        "Aktueller Handelsregisterauszug und Statuten oder, bei einer Gesellschaft in Gründung, die Gründungsunterlagen.",
+        "Ausweisdokumente der Verwaltungsratsmitglieder, Geschäftsführer und der Personen, die mit uns verkehren, mit Wohnsitznachweis.",
+        "Eine schriftliche Erklärung über die wirtschaftlich berechtigten Personen (natürliche Personen mit 25 Prozent oder mehr oder mit anderweitiger Kontrolle) mit deren Ausweisdokumenten.",
+        "Nachweis der operativen Tätigkeit: Website, Produkt, Mitarbeitende, Kunden- oder Lieferantenverträge oder ein Businessplan mit realistischem Zeitplan.",
+        "Eine Erklärung zur Herkunft der Mittel der Gesellschaft, wo sie sich nicht aus dem Geschäft ergibt.",
+        "Eine Kontaktperson und eine E-Mail-Adresse für gescannte Post sowie eine Weiterleitungsadresse für Originale."
+      ]
+    },
+    "faq": [
+      {
+        "q": "Kann meine Gesellschaft ihren Sitz an Ihrer Adresse haben?",
+        "a": "Ja, wenn es eine operative Gesellschaft mit eigener Geschäftstätigkeit ist. Reine Sitzgesellschaften nehmen wir derzeit nicht an; für sie wird eine SRO-angeschlossene Gruppengesellschaft aufgebaut."
+      },
+      {
+        "q": "Was gilt als operative Gesellschaft?",
+        "a": "Eine Gesellschaft, die ein eigenes Geschäft betreibt: Sie entwickelt oder verkauft ein Produkt oder eine Dienstleistung, hat Mitarbeitende oder Auftragnehmer, Kunden oder Lieferanten und eine Führung, die ihre Entscheide trifft. Eine Gesellschaft, die nur Beteiligungen, Immaterialgüterrechte oder andere Vermögenswerte ohne operatives Geschäft hält, ist eine Sitzgesellschaft."
+      },
+      {
+        "q": "Warum verlangen Sie Ausweisdokumente und Angaben zu den wirtschaftlich Berechtigten?",
+        "a": "Weil das seit 1. Oktober 2026 revidierte Geldwäschereigesetz Domizilanbieter verpflichtet, ihre Vertragspartei und die wirtschaftlich Berechtigten zu identifizieren, und weil wir wissen müssen, mit wem wir es zu tun haben. Die Identifikation erfolgt vor Beginn des Domizils und wird bei Änderungen der Eigentumsverhältnisse aktualisiert."
+      },
+      {
+        "q": "Ist die Swiss Fintech Law AG einer SRO angeschlossen?",
+        "a": "Die Swiss Fintech Law AG selbst erbringt Rechtsdienstleistungen und bietet operativen Gesellschaften ein Domizil. Eine Gruppengesellschaft, die einer SRO nach dem Geldwäschereigesetz angeschlossen sein wird, wird für Sitzgesellschaften aufgebaut. Wir werden den Anschluss auf dieser Seite angeben, sobald er besteht."
+      },
+      {
+        "q": "Wie wird meine Post behandelt?",
+        "a": "Wir nehmen Briefe und Pakete im Büro entgegen, scannen Briefe bei Eingang an Ihre Kontaktperson und leiten Originale nach Vereinbarung weiter. Eingeschriebene Sendungen und amtliche Zustellungen werden angenommen und Ihnen am selben Tag angezeigt."
+      },
+      {
+        "q": "Kann ich die Adresse für Bankkonto und Rechnungen nutzen?",
+        "a": "Ja. Die Adresse ist der Sitz der Gesellschaft und kann als c/o-Adresse auf Briefpapier, Rechnungen und gegenüber der Bank verwendet werden. Die Bank führt ihre eigenen Prüfungen der Gesellschaft durch."
+      },
+      {
+        "q": "Umfasst das Domizil einen in der Schweiz wohnhaften Direktor?",
+        "a": "Nein. Das Domizil ist eine Adressdienstleistung. Ob wir ein Verwaltungsrats- oder Zeichnungsmandat übernehmen können, wird im Einzelfall entschieden und separat geregelt."
+      },
+      {
+        "q": "Was kostet das Domizil?",
+        "a": "Das Honorar wird auf Anfrage offeriert und hängt vom Postvolumen ab und davon, ob die Gesellschaft gleichzeitig gegründet wird."
+      }
+    ],
+    "cta": {
+      "title": "Brauchen Sie einen Sitz im Kanton Zug für eine operative Gesellschaft?",
+      "text": "Sagen Sie uns, was die Gesellschaft tut und wer dahintersteht. Wir bestätigen innert weniger Tage, ob wir das Domizil anbieten können und was wir für den Start brauchen.",
+      "cta": "Domizil anfragen"
+    }
+  },
+  "innovation": {
+    "eyebrow": "Innovation & Regulierung",
+    "title": "Rechtsberatung für Fintech-, Krypto-, KI- und Cyber-Unternehmen",
+    "intro": "Aufsichtsrechtliche Einordnung, Bewilligungen und Finanzierung für Unternehmen, die mit neuer Technologie bauen. Wir übersetzen ein Produkt in das Schweizer Rechtsregime, das darauf anwendbar ist, und führen das Gesuch durch die Aufsichtsbehörde oder die Selbstregulierungsorganisation.",
+    "areas": [
+      {
+        "id": "sro",
+        "title": "SRO-Anschluss, die sogenannte VASP-Lizenz",
+        "description": "Unternehmen, die Kryptowerte für Kunden tauschen, übertragen oder verwahren, ein Zahlungstoken-Geschäft betreiben oder sonst als Finanzintermediäre in der Schweiz handeln, müssen sich vor Aufnahme der Tätigkeit einer von der FINMA anerkannten Selbstregulierungsorganisation (SRO) anschliessen. Eine eigene VASP-Lizenz kennt das Schweizer Recht nicht; gemeint ist der SRO-Anschluss.",
+        "items": [
+          "Prüfung, ob das Geschäftsmodell Finanzintermediation nach Geldwäschereigesetz ist.",
+          "Erstellung des Anschlussgesuchs, der GwG-Weisung, der Risikoanalyse und der internen Richtlinien.",
+          "Ernennung und Begleitung des Compliance Officers; Schulung des Teams.",
+          "Laufende Compliance-Unterstützung und Vorbereitung der SRO-Prüfung."
+        ]
+      },
+      {
+        "id": "no-action",
+        "title": "FINMA-Unterstellungsanfragen (No-Action Letters)",
+        "description": "Liegt ein Projekt nahe an einer Bewilligungspflicht, reichen wir bei der FINMA eine Unterstellungsanfrage ein mit dem Ziel einer Bestätigung, dass keine Bewilligung nötig ist. Die FINMA erteilt solche Schreiben, nachdem sie das Projekt geprüft und verstanden hat.",
+        "items": [
+          "Rechtliche Analyse des Tokens, der Plattform oder der Dienstleistung nach Bankengesetz, Finanzinstitutsgesetz, Finanzdienstleistungsgesetz und Geldwäschereigesetz.",
+          "Verfassen der Anfrage und der Beschreibung des Geschäftsmodells.",
+          "Korrespondenz mit der FINMA bis zur Erteilung des Schreibens."
+        ]
+      },
+      {
+        "id": "asset-management",
+        "title": "Bewilligung als Vermögensverwalter",
+        "description": "Vermögensverwalter und Trustees brauchen eine FINMA-Bewilligung nach Finanzinstitutsgesetz und die laufende Aufsicht durch eine Aufsichtsorganisation.",
+        "items": [
+          "Gesuch an die FINMA um Bewilligung als Vermögensverwalter oder Trustee.",
+          "Organisationsreglement, Risikomanagement und interne Kontrolldokumente.",
+          "Anschluss an eine Aufsichtsorganisation und Vorbereitung der ersten Prüfung."
+        ]
+      },
+      {
+        "id": "payments",
+        "title": "Zahlungsdienste",
+        "description": "Vertragliche und aufsichtsrechtliche Dokumente für Zahlungsdienstleister, von den Kundenbedingungen über die GwG-Organisation bis, bei Publikumseinlagen, zur Fintech-Bewilligung nach Bankengesetz.",
+        "items": [
+          "Kundenbedingungen, Händler- und Partnerverträge.",
+          "Prüfung der Einlagenentgegennahme und der Schwelle zur Fintech-Bewilligung.",
+          "GwG-Organisation und SRO-Anschluss."
+        ]
+      },
+      {
+        "id": "data-protection",
+        "title": "Vertretung in der Schweiz nach revidiertem DSG",
+        "description": "Unternehmen ausserhalb der Schweiz, die in grossem Umfang Personendaten von Personen in der Schweiz bearbeiten, müssen nach Art. 14 des revidierten Datenschutzgesetzes eine Vertretung in der Schweiz bezeichnen. Wir übernehmen diese Vertretung und beraten zur Einhaltung des schweizerischen und europäischen Datenschutzrechts.",
+        "items": [
+          "Vertretung nach Art. 14 DSG als Anlaufstelle für betroffene Personen und den Eidgenössischen Datenschutz- und Öffentlichkeitsbeauftragten.",
+          "Bearbeitungsverzeichnis, Datenschutzerklärungen und Auftragsbearbeitungsverträge.",
+          "Datenschutz-Folgenabschätzungen und Analyse grenzüberschreitender Datenbekanntgaben."
+        ]
+      },
+      {
+        "id": "ai",
+        "title": "KI-Governance und EU AI Act",
+        "description": "Schweizer Unternehmen, die KI-Systeme in die EU verkaufen, fallen unter den EU AI Act. Wir klassifizieren das System, erfassen die Pflichten für Anbieter und Betreiber und koordinieren den Bevollmächtigten in der EU, wo Art. 22 der Verordnung einen verlangt.",
+        "items": [
+          "Klassifizierung des KI-Systems und Gap-Analyse nach dem Zeitplan des EU AI Act.",
+          "KI-Governance-Rahmen, Dokumentation und Transparenzhinweise.",
+          "Verträge mit Modellanbietern, Datenlizenzen und Haftungsverteilung."
+        ]
+      },
+      {
+        "id": "funding",
+        "title": "Venture-Finanzierung",
+        "description": "Pre-Seed bis Series C: SAFE, Wandeldarlehen, bewertete Eigenkapitalrunden und die dazugehörigen Gesellschaftshandlungen.",
+        "items": [
+          "SAFE- und Wandeldarlehensverträge nach Schweizer Recht.",
+          "Term Sheets, Investitions- und Aktionärbindungsverträge.",
+          "Kapitalerhöhungen, Aktienkategorien und Handelsregisteranmeldungen."
+        ]
+      },
+      {
+        "id": "ma",
+        "title": "M&A",
+        "description": "Kauf und Verkauf kleiner und mittlerer Technologieunternehmen, grenzüberschreitend und inländisch, einschliesslich Spin-offs und Carve-outs.",
+        "items": [
+          "Due Diligence, Aktien- und Asset-Kaufverträge.",
+          "Vertretung von Käufern, Verkäufern und Zielgesellschaften.",
+          "Integration und Governance nach dem Closing."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Gibt es in der Schweiz eine VASP-Lizenz?",
+        "a": "Nicht als solche. Unternehmen, die als Finanzintermediäre mit Kryptowerten handeln, etwa Börsen, Broker und Anbieter verwahrter Wallets, müssen sich nach Geldwäschereigesetz einer von der FINMA anerkannten Selbstregulierungsorganisation (SRO) anschliessen. Dieser Anschluss ist, was der Markt umgangssprachlich VASP-Lizenz nennt. Tätigkeiten wie die Entgegennahme von Einlagen oder der Effektenhandel brauchen zusätzlich eine FINMA-Bewilligung."
+      },
+      {
+        "q": "Wie lange dauert ein SRO-Anschluss?",
+        "a": "Typischerweise zwei bis vier Monate vom Beginn des Dossiers bis zum Anschlussentscheid, abhängig von der SRO, der Vollständigkeit der Unterlagen und der Komplexität des Geschäftsmodells."
+      },
+      {
+        "q": "Was ist ein FINMA No-Action Letter?",
+        "a": "Ein Schreiben, in dem die FINMA aufgrund des dargelegten Sachverhalts bestätigt, dass ein Projekt keiner Bewilligung bedarf und sie keinen Anlass für ein Enforcementverfahren sieht. Es wird mit einer Unterstellungsanfrage erwirkt, die das Geschäftsmodell im Detail beschreibt und nach den Finanzmarktgesetzen analysiert."
+      },
+      {
+        "q": "Wann braucht ein ausländisches Unternehmen eine Vertretung in der Schweiz nach DSG?",
+        "a": "Wenn es keine Niederlassung in der Schweiz hat, Personendaten von Personen in der Schweiz im Zusammenhang mit dem Angebot von Waren oder Dienstleistungen oder der Beobachtung ihres Verhaltens bearbeitet, und die Bearbeitung umfangreich, regelmässig und mit einem hohen Risiko für die betroffenen Personen verbunden ist. Die Vertretung ist Anlaufstelle für betroffene Personen und den EDÖB und führt das Bearbeitungsverzeichnis."
+      },
+      {
+        "q": "Gilt der EU AI Act für ein Schweizer Unternehmen?",
+        "a": "Ja, wenn das Unternehmen ein KI-System in der EU in Verkehr bringt oder in Betrieb nimmt oder wenn der Output des Systems in der EU verwendet wird. Anbieter von Hochrisiko-Systemen mit Sitz ausserhalb der EU müssen einen Bevollmächtigten in der EU benennen."
+      },
+      {
+        "q": "Können Sie einen SAFE nach Schweizer Recht entwerfen?",
+        "a": "Ja. Der SAFE wird an das Schweizer Gesellschaftsrecht angepasst, insbesondere an die Kapitalerhöhungsmechanik, die die Wandlung erfordert, und mit den Statuten und dem Aktionärbindungsvertrag abgestimmt."
+      },
+      {
+        "q": "Beraten Sie zur Besteuerung von Kryptowerten?",
+        "a": "Wir beraten zur gesellschafts- und aufsichtsrechtlichen Seite und koordinieren mit Steuerberatern für Steuerrulings und die steuerliche Behandlung von Token."
+      }
+    ],
+    "cta": {
+      "title": "Bauen Sie ein reguliertes Produkt?",
+      "text": "Beschreiben Sie das Produkt und das Geschäftsmodell. Wir sagen Ihnen, welches Schweizer Regime gilt, welche Bewilligung oder welcher Anschluss nötig ist und wie lange es dauert.",
+      "cta": "Kontakt aufnehmen"
+    }
+  },
+  "about": {
+    "eyebrow": "Über uns",
+    "title": "Über die Kanzlei und das Team",
+    "intro": "Die Swiss Fintech Law AG ist eine Kanzlei in Steinhausen, Kanton Zug, die sich dem Recht der neuen Technologien widmet. Wir beraten Fintech-, Krypto-, KI- und Cybersicherheitsunternehmen, ihre Gründer und Investoren im schweizerischen Gesellschafts- und Finanzmarktrecht.",
+    "firm": {
+      "eyebrow": "Kanzlei",
+      "title": "Fakten",
+      "facts": [
+        { "label": "Firma", "value": "Swiss Fintech Law AG" },
+        { "label": "Rechtsform", "value": "Aktiengesellschaft nach Schweizer Recht" },
+        { "label": "Sitz", "value": "Hinterbergstrasse 53, 6312 Steinhausen, Kanton Zug, Schweiz" },
+        { "label": "Handelsregister", "value": "Kanton Zug, CHE-201.843.628" },
+        { "label": "MWST-Nummer", "value": "CHE-201.843.628 MWST" },
+        { "label": "Geschäftsführer", "value": "Grégory Aillaud" },
+        { "label": "Arbeitssprachen", "value": "Deutsch, Englisch, Französisch" },
+        { "label": "Bürozeiten", "value": "Montag bis Freitag, 09:00 bis 18:00 Uhr" }
+      ]
+    },
+    "team": {
+      "eyebrow": "Team",
+      "title": "Team",
+      "members": [
+        {
+          "id": "gregory-aillaud",
+          "name": "Grégory Aillaud",
+          "role": "Senior Lawyer, Geschäftsführer",
+          "bio": "Grégory ist Wirtschaftsjurist mit Schwerpunkt Technologie und Innovation. Vor der Gründung der Swiss Fintech Law AG war er alleiniger Unternehmensjurist der MTU Detroit Diesel Australia (Rolls-Royce Power Systems), Richterassistent an einem Tribunal de Grande Instance in Frankreich und M&A-Jurist bei Mercedes-Benz Australia.",
+          "education": {
+            "title": "Ausbildung",
+            "items": [
+              "College of Law, Graduate Diploma in Legal Practice Management",
+              "Universität Aix-Marseille III, LLM in European Business Law",
+              "Universität Tours, Master in internationalem und europäischem Recht",
+              "University of Sydney, Diploma of Law, Legal Profession Admission Board"
+            ]
+          },
+          "admissions": {
+            "title": "Zulassungen",
+            "items": [
+              "Solicitor and Barrister, Supreme Court of New South Wales (2011)",
+              "Solicitor and Barrister, Supreme Court of Victoria (2015)"
+            ]
+          }
+        },
+        {
+          "id": "sandra-schnider",
+          "name": "Sandra Schnider",
+          "role": "Finance & Compliance",
+          "bio": "Sandra bringt 25 Jahre Erfahrung aus dem Banken- und Finanzsektor mit, wo sie als Chief Controller, CFO und Head of Compliance tätig war. Sie hat zahlreiche Unternehmen beim Aufbau ihrer Compliance- und Finanzfunktionen begleitet und berät zu organisatorischen und finanziellen Restrukturierungen.",
+          "education": {
+            "title": "Ausbildung",
+            "items": [
+              "Universität Grenoble, Master in Business Management",
+              "Universität Genf, Bachelor in Monetary and Financial Economics",
+              "IMD Business School, Strategic Marketing and Management Program"
+            ]
+          }
+        }
+      ]
+    },
+    "note": "Berufsbezeichnungen und Zulassungen sind so angegeben, wie sie bei der jeweiligen Behörde registriert sind. Die Swiss Fintech Law AG erbringt Rechtsberatung als Gesellschaft; sie ist nicht Mitglied eines kantonalen Anwaltsverbands.",
+    "cta": {
+      "title": "Mit uns arbeiten",
+      "text": "Schreiben Sie uns eine kurze Beschreibung Ihres Projekts, und wir schlagen ein erstes Gespräch vor.",
+      "cta": "Kontakt aufnehmen"
     }
   },
   "contact": {
     "eyebrow": "Kontakt",
-    "title": "Gestalten wir, was als Nächstes kommt",
-    "labels": {
-      "phone": "Telefon",
-      "email": "E-Mail",
-      "address": "Adresse"
-    }
+    "title": "Kontakt",
+    "intro": "Schreiben Sie uns oder rufen Sie während der Bürozeiten an. Wir antworten auf Deutsch, Englisch oder Französisch, in der Regel innert eines Arbeitstags.",
+    "office": "Büro",
+    "hoursValue": "Montag bis Freitag, 09:00 bis 18:00 Uhr (Zürcher Zeit)",
+    "mapCta": "In Google Maps öffnen",
+    "emailCta": "E-Mail schreiben",
+    "note": "Bitte senden Sie keine vertraulichen Informationen, bevor wir bestätigt haben, dass wir für Sie tätig werden können. Unsere Datenschutzerklärung erklärt, wie wir mit Ihren Daten umgehen.",
+    "directions": "Das Büro liegt in Steinhausen, fünf Autominuten vom Bahnhof Zug und an der Buslinie zur Hinterbergstrasse."
   },
   "knowledge": {
-    "title": "Wissenszentrum",
-    "subtitle": "Erkunden Sie umfassende Ressourcen zu Fintech, Blockchain, Regulierung und Innovation",
-    "learnMore": "Mehr erfahren",
-    "backToHome": "Zurück zur Startseite",
-    "categories": {
-      "fintech": {
-        "title": "Fintech-Grundlagen",
-        "description": "Kernkonzepte, Markttrends und Innovationen, die die Finanztechnologie-Landschaft prägen"
+    "eyebrow": "Wissen",
+    "title": "Wissen",
+    "intro": "Kurze, datierte Erklärungen zu Fragen, die uns am häufigsten gestellt werden. Sie beschreiben das Schweizer Recht per angegebenem Datum und sind keine Rechtsberatung im Einzelfall.",
+    "guides": {
+      "domicile-revised-amla-2026": {
+        "title": "Domiziladressen und das revidierte Geldwäschereigesetz ab 1. Oktober 2026",
+        "summary": "Was sich für Gesellschaften mit c/o-Adresse in der Schweiz geändert hat, was ein Domizilanbieter jetzt fragen muss und wie die Swiss Fintech Law AG die Regeln anwendet.",
+        "sections": [
+          {
+            "heading": "Was sich am 1. Oktober 2026 geändert hat",
+            "paragraphs": [
+              "Seit dem 1. Oktober 2026 unterstellt das revidierte Geldwäschereigesetz (GwG) die berufsmässige Zurverfügungstellung eines Sitzes oder einer Adresse für Sitzgesellschaften dem Gesetz. Eine Sitzgesellschaft ist eine Gesellschaft ohne eigenen operativen Betrieb: Sie hält Beteiligungen, Immaterialgüterrechte oder andere Vermögenswerte oder besteht hauptsächlich auf dem Papier. Anbieter von Adressen für solche Gesellschaften sind Finanzintermediäre und müssen einer von der FINMA anerkannten Selbstregulierungsorganisation (SRO) angeschlossen sein.",
+              "Bis dahin war das Anbieten einer Adresse eine weitgehend unregulierte Dienstleistung. Jeder konnte eine c/o-Adresse vermieten; niemand war gesetzlich verpflichtet zu fragen, wer hinter der Gesellschaft steht. Diese Lücke hatte die Financial Action Task Force in ihren Länderprüfungen der Schweiz seit Jahren kritisiert. Die Revision schliesst sie."
+            ]
+          },
+          {
+            "heading": "Was ein Domizilanbieter jetzt tun muss",
+            "paragraphs": [
+              "Ein SRO-angeschlossener Anbieter muss seine Vertragspartei anhand amtlicher Dokumente identifizieren, die wirtschaftlich berechtigten Personen durch schriftliche Erklärung feststellen und deren Identität überprüfen, Zweck und wirtschaftlichen Hintergrund der Geschäftsbeziehung verstehen, dies alles zehn Jahre dokumentieren und der Meldestelle für Geldwäscherei Meldung erstatten, wenn er den Verdacht hat, dass Vermögenswerte mit einem Verbrechen zusammenhängen. Er muss seine Kenntnisse über den Kunden aktuell halten und Beziehungen mit erhöhtem Risiko, etwa mit politisch exponierten Personen oder Gesellschaften in Hochrisikoländern, vertieft prüfen.",
+              "Für Kunden bedeutet das eine Reihe von Fragen zu Beginn: Wer sind Sie, wer besitzt und kontrolliert die Gesellschaft, was tut die Gesellschaft und woher stammen ihre Mittel. Ein Anbieter, der sie nicht stellt, ist für diesen Kunden entweder nicht dem Gesetz unterstellt oder hält es nicht ein."
+            ]
+          },
+          {
+            "heading": "Operative Gesellschaften und Sitzgesellschaften",
+            "paragraphs": [
+              "Das Gesetz unterscheidet zwischen der Adresse für eine Sitzgesellschaft und der Adresse für eine Gesellschaft mit eigenem operativem Betrieb. Operative Gesellschaften, Start-ups und Scale-ups mit Produkt, Mitarbeitenden und Kunden, werden anders behandelt als Vermögenshaltevehikel. Ob eine Gesellschaft operativ ist, ist eine Tatsachenfrage, nicht eine Frage der Statuten: Eine Holding mit einem einzigen Mitarbeitenden und ohne eigenes Geschäft bleibt eine Sitzgesellschaft.",
+              "Die Swiss Fintech Law AG bietet ein Domizil derzeit nur operativen Gesellschaften an. Eine Gruppengesellschaft, die einer SRO angeschlossen sein wird, wird für Sitzgesellschaften aufgebaut. In beiden Fällen werden der Kunde und die wirtschaftlich Berechtigten vor Beginn des Domizils identifiziert."
+            ]
+          },
+          {
+            "heading": "Was Sie vorbereiten sollten, wenn Sie eine Schweizer Adresse brauchen",
+            "paragraphs": [
+              "Halten Sie bereit: aktueller Handelsregisterauszug und Statuten; Ausweisdokumente und Wohnsitznachweis der Direktoren und der Personen, die mit dem Anbieter verkehren; eine Erklärung über die wirtschaftlich Berechtigten mit deren Ausweisdokumenten; Nachweis der operativen Tätigkeit wie Website, Produkt, Verträge oder Mitarbeitende; und eine Erklärung zur Herkunft der Mittel, wo sie sich nicht aus dem Geschäft ergibt. Gesellschaften in Gründung liefern statt des Auszugs die Entwürfe der Gründungsunterlagen.",
+              "Rechnen Sie mit denselben Fragen der Bank bei der Kontoeröffnung. Ein einmal für den Domizilanbieter vorbereitetes Dossier beantwortet meist auch die meisten Fragen der Bank."
+            ]
+          }
+        ]
       },
-      "blockchain": {
-        "title": "Blockchain & DLT",
-        "description": "Distributed-Ledger-Technologien, Smart Contracts und dezentrale Finanzanwendungen"
+      "gmbh-vs-ag-swiss-startup": {
+        "title": "GmbH oder AG für ein Schweizer Start-up",
+        "summary": "Die praktischen Unterschiede zwischen den beiden Schweizer Kapitalgesellschaften für Gründer, die Geld aufnehmen, Mitarbeitende einstellen und verkaufen wollen.",
+        "sections": [
+          {
+            "heading": "Die beiden Formen in je einem Absatz",
+            "paragraphs": [
+              "Die GmbH (Gesellschaft mit beschränkter Haftung) ist eine Kapitalgesellschaft mit einem Mindestkapital von CHF 20 000, das voll liberiert sein muss. Ihre Eigentümer heissen Gesellschafter; sie halten Stammanteile und werden namentlich im Handelsregister eingetragen. Sie wird von einem oder mehreren Geschäftsführern geführt, von denen mindestens einer in der Schweiz wohnhaft sein muss.",
+              "Die AG (Aktiengesellschaft) ist eine Kapitalgesellschaft mit einem Mindestkapital von CHF 100 000, von dem bei der Gründung mindestens CHF 50 000 einbezahlt sein müssen. Ihre Eigentümer sind Aktionäre und werden nicht im Handelsregister publiziert. Sie wird von einem Verwaltungsrat geführt; mindestens ein Verwaltungsratsmitglied oder eine Geschäftsleitungsperson mit Zeichnungsberechtigung muss in der Schweiz wohnhaft sein. Seit 2023 kann das Kapital auch in einer für die Geschäftstätigkeit wesentlichen Fremdwährung lauten."
+            ]
+          },
+          {
+            "heading": "Warum die meisten Venture-finanzierten Start-ups die AG wählen",
+            "paragraphs": [
+              "Aktien einer AG werden durch einfache schriftliche Abtretung und, bei Namenaktien, durch Eintrag im Aktienbuch übertragen; die Statuten können die Übertragung beschränken, müssen es aber nicht. Aktienkategorien, etwa Vorzugsaktien mit Liquidationspräferenz, sowie bedingtes oder genehmigtes Kapital für Mitarbeiterbeteiligungen und Wandelinstrumente sind Standardwerkzeuge der AG. Investoren kennen die Form und ihre Dokumente.",
+              "In einer GmbH bedarf jede Übertragung eines Stammanteils der Schriftform und, soweit die Statuten nichts anderes vorsehen, der Zustimmung der Gesellschafterversammlung, und jeder Gesellschafterwechsel wird im Handelsregister publiziert. Vorzugsstammanteile und bedingtes Kapital sind möglich, aber weniger flexibel. Für ein Unternehmen, das mehrere Finanzierungsrunden plant, spart die AG bei jeder Runde Reibung."
+            ]
+          },
+          {
+            "heading": "Wann die GmbH besser passt",
+            "paragraphs": [
+              "Für inhabergeführte Unternehmen, Beratungsfirmen und Tochtergesellschaften ist die GmbH oft die bessere Wahl. Das Kapitalerfordernis ist tiefer, die Struktur einfacher, und die Gesellschafter behalten enge Kontrolle darüber, wer dazukommt. Der öffentliche Registereintrag der Gesellschafter ist nur dort ein Nachteil, wo die Eigentümer Diskretion wünschen.",
+              "Eine GmbH kann später nach Fusionsgesetz in eine AG umgewandelt werden, ohne Liquidation und im Normalfall ohne Steuerfolgen. Die Umwandlung vor der ersten bewerteten Runde ist üblich; sie kostet eine notarielle Urkunde, eine Prüfungsbestätigung und eine Handelsregisteranmeldung."
+            ]
+          },
+          {
+            "heading": "Gemeinsamkeiten",
+            "paragraphs": [
+              "Beide Formen gewähren ihren Eigentümern beschränkte Haftung und verlangen eine öffentliche Gründungsurkunde, eine Kapitaleinzahlung bei einer Schweizer Bank und einen Handelsregistereintrag. Beide müssen ein Verzeichnis der wirtschaftlich berechtigten Personen mit 25 Prozent oder mehr des Kapitals oder der Stimmen führen. Beide brauchen eine Revisionsstelle, sofern sie nicht klein genug für ein Opting-out sind, was die Zustimmung aller Eigentümer und im Jahresdurchschnitt weniger als zehn Vollzeitstellen voraussetzt.",
+              "Die Wahl wird bei der Gründung getroffen, ist aber nicht endgültig. Wichtiger als die Form ist die Qualität der Statuten, des Organisationsreglements und des Aktionärbindungsvertrags, denn diese Dokumente bestimmen, wie die Gesellschaft geführt wird und wie Streitigkeiten gelöst werden."
+            ]
+          }
+        ]
       },
-      "regulation": {
-        "title": "Regulierungsrahmen",
-        "description": "Schweizer und internationale Finanzregulierungen, Compliance-Anforderungen und rechtliche Strukturen"
-      },
-      "innovation": {
-        "title": "Innovation & Trends",
-        "description": "Aufkommende Technologien, Marktinnovationen und zukünftige Richtungen im Fintech"
-      },
-      "compliance": {
-        "title": "Compliance & GwG",
-        "description": "Geldwäschebekämpfung, KYC-Verfahren und regulatorische Compliance-Best-Practices"
-      },
-      "digital": {
-        "title": "Digitale Assets",
-        "description": "Kryptowährungen, Token, NFTs und Verwahrung und Verwaltung digitaler Assets"
-      }
-    },
-    "featured": {
-      "title": "Ausgewählte Artikel",
-      "article1": {
-        "title": "Die Zukunft des digitalen Bankings in der Schweiz",
-        "description": "Wie Schweizer Banken die digitale Transformation und Blockchain-Technologie annehmen",
-        "date": "5. Februar 2026"
-      },
-      "article2": {
-        "title": "Schweizer FinTech-Regulierung verstehen",
-        "description": "Ein umfassender Leitfaden zur Navigation durch FINMA-Anforderungen und Lizenzierung",
-        "date": "28. Januar 2026"
-      },
-      "article3": {
-        "title": "DeFi und Schweizer Recht: Compliance-Strategien",
-        "description": "Rechtliche Rahmenbedingungen für dezentrale Finanzprotokolle in der Schweiz",
-        "date": "15. Januar 2026"
+      "swiss-representative-revdsg": {
+        "title": "Die Vertretung in der Schweiz nach dem revidierten Datenschutzgesetz",
+        "summary": "Wann ein Unternehmen ausserhalb der Schweiz nach Art. 14 DSG eine Vertretung in der Schweiz bezeichnen muss, was die Vertretung tut und wie man sie bestellt.",
+        "sections": [
+          {
+            "heading": "Die Regel",
+            "paragraphs": [
+              "Das revidierte Datenschutzgesetz (DSG) ist seit dem 1. September 2023 in Kraft. Art. 14 verpflichtet private Verantwortliche mit Wohnsitz oder Sitz im Ausland, eine Vertretung in der Schweiz zu bezeichnen, wenn sie Personendaten von Personen in der Schweiz bearbeiten und die Bearbeitung alle vier Voraussetzungen erfüllt: Sie steht im Zusammenhang mit dem Angebot von Waren oder Dienstleistungen an Personen in der Schweiz oder mit der Beobachtung ihres Verhaltens; sie ist umfangreich; sie erfolgt regelmässig; und sie bringt ein hohes Risiko für die Persönlichkeit der betroffenen Personen mit sich.",
+              "Die Regel ist Art. 27 der EU-Datenschutz-Grundverordnung nachgebildet, aber nicht identisch. Ein Unternehmen mit EU-Vertretung nach DSGVO hat damit noch keine Vertretung in der Schweiz; es braucht eine separate Bestellung in der Schweiz."
+            ]
+          },
+          {
+            "heading": "Was die Vertretung tut",
+            "paragraphs": [
+              "Die Vertretung ist Anlaufstelle in der Schweiz für betroffene Personen und für den Eidgenössischen Datenschutz- und Öffentlichkeitsbeauftragten (EDÖB). Sie führt eine Kopie des Bearbeitungsverzeichnisses des Verantwortlichen und erteilt dem EDÖB auf Anfrage Auskunft daraus. Der Verantwortliche muss Name und Adresse der Vertretung veröffentlichen, in der Regel in seiner Datenschutzerklärung.",
+              "Die Vertretung übernimmt nicht die Haftung des Verantwortlichen nach dem Gesetz. Sie handelt als Kommunikationsstelle; die Pflichten, Auskunftsbegehren zu beantworten und das Gesetz einzuhalten, bleiben beim ausländischen Verantwortlichen."
+            ]
+          },
+          {
+            "heading": "Wer in der Praxis betroffen ist",
+            "paragraphs": [
+              "Typische Fälle sind Konsumenten-Apps, Online-Marktplätze, SaaS-Plattformen und Adtech-Unternehmen ausserhalb der Schweiz mit nennenswerter Schweizer Nutzerbasis sowie ausländische Unternehmen, die Schweizer Nutzer profilieren oder tracken. B2B-Anbieter, die nur Kontaktdaten der Mitarbeitenden ihrer Kunden bearbeiten, erfüllen die Voraussetzung des hohen Risikos selten.",
+              "Wer trotz Pflicht keine Vertretung bezeichnet, wird nach Art. 60 DSG mit Busse bis zu CHF 250 000 bestraft. Die Busse trifft die verantwortliche natürliche Person, nicht nur das Unternehmen."
+            ]
+          },
+          {
+            "heading": "Wie die Swiss Fintech Law AG als Vertretung handelt",
+            "paragraphs": [
+              "Wir handeln als Vertretung in der Schweiz für ausländische Unternehmen aufgrund eines schriftlichen Mandats, das Umfang, Informationsfluss und Honorar festlegt. Die Bestellung umfasst Entgegennahme und Weiterleitung von Auskunftsbegehren und EDÖB-Korrespondenz, die Führung des Bearbeitungsverzeichnisses und eine Prüfung der Datenschutzerklärung auf die Schweizer Anforderungen. Honorare auf Anfrage."
+            ]
+          }
+        ]
       }
     }
   },
-  "docs": {
-    "title": "API-Dokumentation",
-    "subtitle": "Vollständige technische Referenz und Integrationsleitfäden für Entwickler",
-    "navigation": "Navigation",
-    "backToHome": "Zurück zur Startseite",
-    "sections": {
-      "getting-started": {
-        "title": "Erste Schritte",
-        "description": "Schnellstartanleitung zur Integration mit Swiss Fintech Law APIs und Services",
-        "step1": {
-          "title": "SDK installieren",
-          "description": "Beginnen Sie mit der Installation unseres offiziellen SDK-Pakets für Ihre bevorzugte Plattform"
-        },
-        "step2": {
-          "title": "Client initialisieren",
-          "description": "Konfigurieren Sie den Client mit Ihren API-Anmeldedaten und Umgebungseinstellungen"
-        }
+  "legalNotice": {
+    "title": "Impressum",
+    "sections": [
+      {
+        "title": "Allgemeine Angaben",
+        "paragraphs": [
+          "Die Website www.swisstechlaw.com (die Website) wird von der Swiss Fintech Law AG, Hinterbergstrasse 53, 6312 Steinhausen, Kanton Zug, Schweiz, betrieben, eingetragen im Handelsregister des Kantons Zug unter der Nummer CHE-201.843.628 MWST (Swiss Fintech Law)."
+        ]
       },
-      "authentication": {
-        "title": "Authentifizierung",
-        "description": "Sichern Sie Ihre API-Anfragen mit geeigneten Authentifizierungsmechanismen",
-        "apiKeys": {
-          "title": "API-Schlüssel",
-          "description": "Generieren und verwalten Sie Ihre API-Schlüssel über das Entwickler-Dashboard. Jeder Schlüssel ist eindeutig und sollte sicher aufbewahrt werden."
-        },
-        "security": "Legen Sie Ihre API-Schlüssel niemals im clientseitigen Code oder öffentlichen Repositories offen"
+      {
+        "title": "Kontakt",
+        "paragraphs": [
+          "Swiss Fintech Law AG, Hinterbergstrasse 53, 6312 Steinhausen, Kanton Zug, Schweiz.",
+          "Telefon: +41 77 962 50 22. E-Mail: contact@swisstechlaw.com."
+        ]
       },
-      "endpoints": {
-        "title": "API-Endpunkte",
-        "description": "Vollständige Referenz verfügbarer API-Endpunkte und deren Verwendung",
-        "transactions": "Finanztransaktionen verwalten und abfragen",
-        "accounts": "Kontoverwaltung und Saldooperationen",
-        "compliance": "Compliance-Prüfungen und regulatorisches Reporting",
-        "reports": "Analyseberichte generieren und abrufen"
+      {
+        "title": "Vertretungsberechtigte Person",
+        "paragraphs": ["Geschäftsführer: Grégory Aillaud."]
       },
-      "webhooks": {
-        "title": "Webhooks",
-        "description": "Konfigurieren Sie Webhooks, um Echtzeit-Benachrichtigungen für Ereignisse zu erhalten",
-        "content": "Webhooks ermöglichen es Ihnen, HTTP-Callbacks zu erhalten, wenn bestimmte Ereignisse in Ihrem Konto auftreten. Konfigurieren Sie Webhook-Endpunkte in Ihrem Dashboard."
-      },
-      "examples": {
-        "title": "Code-Beispiele",
-        "description": "Praktische Beispiele, die gängige Integrationsmuster demonstrieren",
-        "basic": {
-          "title": "Grundlegende Operationen"
-        }
-      },
-      "support": {
-        "title": "Support & Ressourcen",
-        "description": "Holen Sie sich Hilfe und vernetzen Sie sich mit unserer Entwickler-Community",
-        "content": "Wir sind hier, um zu helfen! Erreichen Sie uns über einen dieser Kanäle:",
-        "email": {
-          "title": "E-Mail-Support"
-        },
-        "github": {
-          "title": "GitHub"
-        }
+      {
+        "title": "Inhalt der Website",
+        "paragraphs": [
+          "Der Inhalt der Website ist allgemeine Information über die Kanzlei und das Schweizer Recht. Er ist keine Rechtsberatung und begründet kein Mandatsverhältnis. Swiss Fintech Law bemüht sich, den Inhalt richtig und aktuell zu halten, übernimmt aber keine Gewähr für Vollständigkeit oder Richtigkeit. Links auf Websites Dritter dienen der Bequemlichkeit; Swiss Fintech Law hat keinen Einfluss auf deren Inhalt."
+        ]
       }
-    }
+    ]
+  },
+  "privacy": {
+    "title": "Datenschutzerklärung",
+    "lastUpdated": "Stand: 5. Oktober 2026",
+    "intro": "Diese Datenschutzerklärung erklärt, wie die Swiss Fintech Law AG Personendaten bearbeitet, wenn Sie www.swisstechlaw.com besuchen oder uns darüber kontaktieren. Personendaten von Kunden, die im Rahmen eines Mandats bearbeitet werden, unterstehen zusätzlich unseren Mandatsbedingungen und dem Berufsgeheimnis. Unsere Kunden-App hat eine eigene Datenschutzerklärung.",
+    "sections": [
+      {
+        "title": "1. Verantwortliche Stelle",
+        "paragraphs": [
+          "Swiss Fintech Law AG, Hinterbergstrasse 53, 6312 Steinhausen, Schweiz (CHE-201.843.628). E-Mail: contact@swisstechlaw.com. Telefon: +41 77 962 50 22."
+        ]
+      },
+      {
+        "title": "2. Beim Besuch der Website",
+        "paragraphs": [
+          "Beim Aufruf der Website übermittelt Ihr Browser automatisch technische Daten wie Ihre IP-Adresse, Datum und Uhrzeit des Zugriffs, die aufgerufenen Seiten, die verweisende Seite sowie Browser und Betriebssystem. Diese Daten sind nötig, um die Website sicher und zuverlässig auszuliefern und vor Missbrauch zu schützen.",
+          "Die Website wird auf Infrastruktur in [noch zu bestätigen] gehostet. Der Hosting-Anbieter zeichnet diese technischen Daten in Server-Logs auf und verwendet sie für aggregierte Besucherstatistiken (zum Beispiel Zahl der Besuche und meistaufgerufene Seiten). Anfragen an die Website werden zur Auslieferung und Absicherung über Cloudflare geleitet. Wir verwenden die Daten nicht, um einzelne Besucher zu identifizieren, erstellen keine Profile und setzen keine Werbe- oder Tracking-Tools ein."
+        ]
+      },
+      {
+        "title": "3. Cookies",
+        "paragraphs": [
+          "Die Website setzt ein technisches Cookie, das die gewählte Sprache speichert (NEXT_LOCALE). Sie setzt keine Analyse- oder Werbe-Cookies. Sie können Cookies in den Browsereinstellungen jederzeit blockieren oder löschen; die Website bleibt nutzbar."
+        ]
+      },
+      {
+        "title": "4. E-Mail",
+        "paragraphs": [
+          "Wenn Sie uns schreiben, bearbeiten wir die von Ihnen gemachten Angaben wie Name, E-Mail-Adresse, Telefonnummer, Betreff und Nachricht. Wir verwenden sie nur, um Ihre Anfrage zu beantworten und, wenn Sie uns mandatieren möchten, um ein mögliches Mandat vorzubereiten (einschliesslich Konfliktprüfung).",
+          "Bitte senden Sie keine vertraulichen Informationen, bevor wir bestätigt haben, dass wir für Sie tätig werden können."
+        ]
+      },
+      {
+        "title": "5. Dienstleister und Bekanntgabe ins Ausland",
+        "paragraphs": [
+          "Wir setzen folgende Dienstleister ein, die Personendaten in unserem Auftrag und nach unseren Weisungen bearbeiten: unseren Hosting-Anbieter [noch zu bestätigen] für Hosting und Server-Logs; Cloudflare, Inc. (USA) für Auslieferung und Sicherheit der Website; Google (Google Ireland Ltd. und Google LLC, USA) für unsere E-Mail (Google Workspace).",
+          "Diese Dienstleister können Daten in anderen Ländern bearbeiten, einschliesslich der USA. Bietet ein Land kein angemessenes Datenschutzniveau, werden Übermittlungen durch geeignete Garantien geschützt, etwa eine Zertifizierung unter dem Swiss–US oder EU–US Data Privacy Framework oder die vom Eidgenössischen Datenschutz- und Öffentlichkeitsbeauftragten und der Europäischen Kommission anerkannten Standardvertragsklauseln. Wir verkaufen keine Personendaten und geben sie nicht an Dritte für deren eigenes Marketing weiter."
+        ]
+      },
+      {
+        "title": "6. Rechtsgrundlage",
+        "paragraphs": [
+          "Wir bearbeiten Personendaten nach dem schweizerischen Datenschutzgesetz (DSG). Soweit die EU-Datenschutz-Grundverordnung (DSGVO) anwendbar ist, stützen wir uns auf unser berechtigtes Interesse am Betrieb einer sicheren und funktionierenden Website und an der Beantwortung von Anfragen (Art. 6 Abs. 1 lit. f DSGVO), auf vorvertragliche Massnahmen auf Ihre Anfrage (Art. 6 Abs. 1 lit. b DSGVO) und auf die Erfüllung rechtlicher Pflichten (Art. 6 Abs. 1 lit. c DSGVO)."
+        ]
+      },
+      {
+        "title": "7. Aufbewahrungsdauer",
+        "paragraphs": [
+          "Anfragen, die nicht zu einem Mandat führen, werden innert 12 Monaten gelöscht. Folgt ein Mandat, werden die Daten Teil der Kundenakte und für die Dauer des Mandats und die für uns als Kanzlei geltenden gesetzlichen Aufbewahrungsfristen aufbewahrt. Technische Daten werden von unseren Dienstleistern nur so lange aufbewahrt, wie es für die beschriebenen Zwecke nötig ist."
+        ]
+      },
+      {
+        "title": "8. Ihre Rechte",
+        "paragraphs": [
+          "Sie können Auskunft über Ihre Personendaten, deren Berichtigung oder Löschung verlangen und der Bearbeitung widersprechen. Soweit die DSGVO anwendbar ist, haben Sie zudem das Recht auf Einschränkung der Bearbeitung und auf Datenübertragbarkeit. Zur Ausübung Ihrer Rechte schreiben Sie an contact@swisstechlaw.com. Sie können sich beim Eidgenössischen Datenschutz- und Öffentlichkeitsbeauftragten (EDÖB) oder, in der EU, bei der Datenschutzbehörde Ihres Landes beschweren."
+        ]
+      },
+      {
+        "title": "9. Änderungen",
+        "paragraphs": [
+          "Wir können diese Datenschutzerklärung von Zeit zu Zeit anpassen. Es gilt die auf dieser Seite veröffentlichte Fassung."
+        ]
+      }
+    ]
+  },
+  "terms": {
+    "title": "Allgemeine Geschäftsbedingungen",
+    "subtitle": "Legal & Compliance. Swiss Fintech Law AG (SFL), 2024",
+    "paragraphs": []
   }
 }

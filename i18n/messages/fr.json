@@ -1,184 +1,935 @@
 {
-  "nav": {
-    "home": "Accueil",
-    "knowledge": "Savoir",
-    "docs": "Documentation",
-    "contact": "Contact"
-  },
-  "home": {
-    "hero": {
-      "badge": "Premier cabinet suisse de droit fintech",
-      "title": {
-        "line1": "Construire l'avenir",
-        "line2": "de la tech en Suisse"
-      },
-      "subtitle": "Expertise juridique complète et innovation technique pour la prochaine génération de technologie financière",
-      "cta": {
-        "primary": "Commencer",
-        "secondary": "En savoir plus"
-      },
-      "stats": {
-        "clients": "Clients",
-        "years": "Années d'expérience",
-        "swiss": "Excellence suisse"
-      }
+  "meta": {
+    "siteDescription": "Cabinet juridique à Zoug pour les entreprises fintech, crypto, IA et technologiques : constitution de société, domiciliation pour start-ups opérationnelles, autorisations réglementaires, capital-risque et M&A.",
+    "home": {
+      "title": "Cabinet juridique à Zoug pour les entreprises fintech, crypto, IA et technologiques",
+      "description": "Swiss Fintech Law AG, Steinhausen (canton de Zoug) : constitution de société, domiciliation pour start-ups opérationnelles, autorisations réglementaires, capital-risque et M&A pour les entreprises fintech, crypto, IA et technologiques. Conseil en français, anglais et allemand."
     },
     "services": {
-      "title": "Nos services",
-      "subtitle": "Solutions complètes à l'intersection du droit et de la technologie",
-      "legal": {
-        "title": "Excellence juridique",
-        "description": "Conseils d'experts sur la réglementation financière suisse, les cadres de conformité et les meilleures pratiques juridiques"
-      },
-      "innovation": {
-        "title": "Innovation technologique",
-        "description": "Approches pionnières de la technologie financière avec des solutions de pointe"
-      },
-      "compliance": {
-        "title": "Conformité réglementaire",
-        "description": "Naviguez dans des paysages réglementaires complexes avec confiance et précision"
-      },
-      "advisory": {
-        "title": "Conseil stratégique",
-        "description": "Conseil stratégique pour les entreprises fintech, du démarrage à l'expansion"
-      }
+      "title": "Services juridiques",
+      "description": "Droit des sociétés, réglementation fintech, capital-risque et private equity, M&A, cybersécurité, droit informatique et protection des données. Le catalogue complet des services de Swiss Fintech Law AG, Zoug."
     },
-    "mission": {
-      "title": "Notre mission",
-      "description": "Nous comblons le fossé entre les cadres juridiques traditionnels et les technologies émergentes, créant des voies pour l'innovation tout en assurant la conformité réglementaire",
-      "vision": {
-        "title": "Notre vision",
-        "description": "Être le premier partenaire juridique et technique de Suisse pour les entreprises fintech, stimulant l'innovation tout en maintenant les plus hauts standards d'excellence juridique"
-      },
-      "approach": {
-        "title": "Notre approche",
-        "description": "Précision suisse et innovation moderne. Nous combinons une expertise juridique approfondie avec des connaissances techniques pour offrir des solutions qui fonctionnent dans le monde réel"
-      },
-      "features": {
-        "swiss": "Qualité suisse",
-        "innovation": "Innovation d'abord",
-        "security": "Sécurité et confidentialité",
-        "global": "Portée mondiale"
-      }
+    "formation": {
+      "title": "Constitution de société en Suisse : Sàrl et SA",
+      "description": "Constitution d'une Sàrl ou d'une SA dans le canton de Zoug, travail juridique inclus : statuts, règlement d'organisation, convention d'actionnaires, inscription au registre du commerce et compte de consignation du capital. Pour fondateurs suisses et étrangers. Honoraires forfaitaires sur demande."
+    },
+    "domicile": {
+      "title": "Domiciliation dans le canton de Zoug",
+      "description": "Siège et adresse c/o dans le canton de Zoug avec gestion du courrier, pour start-ups et scale-ups opérationnelles. Ce que la loi sur le blanchiment d'argent révisée, en vigueur depuis le 1er octobre 2026, signifie pour les clients domiciliés."
+    },
+    "innovation": {
+      "title": "Services juridiques pour les entreprises fintech, crypto, IA et cyber",
+      "description": "Affiliation à un OAR (dite licence VASP), lettres de non-intervention de la FINMA, autorisation de gestionnaire de fortune, services de paiement, représentant en Suisse selon la nLPD, règlement européen sur l'IA, financement et M&A."
+    },
+    "about": {
+      "title": "Le cabinet et l'équipe",
+      "description": "Grégory Aillaud, Senior Lawyer et directeur, et Sandra Schnider, finance et compliance. Swiss Fintech Law AG, Hinterbergstrasse 53, 6312 Steinhausen, canton de Zoug."
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "Swiss Fintech Law AG, Hinterbergstrasse 53, 6312 Steinhausen, canton de Zoug. Téléphone +41 77 962 50 22, contact@swisstechlaw.com. Du lundi au vendredi de 9h00 à 18h00."
+    },
+    "knowledge": {
+      "title": "Guides",
+      "description": "Guides courts et datés de Swiss Fintech Law AG sur le droit suisse des sociétés, la réglementation des marchés financiers et la protection des données pour les entreprises technologiques."
+    },
+    "legalNotice": {
+      "title": "Mentions légales",
+      "description": "Mentions légales de Swiss Fintech Law AG, Hinterbergstrasse 53, 6312 Steinhausen, canton de Zoug, CHE-201.843.628 TVA."
+    },
+    "privacy": {
+      "title": "Politique de confidentialité",
+      "description": "Comment Swiss Fintech Law AG traite les données personnelles lorsque vous visitez www.swisstechlaw.com ou nous contactez. Dernière mise à jour : 5 octobre 2026."
+    },
+    "terms": {
+      "title": "Conditions générales",
+      "description": "Conditions générales (Terms of Service) du département Legal and Compliance de Swiss Fintech Law AG."
     }
   },
-  "contact": {
-    "eyebrow": "Nous contacter",
-    "title": "Construisons la suite",
+  "nav": {
+    "home": "Accueil",
+    "services": "Services",
+    "formation": "Constitution de société",
+    "domicile": "Domiciliation",
+    "innovation": "Innovation",
+    "knowledge": "Guides",
+    "about": "À propos",
+    "contact": "Contact",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "wordmarkLabel": "Swiss Fintech Law AG, accueil"
+  },
+  "footer": {
+    "tagline": "Cabinet juridique à Zoug pour les entreprises fintech, crypto, IA et technologiques.",
+    "columns": {
+      "services": "Services",
+      "firm": "Cabinet",
+      "legal": "Informations légales"
+    },
+    "legalNotice": "Mentions légales",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions générales",
+    "hours": "Lun–ven 9h00–18h00",
+    "rights": "Tous droits réservés."
+  },
+  "common": {
+    "home": "Accueil",
+    "contactUs": "Nous contacter",
+    "ourServices": "Nos services",
+    "learnMore": "En savoir plus",
+    "faqTitle": "Questions fréquentes",
+    "feesOnRequest": "Honoraires forfaitaires sur demande.",
+    "readGuide": "Lire le guide",
+    "published": "Publié le",
+    "allGuides": "Tous les guides",
     "labels": {
       "phone": "Téléphone",
       "email": "E-mail",
-      "address": "Adresse"
-    }
+      "address": "Adresse",
+      "hours": "Horaires",
+      "languages": "Langues",
+      "register": "Registre du commerce",
+      "vat": "Numéro TVA",
+      "office": "Bureau"
+    },
+    "languagesValue": "Français, anglais, allemand",
+    "englishPrevails": "Cette page est publiée en anglais. En cas de doute, la version anglaise fait foi."
   },
-  "knowledge": {
-    "title": "Centre de connaissances",
-    "subtitle": "Explorez des ressources complètes sur la fintech, la blockchain, la réglementation et l'innovation",
-    "learnMore": "En savoir plus",
-    "backToHome": "Retour à l'accueil",
-    "categories": {
-      "fintech": {
-        "title": "Fondamentaux Fintech",
-        "description": "Concepts de base, tendances du marché et innovations façonnant le paysage de la technologie financière"
+  "home": {
+    "hero": {
+      "eyebrow": "Swiss Fintech Law AG · Steinhausen, canton de Zoug",
+      "title": {
+        "line1": "Cabinet juridique à Zoug pour les entreprises",
+        "line2": "fintech, crypto, IA et technologiques"
       },
-      "blockchain": {
-        "title": "Blockchain & DLT",
-        "description": "Technologies de registre distribué, contrats intelligents et applications de finance décentralisée"
-      },
-      "regulation": {
-        "title": "Cadres réglementaires",
-        "description": "Réglementations financières suisses et internationales, exigences de conformité et structures juridiques"
-      },
-      "innovation": {
-        "title": "Innovation & Tendances",
-        "description": "Technologies émergentes, innovations du marché et orientations futures de la fintech"
-      },
-      "compliance": {
-        "title": "Conformité & LBA",
-        "description": "Lutte contre le blanchiment d'argent, procédures KYC et meilleures pratiques de conformité réglementaire"
-      },
-      "digital": {
-        "title": "Actifs numériques",
-        "description": "Cryptomonnaies, jetons, NFT, et gestion et conservation des actifs numériques"
+      "subtitle": "Constitution de société, domiciliation pour start-ups opérationnelles, autorisations réglementaires, capital-risque et M&A. Conseil en français, anglais et allemand.",
+      "cta": {
+        "primary": "Nous contacter",
+        "secondary": "Nos services"
       }
     },
-    "featured": {
-      "title": "Articles en vedette",
-      "article1": {
-        "title": "L'avenir de la banque numérique en Suisse",
-        "description": "Comment les banques suisses adoptent la transformation numérique et la technologie blockchain",
-        "date": "5 février 2026"
+    "entry": {
+      "eyebrow": "Comment nous aidons",
+      "title": "Trois points d'entrée",
+      "items": {
+        "innovation": {
+          "title": "Innovation & réglementation",
+          "description": "Services juridiques pour les entreprises fintech, crypto, IA et de cybersécurité : affiliation à un OAR, lettres de non-intervention de la FINMA, autorisations, représentation en matière de protection des données, levées de fonds et M&A.",
+          "cta": "Innovation & réglementation"
+        },
+        "formation": {
+          "title": "Constitution de société",
+          "description": "Constitution d'une Sàrl ou d'une SA en Suisse, travail juridique inclus : statuts, règlement d'organisation, convention d'actionnaires et inscription au registre du commerce.",
+          "cta": "Constitution de société"
+        },
+        "domicile": {
+          "title": "Domiciliation à Zoug",
+          "description": "Siège et adresse c/o dans le canton de Zoug avec gestion du courrier, pour start-ups et scale-ups opérationnelles.",
+          "cta": "Domiciliation"
+        }
+      }
+    },
+    "practice": {
+      "eyebrow": "Domaines de pratique",
+      "title": "Droit des sociétés et des marchés financiers pour les entreprises technologiques",
+      "intro": "Quatre domaines de pratique, une équipe. Nous conseillons fondateurs, investisseurs et entreprises opérationnelles de la constitution à la sortie.",
+      "items": {
+        "corporate": {
+          "title": "Droit des sociétés",
+          "description": "Droit général des sociétés, de la gouvernance aux transactions : constitution, statuts, conventions d'actionnaires, assemblées générales, modifications du capital et liquidations."
+        },
+        "regulatory": {
+          "title": "Réglementation fintech",
+          "description": "Autorisations réglementaires pour les entreprises fintech telles que les intermédiaires financiers et les prestataires de services de paiement : affiliation à un OAR, lettres de non-intervention de la FINMA, autorisation de gestionnaire de fortune."
+        },
+        "venture": {
+          "title": "Capital-risque & private equity",
+          "description": "Opérations de financement pour start-ups, investisseurs en capital-risque et private equity : SAFE, contrats d'investissement et accompagnement des levées de fonds."
+        },
+        "ma": {
+          "title": "M&A",
+          "description": "Acquisition et cession de petites et moyennes entreprises opérationnelles, de la start-up à la série C, dans la fintech, la DLT, l'IA et la cybersécurité."
+        }
       },
-      "article2": {
-        "title": "Comprendre la réglementation FinTech suisse",
-        "description": "Guide complet pour naviguer dans les exigences FINMA et les licences",
-        "date": "28 janvier 2026"
+      "cta": "Catalogue complet des services"
+    },
+    "team": {
+      "eyebrow": "Équipe",
+      "title": "Vos interlocuteurs",
+      "intro": "Une petite équipe à l'expérience juridique, financière et de compliance, établie à Steinhausen dans le canton de Zoug.",
+      "cta": "Le cabinet"
+    },
+    "contact": {
+      "eyebrow": "Contact",
+      "title": "Parlez-nous de votre projet",
+      "intro": "Écrivez-nous ou appelez pendant les heures de bureau. Nous répondons en français, en anglais ou en allemand.",
+      "cta": "Page de contact"
+    }
+  },
+  "services": {
+    "eyebrow": "Services",
+    "title": "Services juridiques",
+    "intro": "Swiss Fintech Law AG conseille les entreprises technologiques, leurs fondateurs et leurs investisseurs en droit suisse des sociétés et des marchés financiers. Cette page présente le catalogue complet ; les trois pages d'entrée sur la constitution de société, la domiciliation et l'innovation décrivent plus en détail les services les plus demandés.",
+    "areas": [
+      {
+        "id": "corporate-law",
+        "title": "Droit des sociétés",
+        "intro": "Une solide expérience en droit général des sociétés, de la gouvernance aux transactions.",
+        "items": [
+          {
+            "title": "Conseil préalable à la constitution",
+            "description": "Conseil juridique avant la constitution : choix de la forme juridique, capital, gouvernance et positionnement réglementaire du projet."
+          },
+          {
+            "title": "Constitution de sociétés et de fondations",
+            "description": "Statuts, règlement d'organisation, conventions de fondateurs et d'actionnaires, coordination avec le notaire et inscription au registre du commerce. Voir la page Constitution de société."
+          },
+          {
+            "title": "Gouvernance d'entreprise",
+            "description": "Accompagnement des assemblées générales ordinaires et extraordinaires, modifications du capital, questions relatives au conseil d'administration et liquidation de sociétés opérationnelles."
+          },
+          {
+            "title": "Transactions de droit des sociétés",
+            "description": "Rédaction et négociation de contrats de droit des sociétés et de documents de transaction."
+          }
+        ]
       },
-      "article3": {
-        "title": "DeFi et droit suisse : Stratégies de conformité",
-        "description": "Cadres juridiques pour les protocoles de finance décentralisée opérant en Suisse",
-        "date": "15 janvier 2026"
+      {
+        "id": "fintech-regulatory",
+        "title": "Réglementation fintech",
+        "intro": "Autorisations réglementaires pour les entreprises fintech telles que les intermédiaires financiers et les prestataires de services de paiement. Nous combinons un intérêt pour la technologie et une expérience de la réglementation des marchés financiers, ce qui nous permet d'inscrire les nouvelles technologies dans les régimes juridiques existants.",
+        "items": [
+          {
+            "title": "Affiliation des intermédiaires financiers à un OAR",
+            "description": "Demande d'affiliation de nouveaux intermédiaires financiers à un organisme d'autorégulation (OAR) reconnu par la FINMA. L'affiliation à un OAR est couramment appelée licence VASP."
+          },
+          {
+            "title": "Autorisation de gestionnaire de fortune",
+            "description": "Demande d'autorisation à la FINMA en qualité de gestionnaire de fortune ou de trustee selon la loi sur les établissements financiers et affiliation à un organisme de surveillance."
+          },
+          {
+            "title": "Prestataires de services de paiement",
+            "description": "Préparation des documents contractuels et réglementaires pour l'exploitation de prestataires de services de paiement."
+          },
+          {
+            "title": "Lettres de non-intervention de la FINMA",
+            "description": "Demandes à la FINMA en vue d'une confirmation qu'un projet ne requiert pas d'autorisation. La FINMA délivre ces lettres après avoir examiné et compris le projet ; la lettre indique que l'autorité ne voit pas de motif d'engager une procédure d'enforcement sur la base des faits présentés."
+          }
+        ]
+      },
+      {
+        "id": "venture-capital",
+        "title": "Capital-risque & private equity",
+        "intro": "Opérations de financement pour start-ups, investisseurs en capital-risque et private equity.",
+        "items": [
+          {
+            "title": "SAFE",
+            "description": "Rédaction de simple agreements for future equity et de toutes les étapes de conversion ultérieures selon le droit suisse."
+          },
+          {
+            "title": "Contrats d'investissement",
+            "description": "Rédaction et négociation de contrats d'investissement et de conventions d'actionnaires ainsi que de toutes les opérations sociales liées au financement."
+          },
+          {
+            "title": "Accompagnement des levées de fonds",
+            "description": "Accompagnement de start-ups, d'investisseurs en capital-risque et de private equity lors de levées de fonds et de prises de participation, y compris augmentations de capital et inscriptions au registre."
+          }
+        ]
+      },
+      {
+        "id": "mergers-acquisitions",
+        "title": "M&A",
+        "intro": "Acquisition et cession de petites et moyennes entreprises opérationnelles, de la start-up à la série C, dans la fintech, la DLT, l'IA et la cybersécurité.",
+        "items": [
+          {
+            "title": "Vente et achat de petites et moyennes entreprises",
+            "description": "Conseil juridique aux acheteurs et vendeurs de petites et moyennes entreprises opérationnelles, en particulier d'entreprises technologiques et fintech."
+          },
+          {
+            "title": "Transactions transfrontalières",
+            "description": "Représentation d'acheteurs stratégiques et financiers, de vendeurs et de sociétés cibles dans des transactions M&A transfrontalières et nationales."
+          },
+          {
+            "title": "Spin-offs et carve-outs",
+            "description": "Structuration et mise en œuvre de joint-ventures, spin-offs et carve-outs, avec un accent sur les entreprises fintech, DLT, de cybersécurité et d'IA."
+          }
+        ]
+      },
+      {
+        "id": "cyber-it-data",
+        "title": "Cybersécurité, droit informatique & protection des données",
+        "intro": "Une protection insuffisante contre les cyberrisques expose l'entreprise et, personnellement, sa direction. Nous conseillons les entreprises et leurs dirigeants sur la gestion juridique des cyberrisques, les contrats informatiques et la protection des données.",
+        "items": [
+          {
+            "title": "Cyberrisque et responsabilité des dirigeants",
+            "description": "Devoirs du conseil d'administration et de la direction en matière de sécurité de l'information, planification de la réponse aux incidents et traitement juridique d'un incident de sécurité."
+          },
+          {
+            "title": "Contrats informatiques et technologiques",
+            "description": "Licences de logiciels, contrats SaaS et de développement, accords de niveau de service et contrats de sous-traitance de données."
+          },
+          {
+            "title": "Protection des données (LPD et RGPD)",
+            "description": "Déclarations de confidentialité, registres des activités de traitement, analyses d'impact et rôle de représentant en Suisse pour les entreprises étrangères selon l'article 14 de la loi fédérale révisée sur la protection des données."
+          }
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Qui Swiss Fintech Law AG conseille-t-elle ?",
+        "a": "Les entreprises technologiques, leurs fondateurs et leurs investisseurs : entreprises fintech, crypto et d'actifs numériques, entreprises d'IA et de cybersécurité, et les investisseurs en capital-risque et private equity qui les financent. La plupart des clients sont des start-ups et des scale-ups actives en Suisse ou qui prévoient de s'y établir."
+      },
+      {
+        "q": "Dans quelles langues travaillez-vous ?",
+        "a": "Français, anglais et allemand. Les documents destinés aux autorités suisses sont préparés en allemand ou en français selon le canton ; les contrats sont généralement rédigés en anglais."
+      },
+      {
+        "q": "Comment facturez-vous ?",
+        "a": "À l'heure ou à un honoraire forfaitaire convenu d'avance pour un travail défini, comme une constitution de société ou une demande d'affiliation à un OAR. Les honoraires forfaitaires sont proposés sur demande après un bref entretien de cadrage. Nos conditions générales sont publiées sur ce site."
+      },
+      {
+        "q": "Où se trouve le cabinet ?",
+        "a": "Hinterbergstrasse 53, 6312 Steinhausen, dans le canton de Zoug, en Suisse. Les réunions ont lieu au bureau ou par visioconférence."
+      },
+      {
+        "q": "Travaillez-vous avec des entreprises hors de Suisse ?",
+        "a": "Oui. Une grande partie de notre travail concerne des fondateurs et des entreprises étrangers qui créent une entité suisse, ont besoin d'un représentant en Suisse selon le droit de la protection des données ou acquièrent une cible suisse."
+      }
+    ],
+    "cta": {
+      "title": "Vous ne savez pas quel service il vous faut ?",
+      "text": "Décrivez votre projet en quelques lignes. Nous vous indiquerons les étapes requises par le droit suisse et leur coût.",
+      "cta": "Nous contacter"
+    }
+  },
+  "formation": {
+    "eyebrow": "Constitution de société",
+    "title": "Constitution de société en Suisse : Sàrl et SA",
+    "intro": "Nous constituons des sociétés à responsabilité limitée (Sàrl) et des sociétés anonymes (SA) dans le canton de Zoug et ailleurs en Suisse, travail juridique inclus. Les fondateurs reçoivent des statuts, des règlements et des conventions d'actionnaires adaptés à leur projet, pas un modèle.",
+    "forms": {
+      "eyebrow": "Formes juridiques",
+      "title": "Sàrl ou SA ?",
+      "intro": "Les deux sont des sociétés de capitaux à responsabilité limitée selon le Code des obligations. Le choix dépend du capital, de l'anonymat des propriétaires, des investisseurs envisagés et de l'image que la société souhaite donner.",
+      "gmbh": {
+        "title": "Sàrl (société à responsabilité limitée)",
+        "points": [
+          "Capital minimum de CHF 20 000, entièrement libéré.",
+          "Les associés sont inscrits au registre du commerce et sont donc publics.",
+          "Au moins un gérant habilité à représenter la société doit être domicilié en Suisse.",
+          "Convient aux entreprises gérées par leurs propriétaires et aux petites équipes ; la cession de parts sociales requiert la forme écrite et, sauf disposition statutaire contraire, l'approbation de l'assemblée des associés."
+        ]
+      },
+      "ag": {
+        "title": "SA (société anonyme)",
+        "points": [
+          "Capital minimum de CHF 100 000, dont au moins CHF 50 000 libérés à la constitution.",
+          "Les actionnaires ne sont pas publiés au registre du commerce ; la société tient un registre des actions et une liste des ayants droit économiques.",
+          "Au moins un membre du conseil d'administration ou de la direction habilité à signer doit être domicilié en Suisse.",
+          "Préférée par les sociétés qui prévoient de lever du capital-risque ou d'émettre des participations de collaborateurs, car les actions se transfèrent facilement et des catégories d'actions sont possibles."
+        ]
+      }
+    },
+    "included": {
+      "eyebrow": "Étendue",
+      "title": "Travail juridique inclus dans une constitution",
+      "items": [
+        "Conseil sur la forme juridique, la structure du capital et la gouvernance de la nouvelle société.",
+        "Statuts rédigés pour le projet, y compris les éventuelles catégories d'actions, droits de préemption et restrictions de transfert.",
+        "Règlement d'organisation pour le conseil d'administration ou les gérants.",
+        "Conventions de fondateurs et d'actionnaires lorsqu'il y a plusieurs fondateurs ou qu'un investisseur s'est déjà engagé.",
+        "Coordination du compte de consignation du capital avec une banque suisse et de l'acte constitutif authentique avec un notaire.",
+        "Réquisition d'inscription au registre du commerce avec toutes ses annexes et suivi auprès du registre jusqu'à la publication de l'inscription.",
+        "Annonces des ayants droit économiques et mise en place du registre des actions ou des parts sociales.",
+        "Accompagnement après l'inscription : enregistrement IDE et TVA, affiliation aux assurances sociales pour les employés et premières décisions du conseil d'administration ou des associés."
+      ]
+    },
+    "timeline": {
+      "eyebrow": "Déroulement",
+      "title": "Comment se déroule une constitution",
+      "intro": "Une constitution avec des documents complets et un compte bancaire suisse prend généralement deux à quatre semaines du premier appel à l'inscription au registre du commerce. L'ouverture du compte de consignation est en général l'étape la plus longue.",
+      "steps": [
+        {
+          "title": "Entretien de cadrage et vérification des conflits",
+          "description": "Nous discutons du projet, de la forme juridique, du capital et des personnes impliquées, et confirmons que nous pouvons agir pour vous."
+        },
+        {
+          "title": "Identification des fondateurs et des ayants droit économiques",
+          "description": "Vous envoyez les pièces d'identité et documents de société listés ci-dessous. Nous identifions les fondateurs et les ayants droit économiques comme l'exige le droit suisse."
+        },
+        {
+          "title": "Projets de documents",
+          "description": "Statuts, règlement d'organisation, convention d'actionnaires si nécessaire, et déclarations requises par le notaire et le registre."
+        },
+        {
+          "title": "Consignation du capital",
+          "description": "Les fondateurs versent le capital sur un compte de consignation bloqué auprès d'une banque suisse. La banque délivre l'attestation de consignation nécessaire à l'acte."
+        },
+        {
+          "title": "Acte authentique",
+          "description": "Les fondateurs, ou leurs mandataires, signent l'acte constitutif authentique devant un notaire suisse. Les signatures pour le registre sont légalisées en même temps."
+        },
+        {
+          "title": "Inscription au registre du commerce",
+          "description": "Nous déposons la réquisition. La société existe dès son inscription au journal du registre ; la banque libère le capital contre l'extrait du registre."
+        }
+      ]
+    },
+    "documents": {
+      "eyebrow": "Documents",
+      "title": "Ce dont nous avons besoin",
+      "items": [
+        "Pour chaque fondateur personne physique : copie du passeport ou de la carte d'identité et justificatif de domicile de moins de trois mois.",
+        "Pour chaque fondateur personne morale : extrait récent du registre du commerce, statuts, preuve des personnes habilitées à signer et organigramme montrant les ayants droit économiques.",
+        "La raison sociale souhaitée (nous vérifions la disponibilité auprès du registre du commerce) et l'adresse du siège, ou une demande de domiciliation à notre adresse.",
+        "Une brève description du but social et de l'activité prévue.",
+        "Le montant du capital et sa répartition entre les fondateurs.",
+        "Les noms, nationalités et adresses de domicile des membres du conseil d'administration ou des gérants, et de l'éventuel organe de révision."
+      ]
+    },
+    "foreign": {
+      "eyebrow": "Fondateurs étrangers",
+      "title": "Constituer une société suisse depuis l'étranger",
+      "paragraphs": [
+        "Le droit suisse n'exige pas que les fondateurs ou les actionnaires soient de nationalité suisse ou domiciliés en Suisse. Il exige en revanche qu'au moins une personne habilitée à signer pour la société soit domiciliée en Suisse (art. 718 al. 4 et art. 814 al. 3 CO). Les fondateurs étrangers s'installent donc en Suisse, nomment un administrateur ou un gérant domicilié en Suisse, ou mandatent un administrateur résident ; nous conseillons sur les options et leurs conséquences.",
+        "Les fondateurs n'ont pas à se déplacer pour la constitution. L'acte authentique peut être signé par un mandataire au bénéfice d'une procuration légalisée et, au besoin, apostillée. Les documents de sociétés étrangères doivent généralement être légalisés ou apostillés et traduits.",
+        "L'ouverture du compte de consignation est l'étape qui retarde le plus souvent une constitution par des fondateurs étrangers. Les banques suisses procèdent à leurs propres vérifications des fondateurs et du modèle d'affaires ; les entreprises crypto et de paiement doivent s'attendre à davantage de questions. Nous préparons le dossier afin que la banque reçoive des réponses complètes dès la première demande.",
+        "Les sociétés ayant une activité réelle en Suisse peuvent utiliser une domiciliation à notre adresse de Steinhausen comme siège. La page Domiciliation explique les conditions."
+      ]
+    },
+    "fees": {
+      "title": "Honoraires",
+      "text": "Les honoraires forfaitaires sont proposés sur demande après un bref entretien de cadrage, selon la forme juridique, le nombre de fondateurs et les documents requis. Les frais de notaire et du registre du commerce sont des débours facturés au prix coûtant."
+    },
+    "faq": [
+      {
+        "q": "Combien de temps faut-il pour constituer une Sàrl ou une SA en Suisse ?",
+        "a": "Généralement deux à quatre semaines une fois tous les documents et l'attestation de consignation disponibles. Le registre du commerce du canton de Zoug traite normalement une réquisition complète en quelques jours ouvrables ; l'inscription prend effet le jour de son inscription au journal et est publiée dans la Feuille officielle suisse du commerce."
+      },
+      {
+        "q": "Quel est le capital minimum ?",
+        "a": "CHF 20 000 pour une Sàrl, entièrement libéré. CHF 100 000 pour une SA, dont au moins CHF 50 000 libérés à la constitution. Les apports en nature sont possibles avec un rapport de fondation et une attestation de vérification."
+      },
+      {
+        "q": "Un fondateur doit-il habiter en Suisse ?",
+        "a": "Non, mais au moins une personne habilitée à signer pour la société doit être domiciliée en Suisse. Il peut s'agir d'un administrateur, d'un gérant ou d'un autre signataire autorisé."
+      },
+      {
+        "q": "Dois-je venir en Suisse pour signer ?",
+        "a": "Non. L'acte constitutif peut être signé par un mandataire au bénéfice d'une procuration légalisée. Si vous préférez signer vous-même, nous organisons le rendez-vous chez le notaire."
+      },
+      {
+        "q": "La société peut-elle avoir son siège à votre adresse ?",
+        "a": "Oui, pour les sociétés opérationnelles ayant une activité réelle. La page Domiciliation explique ce que nous offrons et ce que nous demandons au client."
+      },
+      {
+        "q": "À qui les actionnaires sont-ils divulgués ?",
+        "a": "Les associés d'une Sàrl sont inscrits au registre du commerce et sont publics. Les actionnaires d'une SA ne sont pas publics, mais la société doit tenir un registre des actions et une liste des ayants droit économiques détenant 25 pour cent ou plus, et renseigner la banque à l'ouverture du compte."
+      },
+      {
+        "q": "De quoi la société a-t-elle besoin après l'inscription ?",
+        "a": "Le numéro IDE est attribué automatiquement avec l'inscription au registre. L'assujettissement à la TVA est obligatoire dès un chiffre d'affaires mondial de CHF 100 000 par an et possible volontairement avant. Les employeurs s'affilient à une caisse de compensation. Les activités réglementées peuvent nécessiter une affiliation à un OAR ou une autorisation de la FINMA avant le début de l'activité."
+      },
+      {
+        "q": "Combien coûte une constitution ?",
+        "a": "Nous proposons un honoraire forfaitaire sur demande après un bref entretien de cadrage. Les frais de notaire et du registre du commerce sont des débours facturés au prix coûtant."
+      }
+    ],
+    "cta": {
+      "title": "Vous préparez une société suisse ?",
+      "text": "Envoyez-nous quelques lignes sur le projet, les fondateurs et le capital prévu. Nous répondons avec les étapes, les documents nécessaires et un honoraire forfaitaire.",
+      "cta": "Demander une offre"
+    }
+  },
+  "domicile": {
+    "eyebrow": "Domiciliation",
+    "title": "Domiciliation dans le canton de Zoug",
+    "intro": "Siège et adresse c/o à la Hinterbergstrasse 53, 6312 Steinhausen, avec gestion du courrier, pour les sociétés opérationnelles ayant une activité réelle : start-ups et scale-ups qui dirigent leur activité depuis la Suisse ou la développent ici.",
+    "who": {
+      "eyebrow": "Pour qui",
+      "title": "Sociétés opérationnelles uniquement, pour l'instant",
+      "paragraphs": [
+        "Swiss Fintech Law AG fournit actuellement une domiciliation uniquement aux sociétés opérationnelles : sociétés ayant leur propre activité, du personnel, des clients ou un produit en développement. Nous ne fournissons pas, pour l'instant, de domiciliation aux sociétés de domicile pures, c'est-à-dire aux sociétés sans activité opérationnelle propre, telles que les holdings ou les véhicules de détention d'actifs.",
+        "Une société du groupe qui sera affiliée à un organisme d'autorégulation (OAR) au sens de la loi suisse sur le blanchiment d'argent est en cours de constitution pour servir les sociétés de domicile. Tant que cette affiliation n'existe pas, nous n'acceptons pas de sociétés de domicile et ne faisons pas état d'une affiliation à un OAR qui n'existe pas encore. Cette page sera mise à jour lorsque la société du groupe sera opérationnelle."
+      ]
+    },
+    "amla": {
+      "eyebrow": "Cadre légal",
+      "title": "La loi sur le blanchiment d'argent révisée depuis le 1er octobre 2026, en termes simples",
+      "paragraphs": [
+        "Depuis le 1er octobre 2026, la loi fédérale révisée sur le blanchiment d'argent (LBA) soumet à la loi la fourniture à titre professionnel d'un siège ou d'une adresse à des sociétés de domicile. Le fournisseur de telles adresses est un intermédiaire financier : il doit être affilié à un OAR reconnu par la FINMA, identifier son cocontractant et les ayants droit économiques, comprendre le but de la relation d'affaires, conserver des documents et communiquer ses soupçons au Bureau de communication en matière de blanchiment d'argent.",
+        "Pour le client, cela signifie qu'un fournisseur de domiciliation doit demander les pièces d'identité des personnes agissant pour la société, une déclaration sur qui la détient ou la contrôle en dernier ressort, et une explication claire de ce que fait la société et d'où proviennent ses fonds. Un fournisseur qui ne pose pas ces questions ne respecte pas la loi.",
+        "La fourniture d'une adresse à une société ayant une activité réelle est traitée différemment de la fourniture d'une adresse à une société de domicile. C'est pourquoi notre service de domiciliation est ouvert aujourd'hui aux sociétés opérationnelles, tandis que la société du groupe affiliée à un OAR est mise en place pour les sociétés de domicile. Dans tous les cas, nous identifions le client et les ayants droit économiques avant le début de la domiciliation."
+      ]
+    },
+    "included": {
+      "eyebrow": "Étendue",
+      "title": "Ce que comprend la domiciliation",
+      "items": [
+        "Utilisation de la Hinterbergstrasse 53, 6312 Steinhausen comme siège de la société au registre du commerce du canton de Zoug.",
+        "La déclaration d'acceptation de domicile exigée par le registre du commerce lorsqu'une société a son siège à l'adresse d'un tiers.",
+        "Utilisation de l'adresse comme adresse c/o sur le papier à en-tête, les contrats et la correspondance officielle.",
+        "Réception du courrier postal, y compris les envois recommandés et les notifications officielles, avec numérisation envoyée au client à réception et transmission des originaux selon arrangement.",
+        "Un point de contact en Suisse pour les autorités, la banque et les partenaires commerciaux.",
+        "Conseil juridique sur toute question liée au siège dans le canton de Zoug, facturé séparément."
+      ]
+    },
+    "supply": {
+      "eyebrow": "Onboarding",
+      "title": "Ce que le client doit fournir",
+      "items": [
+        "Un extrait récent du registre du commerce et les statuts, ou les documents de constitution si la société est en cours de création.",
+        "Les pièces d'identité des administrateurs, gérants et personnes qui traiteront avec nous, avec justificatif de domicile.",
+        "Une déclaration écrite des ayants droit économiques (personnes physiques détenant 25 pour cent ou plus, ou contrôlant autrement la société) avec leurs pièces d'identité.",
+        "La preuve de l'activité opérationnelle : site web, produit, employés, contrats clients ou fournisseurs, ou plan d'affaires avec un calendrier réaliste.",
+        "Une explication de l'origine des fonds de la société lorsqu'elle ne ressort pas de l'activité.",
+        "Une personne de contact et une adresse e-mail pour le courrier numérisé, ainsi qu'une adresse de réexpédition pour les originaux."
+      ]
+    },
+    "faq": [
+      {
+        "q": "Ma société peut-elle avoir son siège à votre adresse ?",
+        "a": "Oui, s'il s'agit d'une société opérationnelle ayant une activité réelle propre. Nous n'acceptons pas actuellement les sociétés de domicile pures ; une société du groupe affiliée à un OAR est en cours de constitution pour elles."
+      },
+      {
+        "q": "Qu'est-ce qu'une société opérationnelle ?",
+        "a": "Une société qui exerce sa propre activité : elle développe ou vend un produit ou un service, a du personnel ou des prestataires, des clients ou des fournisseurs, et une direction qui prend ses décisions. Une société qui ne fait que détenir des participations, de la propriété intellectuelle ou d'autres actifs sans activité opérationnelle est une société de domicile."
+      },
+      {
+        "q": "Pourquoi demandez-vous des pièces d'identité et les ayants droit économiques ?",
+        "a": "Parce que la loi révisée sur le blanchiment d'argent en vigueur depuis le 1er octobre 2026 oblige les fournisseurs de domiciliation à identifier leur cocontractant et les ayants droit économiques, et parce que nous devons savoir avec qui nous traitons. L'identification a lieu avant le début de la domiciliation et est mise à jour en cas de changement de propriété."
+      },
+      {
+        "q": "Swiss Fintech Law AG est-elle affiliée à un OAR ?",
+        "a": "Swiss Fintech Law AG elle-même fournit des services juridiques et une domiciliation aux sociétés opérationnelles. Une société du groupe qui sera affiliée à un OAR au sens de la loi sur le blanchiment d'argent est en cours de constitution pour les sociétés de domicile. Nous indiquerons l'affiliation sur cette page dès qu'elle existera."
+      },
+      {
+        "q": "Comment mon courrier est-il traité ?",
+        "a": "Nous recevons lettres et colis au bureau, numérisons les lettres à réception pour votre personne de contact et transmettons les originaux selon arrangement. Les envois recommandés et les notifications officielles sont acceptés et vous sont annoncés le jour même."
+      },
+      {
+        "q": "Puis-je utiliser l'adresse pour mon compte bancaire et mes factures ?",
+        "a": "Oui. L'adresse est le siège de la société et peut être utilisée comme adresse c/o sur le papier à en-tête, les factures et auprès de la banque. La banque procède à ses propres vérifications de la société."
+      },
+      {
+        "q": "La domiciliation inclut-elle un administrateur domicilié en Suisse ?",
+        "a": "Non. La domiciliation est un service d'adresse. La question de savoir si nous pouvons assumer un mandat d'administrateur ou de signataire est tranchée au cas par cas et réglée séparément."
+      },
+      {
+        "q": "Combien coûte la domiciliation ?",
+        "a": "Les honoraires sont proposés sur demande et dépendent du volume de courrier et de la constitution simultanée ou non de la société."
+      }
+    ],
+    "cta": {
+      "title": "Besoin d'un siège dans le canton de Zoug pour une société opérationnelle ?",
+      "text": "Dites-nous ce que fait la société et qui est derrière elle. Nous confirmons en quelques jours si nous pouvons fournir la domiciliation et ce dont nous avons besoin pour commencer.",
+      "cta": "Demander une domiciliation"
+    }
+  },
+  "innovation": {
+    "eyebrow": "Innovation & réglementation",
+    "title": "Services juridiques pour les entreprises fintech, crypto, IA et cyber",
+    "intro": "Positionnement réglementaire, autorisations et financement pour les entreprises qui construisent avec de nouvelles technologies. Nous traduisons un produit dans le régime juridique suisse qui lui est applicable et conduisons la demande auprès du régulateur ou de l'organisme d'autorégulation.",
+    "areas": [
+      {
+        "id": "sro",
+        "title": "Affiliation à un OAR, dite licence VASP",
+        "description": "Les entreprises qui échangent, transfèrent ou conservent des cryptoactifs pour des clients, exploitent une activité de jetons de paiement ou agissent autrement comme intermédiaires financiers en Suisse doivent s'affilier à un organisme d'autorégulation (OAR) reconnu par la FINMA avant de commencer. Il n'existe pas de licence VASP distincte en droit suisse ; l'affiliation à un OAR est ce que le marché entend par là.",
+        "items": [
+          "Analyse de la qualification du modèle d'affaires comme intermédiation financière au sens de la loi sur le blanchiment d'argent.",
+          "Préparation de la demande d'affiliation, de la directive LBA, de l'analyse des risques et des directives internes.",
+          "Nomination et accompagnement du compliance officer ; formation de l'équipe.",
+          "Soutien continu en matière de compliance et préparation de l'audit OAR."
+        ]
+      },
+      {
+        "id": "no-action",
+        "title": "Lettres de non-intervention de la FINMA",
+        "description": "Lorsqu'un projet se situe à la limite d'une obligation d'autorisation, nous déposons auprès de la FINMA une demande de confirmation qu'aucune autorisation n'est nécessaire. La FINMA délivre ces lettres après avoir examiné et compris le projet.",
+        "items": [
+          "Analyse juridique du jeton, de la plateforme ou du service au regard de la loi sur les banques, de la loi sur les établissements financiers, de la loi sur les services financiers et de la loi sur le blanchiment d'argent.",
+          "Rédaction de la demande et de la description du modèle d'affaires.",
+          "Correspondance avec la FINMA jusqu'à la délivrance de la lettre."
+        ]
+      },
+      {
+        "id": "asset-management",
+        "title": "Autorisation de gestionnaire de fortune",
+        "description": "Les gestionnaires de fortune et les trustees ont besoin d'une autorisation de la FINMA selon la loi sur les établissements financiers et d'une surveillance continue par un organisme de surveillance.",
+        "items": [
+          "Demande d'autorisation à la FINMA en qualité de gestionnaire de fortune ou de trustee.",
+          "Règlement d'organisation, gestion des risques et documents de contrôle interne.",
+          "Affiliation à un organisme de surveillance et préparation du premier audit."
+        ]
+      },
+      {
+        "id": "payments",
+        "title": "Services de paiement",
+        "description": "Documents contractuels et réglementaires pour les prestataires de services de paiement, des conditions clients à l'organisation LBA et, en cas de dépôts du public, à l'autorisation fintech selon la loi sur les banques.",
+        "items": [
+          "Conditions clients, contrats commerçants et partenaires.",
+          "Analyse de l'acceptation de dépôts et du seuil de l'autorisation fintech.",
+          "Organisation LBA et affiliation à un OAR."
+        ]
+      },
+      {
+        "id": "data-protection",
+        "title": "Représentant en Suisse selon la nLPD",
+        "description": "Les entreprises hors de Suisse qui traitent à grande échelle des données personnelles de personnes en Suisse doivent désigner un représentant en Suisse selon l'article 14 de la loi fédérale révisée sur la protection des données. Nous agissons comme représentant et conseillons sur la conformité au droit suisse et européen de la protection des données.",
+        "items": [
+          "Représentation selon l'art. 14 LPD comme point de contact pour les personnes concernées et le Préposé fédéral à la protection des données et à la transparence.",
+          "Registre des activités de traitement, déclarations de confidentialité et contrats de sous-traitance.",
+          "Analyses d'impact et analyse des communications transfrontalières de données."
+        ]
+      },
+      {
+        "id": "ai",
+        "title": "Gouvernance de l'IA et règlement européen sur l'IA",
+        "description": "Les entreprises suisses qui vendent des systèmes d'IA dans l'UE relèvent du règlement européen sur l'IA (AI Act). Nous classons le système, recensons les obligations des fournisseurs et des déployeurs et coordonnons le mandataire dans l'UE lorsque l'article 22 du règlement en exige un.",
+        "items": [
+          "Classification du système d'IA et analyse des écarts selon le calendrier de l'AI Act.",
+          "Cadre de gouvernance de l'IA, documentation et mentions de transparence.",
+          "Contrats avec les fournisseurs de modèles, licences de données et répartition des responsabilités."
+        ]
+      },
+      {
+        "id": "funding",
+        "title": "Financement",
+        "description": "Du pre-seed à la série C : SAFE, prêts convertibles, tours de financement en capital et opérations sociales correspondantes.",
+        "items": [
+          "Contrats SAFE et de prêt convertible selon le droit suisse.",
+          "Term sheets, contrats d'investissement et conventions d'actionnaires.",
+          "Augmentations de capital, catégories d'actions et inscriptions au registre du commerce."
+        ]
+      },
+      {
+        "id": "ma",
+        "title": "M&A",
+        "description": "Acquisition et vente de petites et moyennes entreprises technologiques, transfrontalières et nationales, y compris spin-offs et carve-outs.",
+        "items": [
+          "Due diligence, contrats de vente d'actions et d'actifs.",
+          "Représentation d'acheteurs, de vendeurs et de sociétés cibles.",
+          "Intégration et gouvernance après le closing."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Existe-t-il une licence VASP en Suisse ?",
+        "a": "Pas en tant que telle. Les entreprises qui agissent comme intermédiaires financiers avec des cryptoactifs, par exemple les plateformes d'échange, les courtiers et les fournisseurs de portefeuilles avec conservation, doivent s'affilier à un organisme d'autorégulation (OAR) reconnu par la FINMA au sens de la loi sur le blanchiment d'argent. Cette affiliation est ce que le marché appelle couramment licence VASP. Des activités comme l'acceptation de dépôts ou le négoce de valeurs mobilières nécessitent en plus une autorisation de la FINMA."
+      },
+      {
+        "q": "Combien de temps prend une affiliation à un OAR ?",
+        "a": "Généralement deux à quatre mois du début du dossier à la décision d'affiliation, selon l'OAR, la complétude des documents et la complexité du modèle d'affaires."
+      },
+      {
+        "q": "Qu'est-ce qu'une lettre de non-intervention de la FINMA ?",
+        "a": "Une lettre dans laquelle la FINMA confirme, sur la base des faits présentés, qu'un projet ne requiert pas d'autorisation et qu'elle ne voit pas de motif d'engager une procédure d'enforcement. Elle s'obtient par une demande qui décrit le modèle d'affaires en détail et l'analyse au regard des lois sur les marchés financiers."
+      },
+      {
+        "q": "Quand une entreprise étrangère a-t-elle besoin d'un représentant en Suisse selon la LPD ?",
+        "a": "Lorsqu'elle n'a pas d'établissement en Suisse, traite des données personnelles de personnes en Suisse en lien avec l'offre de biens ou de services ou l'observation de leur comportement, et que le traitement est à grande échelle, régulier et présente un risque élevé pour les personnes concernées. Le représentant est le point de contact pour les personnes concernées et le PFPDT et tient le registre des activités de traitement."
+      },
+      {
+        "q": "Le règlement européen sur l'IA s'applique-t-il à une entreprise suisse ?",
+        "a": "Oui, lorsque l'entreprise met un système d'IA sur le marché de l'UE, le met en service dans l'UE ou lorsque les résultats produits par le système sont utilisés dans l'UE. Les fournisseurs de systèmes à haut risque établis hors de l'UE doivent désigner un mandataire dans l'UE."
+      },
+      {
+        "q": "Pouvez-vous rédiger un SAFE selon le droit suisse ?",
+        "a": "Oui. Le SAFE est adapté au droit suisse des sociétés, en particulier au mécanisme d'augmentation de capital qu'exige la conversion, et coordonné avec les statuts et la convention d'actionnaires."
+      },
+      {
+        "q": "Conseillez-vous sur la fiscalité des cryptoactifs ?",
+        "a": "Nous conseillons sur les aspects de droit des sociétés et réglementaires et coordonnons avec des conseillers fiscaux pour les rulings fiscaux et le traitement fiscal des jetons."
+      }
+    ],
+    "cta": {
+      "title": "Vous développez un produit réglementé ?",
+      "text": "Décrivez le produit et le modèle d'affaires. Nous vous indiquons quel régime suisse s'applique, quelle autorisation ou affiliation est nécessaire et combien de temps cela prend.",
+      "cta": "Nous contacter"
+    }
+  },
+  "about": {
+    "eyebrow": "À propos",
+    "title": "Le cabinet et l'équipe",
+    "intro": "Swiss Fintech Law AG est un cabinet juridique à Steinhausen, dans le canton de Zoug, dédié au droit des nouvelles technologies. Nous conseillons les entreprises fintech, crypto, d'IA et de cybersécurité, leurs fondateurs et leurs investisseurs en droit suisse des sociétés et des marchés financiers.",
+    "firm": {
+      "eyebrow": "Cabinet",
+      "title": "Faits",
+      "facts": [
+        { "label": "Raison sociale", "value": "Swiss Fintech Law AG" },
+        { "label": "Forme juridique", "value": "Société anonyme de droit suisse" },
+        { "label": "Siège", "value": "Hinterbergstrasse 53, 6312 Steinhausen, canton de Zoug, Suisse" },
+        { "label": "Registre du commerce", "value": "Canton de Zoug, CHE-201.843.628" },
+        { "label": "Numéro TVA", "value": "CHE-201.843.628 TVA" },
+        { "label": "Directeur", "value": "Grégory Aillaud" },
+        { "label": "Langues de travail", "value": "Français, anglais, allemand" },
+        { "label": "Horaires", "value": "Du lundi au vendredi, de 9h00 à 18h00" }
+      ]
+    },
+    "team": {
+      "eyebrow": "Équipe",
+      "title": "Équipe",
+      "members": [
+        {
+          "id": "gregory-aillaud",
+          "name": "Grégory Aillaud",
+          "role": "Senior Lawyer, directeur",
+          "bio": "Grégory est juriste d'entreprise spécialisé dans la technologie et l'innovation. Avant de fonder Swiss Fintech Law AG, il a été l'unique juriste interne de MTU Detroit Diesel Australia (Rolls-Royce Power Systems), assistant de justice dans un tribunal de grande instance en France et juriste M&A chez Mercedes-Benz Australia.",
+          "education": {
+            "title": "Formation",
+            "items": [
+              "College of Law, Graduate Diploma in Legal Practice Management",
+              "Université d'Aix-Marseille III, LLM en droit européen des affaires",
+              "Université de Tours, Master en droit international et européen",
+              "University of Sydney, Diploma of Law, Legal Profession Admission Board"
+            ]
+          },
+          "admissions": {
+            "title": "Admissions au barreau",
+            "items": [
+              "Solicitor and Barrister, Supreme Court of New South Wales (2011)",
+              "Solicitor and Barrister, Supreme Court of Victoria (2015)"
+            ]
+          }
+        },
+        {
+          "id": "sandra-schnider",
+          "name": "Sandra Schnider",
+          "role": "Finance & Compliance",
+          "bio": "Sandra apporte 25 ans d'expérience dans les secteurs bancaire et financier, où elle a occupé les postes de Chief Controller, CFO et Head of Compliance. Elle a accompagné de nombreuses entreprises dans la mise en place de leurs fonctions compliance et finance et conseille en matière de restructuration organisationnelle et financière.",
+          "education": {
+            "title": "Formation",
+            "items": [
+              "Université de Grenoble, Master en gestion d'entreprise",
+              "Université de Genève, Bachelor en économie monétaire et financière",
+              "IMD Business School, Strategic Marketing and Management Program"
+            ]
+          }
+        }
+      ]
+    },
+    "note": "Les titres professionnels et admissions sont indiqués tels qu'enregistrés auprès de l'autorité concernée. Swiss Fintech Law AG fournit des conseils juridiques en tant que société ; elle n'est pas membre d'un ordre cantonal des avocats.",
+    "cta": {
+      "title": "Travailler avec nous",
+      "text": "Écrivez-nous une brève description de votre projet et nous vous proposerons un premier entretien.",
+      "cta": "Nous contacter"
+    }
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Contact",
+    "intro": "Écrivez-nous ou appelez pendant les heures de bureau. Nous répondons en français, en anglais ou en allemand, en général dans le jour ouvrable.",
+    "office": "Bureau",
+    "hoursValue": "Du lundi au vendredi, de 9h00 à 18h00 (heure de Zurich)",
+    "mapCta": "Ouvrir dans Google Maps",
+    "emailCta": "Écrire un e-mail",
+    "note": "Merci de ne pas envoyer d'informations confidentielles avant que nous ayons confirmé pouvoir agir pour vous. Notre politique de confidentialité explique comment nous traitons vos données.",
+    "directions": "Le bureau se trouve à Steinhausen, à cinq minutes en voiture de la gare de Zoug et sur la ligne de bus desservant la Hinterbergstrasse."
+  },
+  "knowledge": {
+    "eyebrow": "Guides",
+    "title": "Guides",
+    "intro": "Explications courtes et datées des questions qui nous sont le plus souvent posées. Elles décrivent le droit suisse à la date indiquée et ne constituent pas un conseil juridique pour un cas particulier.",
+    "guides": {
+      "domicile-revised-amla-2026": {
+        "title": "Domiciliation et loi sur le blanchiment d'argent révisée dès le 1er octobre 2026",
+        "summary": "Ce qui a changé pour les sociétés qui utilisent une adresse c/o en Suisse, ce qu'un fournisseur de domiciliation doit désormais demander et comment Swiss Fintech Law AG applique les règles.",
+        "sections": [
+          {
+            "heading": "Ce qui a changé le 1er octobre 2026",
+            "paragraphs": [
+              "Depuis le 1er octobre 2026, la loi fédérale révisée sur le blanchiment d'argent (LBA) soumet à la loi la fourniture à titre professionnel d'un siège ou d'une adresse à des sociétés de domicile. Une société de domicile est une société sans activité opérationnelle propre : elle détient des participations, de la propriété intellectuelle ou d'autres actifs, ou n'existe pour l'essentiel que sur le papier. Les fournisseurs d'adresses à de telles sociétés sont des intermédiaires financiers et doivent être affiliés à un organisme d'autorégulation (OAR) reconnu par la FINMA.",
+              "Jusque-là, l'offre d'une adresse était un service largement non réglementé. N'importe qui pouvait louer une adresse c/o ; personne n'était légalement tenu de demander qui se trouvait derrière la société. Cette lacune était critiquée depuis des années par le Groupe d'action financière dans ses évaluations de la Suisse. La révision la comble."
+            ]
+          },
+          {
+            "heading": "Ce qu'un fournisseur de domiciliation doit désormais faire",
+            "paragraphs": [
+              "Un fournisseur affilié à un OAR doit identifier son cocontractant sur la base de documents officiels, établir les ayants droit économiques par déclaration écrite et vérifier leur identité, comprendre le but et l'arrière-plan économique de la relation d'affaires, conserver ces documents pendant dix ans et communiquer au Bureau de communication en matière de blanchiment d'argent s'il soupçonne que des avoirs sont liés à un crime. Il doit aussi tenir à jour sa connaissance du client et appliquer des vérifications renforcées aux relations à risque accru, par exemple avec des personnes politiquement exposées ou des sociétés établies dans des pays à haut risque.",
+              "Pour les clients, l'effet pratique est une série de questions au départ : qui êtes-vous, qui détient et contrôle la société, que fait la société et d'où proviennent ses fonds. Un fournisseur qui ne les pose pas soit n'est pas soumis à la loi pour ce client, soit ne la respecte pas."
+            ]
+          },
+          {
+            "heading": "Sociétés opérationnelles et sociétés de domicile",
+            "paragraphs": [
+              "La loi distingue la fourniture d'une adresse à une société de domicile de la fourniture d'une adresse à une société ayant une activité réelle propre. Les sociétés opérationnelles, start-ups et scale-ups avec un produit, du personnel et des clients, sont traitées différemment des véhicules de détention d'actifs. Le caractère opérationnel d'une société est une question de fait, non de statuts : une holding avec un seul employé et sans activité propre reste une société de domicile.",
+              "Swiss Fintech Law AG fournit actuellement une domiciliation uniquement aux sociétés opérationnelles. Une société du groupe qui sera affiliée à un OAR est en cours de constitution pour servir les sociétés de domicile. Dans les deux cas, le client et les ayants droit économiques sont identifiés avant le début de la domiciliation."
+            ]
+          },
+          {
+            "heading": "Ce qu'il faut préparer si vous avez besoin d'une adresse suisse",
+            "paragraphs": [
+              "Préparez : un extrait récent du registre du commerce et les statuts ; les pièces d'identité et justificatifs de domicile des administrateurs et des personnes qui traiteront avec le fournisseur ; une déclaration des ayants droit économiques avec leurs pièces d'identité ; la preuve de l'activité opérationnelle comme un site web, un produit, des contrats ou du personnel ; et une explication de l'origine des fonds lorsqu'elle ne ressort pas de l'activité. Les sociétés en cours de constitution fournissent les projets de documents de constitution à la place de l'extrait.",
+              "Attendez-vous aux mêmes questions de la banque à l'ouverture du compte. Un dossier préparé une fois pour le fournisseur de domiciliation répond en général aussi à la plupart des questions de la banque."
+            ]
+          }
+        ]
+      },
+      "gmbh-vs-ag-swiss-startup": {
+        "title": "Sàrl ou SA pour une start-up suisse",
+        "summary": "Les différences pratiques entre les deux sociétés de capitaux suisses pour les fondateurs qui prévoient de lever des fonds, d'embaucher et de vendre.",
+        "sections": [
+          {
+            "heading": "Les deux formes en un paragraphe chacune",
+            "paragraphs": [
+              "La Sàrl (société à responsabilité limitée, GmbH) est une société de capitaux au capital minimum de CHF 20 000, qui doit être entièrement libéré. Ses propriétaires sont des associés ; ils détiennent des parts sociales et sont inscrits nommément au registre du commerce. Elle est gérée par un ou plusieurs gérants, dont au moins un doit être domicilié en Suisse.",
+              "La SA (société anonyme, AG) est une société de capitaux au capital minimum de CHF 100 000, dont au moins CHF 50 000 doivent être libérés à la constitution. Ses propriétaires sont des actionnaires et ne sont pas publiés au registre du commerce. Elle est administrée par un conseil d'administration ; au moins un administrateur ou un dirigeant habilité à signer doit être domicilié en Suisse. Depuis 2023, le capital peut aussi être libellé dans une monnaie étrangère essentielle à l'activité."
+            ]
+          },
+          {
+            "heading": "Pourquoi la plupart des start-ups financées par du capital-risque choisissent la SA",
+            "paragraphs": [
+              "Les actions d'une SA se transfèrent par simple cession écrite et, pour les actions nominatives, par inscription au registre des actions ; les statuts peuvent restreindre les transferts mais n'y sont pas tenus. Les catégories d'actions, par exemple des actions privilégiées avec préférence de liquidation, et le capital conditionnel ou autorisé pour les participations de collaborateurs et les instruments convertibles sont des outils standards de la SA. Les investisseurs connaissent la forme et ses documents.",
+              "Dans une Sàrl, chaque cession de part sociale requiert la forme écrite et, sauf disposition statutaire contraire, l'approbation de l'assemblée des associés, et chaque changement d'associé est publié au registre du commerce. Les parts sociales privilégiées et le capital conditionnel sont possibles mais moins souples. Pour une société qui prévoit plusieurs tours de financement, la SA économise des frictions à chaque tour."
+            ]
+          },
+          {
+            "heading": "Quand la Sàrl convient mieux",
+            "paragraphs": [
+              "Pour les entreprises gérées par leurs propriétaires, les sociétés de services et les filiales, la Sàrl est souvent le meilleur choix. L'exigence de capital est plus basse, la structure plus simple, et les associés gardent un contrôle étroit sur qui les rejoint. L'inscription publique des associés n'est un inconvénient que lorsque les propriétaires souhaitent la discrétion.",
+              "Une Sàrl peut être transformée plus tard en SA selon la loi sur la fusion, sans liquidation et, dans le cas normal, sans conséquences fiscales. La transformation avant le premier tour valorisé est courante ; elle coûte un acte notarié, une attestation de vérification et une inscription au registre."
+            ]
+          },
+          {
+            "heading": "Points communs",
+            "paragraphs": [
+              "Les deux formes confèrent une responsabilité limitée à leurs propriétaires et exigent un acte constitutif authentique, une consignation du capital auprès d'une banque suisse et une inscription au registre du commerce. Les deux doivent tenir une liste des ayants droit économiques détenant 25 pour cent ou plus du capital ou des voix. Les deux ont besoin d'un organe de révision sauf si elles sont assez petites pour y renoncer (opting-out), ce qui requiert le consentement de tous les propriétaires et moins de dix emplois à plein temps en moyenne annuelle.",
+              "Le choix se fait à la constitution, mais il n'est pas définitif. Plus que la forme, c'est la qualité des statuts, du règlement d'organisation et de la convention d'actionnaires qui compte, car ces documents déterminent comment la société est dirigée et comment les litiges sont réglés."
+            ]
+          }
+        ]
+      },
+      "swiss-representative-revdsg": {
+        "title": "Le représentant en Suisse selon la loi fédérale révisée sur la protection des données",
+        "summary": "Quand une entreprise hors de Suisse doit désigner un représentant en Suisse selon l'art. 14 LPD, ce que fait le représentant et comment le désigner.",
+        "sections": [
+          {
+            "heading": "La règle",
+            "paragraphs": [
+              "La loi fédérale révisée sur la protection des données (LPD) est en vigueur depuis le 1er septembre 2023. L'article 14 oblige le responsable du traitement privé ayant son domicile ou son siège à l'étranger à désigner un représentant en Suisse s'il traite des données personnelles de personnes en Suisse et que le traitement remplit quatre conditions cumulatives : il est en lien avec l'offre de biens ou de services à des personnes en Suisse ou avec l'observation de leur comportement ; il est à grande échelle ; il est régulier ; et il présente un risque élevé pour la personnalité des personnes concernées.",
+              "La règle s'inspire de l'article 27 du règlement général de l'UE sur la protection des données, sans être identique. Une entreprise qui a un représentant dans l'UE au titre du RGPD n'a pas pour autant de représentant en Suisse ; une désignation distincte en Suisse est nécessaire."
+            ]
+          },
+          {
+            "heading": "Ce que fait le représentant",
+            "paragraphs": [
+              "Le représentant est le point de contact en Suisse pour les personnes concernées et pour le Préposé fédéral à la protection des données et à la transparence (PFPDT). Il tient une copie du registre des activités de traitement du responsable et en fournit des informations au PFPDT sur demande. Le responsable doit publier le nom et l'adresse du représentant, en général dans sa déclaration de confidentialité.",
+              "Le représentant n'assume pas la responsabilité du responsable du traitement au sens de la loi. Il agit comme agent de communication ; les obligations de répondre aux demandes des personnes concernées et de respecter la loi restent celles du responsable étranger."
+            ]
+          },
+          {
+            "heading": "Qui est concerné en pratique",
+            "paragraphs": [
+              "Les cas typiques sont les applications grand public, les places de marché en ligne, les plateformes SaaS et les entreprises de technologie publicitaire hors de Suisse ayant une base d'utilisateurs suisses significative, ainsi que les entreprises étrangères qui profilent ou suivent des utilisateurs suisses. Les prestataires B2B qui ne traitent que les coordonnées du personnel de leurs clients remplissent rarement la condition du risque élevé.",
+              "Ne pas désigner de représentant alors qu'il est requis est puni d'une amende jusqu'à CHF 250 000 selon l'art. 60 LPD. L'amende frappe la personne physique responsable, et pas seulement l'entreprise."
+            ]
+          },
+          {
+            "heading": "Comment Swiss Fintech Law AG agit comme représentant",
+            "paragraphs": [
+              "Nous agissons comme représentant en Suisse pour des entreprises étrangères sur la base d'un mandat écrit qui définit l'étendue, le flux d'informations et les honoraires. La désignation comprend la réception et la transmission des demandes des personnes concernées et de la correspondance du PFPDT, la tenue du registre des activités de traitement et une revue de la déclaration de confidentialité au regard des exigences suisses. Honoraires sur demande."
+            ]
+          }
+        ]
       }
     }
   },
-  "docs": {
-    "title": "Documentation API",
-    "subtitle": "Référence technique complète et guides d'intégration pour les développeurs",
-    "navigation": "Navigation",
-    "backToHome": "Retour à l'accueil",
-    "sections": {
-      "getting-started": {
-        "title": "Démarrage",
-        "description": "Guide de démarrage rapide pour l'intégration avec les API et services de Swiss Fintech Law",
-        "step1": {
-          "title": "Installer le SDK",
-          "description": "Commencez par installer notre package SDK officiel pour votre plateforme préférée"
-        },
-        "step2": {
-          "title": "Initialiser le client",
-          "description": "Configurez le client avec vos identifiants API et paramètres d'environnement"
-        }
+  "legalNotice": {
+    "title": "Mentions légales",
+    "sections": [
+      {
+        "title": "Informations générales",
+        "paragraphs": [
+          "Le site www.swisstechlaw.com (le Site) est édité par Swiss Fintech Law AG, Hinterbergstrasse 53, 6312 Steinhausen, canton de Zoug, Suisse, inscrite au registre du commerce du canton de Zoug sous le numéro CHE-201.843.628 TVA (Swiss Fintech Law)."
+        ]
       },
-      "authentication": {
-        "title": "Authentification",
-        "description": "Sécurisez vos requêtes API avec des mécanismes d'authentification appropriés",
-        "apiKeys": {
-          "title": "Clés API",
-          "description": "Générez et gérez vos clés API depuis le tableau de bord développeur. Chaque clé est unique et doit être gardée en sécurité."
-        },
-        "security": "Ne jamais exposer vos clés API dans le code côté client ou les dépôts publics"
+      {
+        "title": "Coordonnées",
+        "paragraphs": [
+          "Swiss Fintech Law AG, Hinterbergstrasse 53, 6312 Steinhausen, canton de Zoug, Suisse.",
+          "Téléphone : +41 77 962 50 22. E-mail : contact@swisstechlaw.com."
+        ]
       },
-      "endpoints": {
-        "title": "Points de terminaison API",
-        "description": "Référence complète des points de terminaison API disponibles et de leur utilisation",
-        "transactions": "Gérer et interroger les transactions financières",
-        "accounts": "Gestion des comptes et opérations de solde",
-        "compliance": "Contrôles de conformité et reporting réglementaire",
-        "reports": "Générer et récupérer des rapports analytiques"
+      {
+        "title": "Personne habilitée à représenter la société",
+        "paragraphs": ["Directeur : Grégory Aillaud."]
       },
-      "webhooks": {
-        "title": "Webhooks",
-        "description": "Configurez les webhooks pour recevoir des notifications en temps réel des événements",
-        "content": "Les webhooks vous permettent de recevoir des rappels HTTP lorsque des événements spécifiques se produisent dans votre compte. Configurez les points de terminaison webhook dans votre tableau de bord."
-      },
-      "examples": {
-        "title": "Exemples de code",
-        "description": "Exemples pratiques démontrant des modèles d'intégration courants",
-        "basic": {
-          "title": "Opérations de base"
-        }
-      },
-      "support": {
-        "title": "Support & Ressources",
-        "description": "Obtenez de l'aide et connectez-vous avec notre communauté de développeurs",
-        "content": "Nous sommes là pour vous aider ! Contactez-nous via l'un de ces canaux :",
-        "email": {
-          "title": "Support par email"
-        },
-        "github": {
-          "title": "GitHub"
-        }
+      {
+        "title": "Contenu du Site",
+        "paragraphs": [
+          "Le contenu du Site est une information générale sur le cabinet et sur le droit suisse. Il ne constitue pas un conseil juridique et ne crée pas de relation de mandat. Swiss Fintech Law veille à ce que le contenu soit exact et à jour, mais ne garantit ni son exhaustivité ni son exactitude. Les liens vers des sites tiers sont fournis pour la commodité du lecteur ; Swiss Fintech Law n'a aucune influence sur leur contenu."
+        ]
       }
-    }
+    ]
+  },
+  "privacy": {
+    "title": "Politique de confidentialité",
+    "lastUpdated": "Dernière mise à jour : 5 octobre 2026",
+    "intro": "Cette politique de confidentialité explique comment Swiss Fintech Law AG traite les données personnelles lorsque vous visitez www.swisstechlaw.com ou nous contactez par ce biais. Les données personnelles des clients traitées dans le cadre d'un mandat sont en outre régies par nos conditions de mandat et par le secret professionnel. Notre application client a sa propre déclaration de confidentialité.",
+    "sections": [
+      {
+        "title": "1. Responsable du traitement",
+        "paragraphs": [
+          "Swiss Fintech Law AG, Hinterbergstrasse 53, 6312 Steinhausen, Suisse (CHE-201.843.628). E-mail : contact@swisstechlaw.com. Téléphone : +41 77 962 50 22."
+        ]
+      },
+      {
+        "title": "2. Lors de la visite du site",
+        "paragraphs": [
+          "Lorsque vous ouvrez le site, votre navigateur transmet automatiquement des données techniques telles que votre adresse IP, la date et l'heure de l'accès, les pages consultées, la page de provenance, ainsi que votre navigateur et votre système d'exploitation. Ces données sont nécessaires pour fournir le site de manière sûre et fiable et le protéger contre les abus.",
+          "Le site est hébergé sur une infrastructure située en [à confirmer]. L'hébergeur enregistre ces données techniques dans des journaux de serveur et les utilise pour des statistiques de fréquentation agrégées (par exemple le nombre de visites et les pages les plus consultées). Les requêtes vers le site transitent par Cloudflare pour la diffusion et la sécurité. Nous n'utilisons pas ces données pour identifier des visiteurs individuels, ne constituons pas de profils et n'utilisons pas d'outils publicitaires ou de suivi."
+        ]
+      },
+      {
+        "title": "3. Cookies",
+        "paragraphs": [
+          "Le site dépose un cookie technique qui mémorise la langue choisie (NEXT_LOCALE). Il ne dépose pas de cookies d'analyse ou publicitaires. Vous pouvez bloquer ou supprimer les cookies à tout moment dans les paramètres de votre navigateur ; le site reste utilisable."
+        ]
+      },
+      {
+        "title": "4. E-mail",
+        "paragraphs": [
+          "Si vous nous écrivez, nous traitons les informations que vous fournissez, telles que votre nom, adresse e-mail, numéro de téléphone, objet et message. Nous les utilisons uniquement pour répondre à votre demande et, si vous souhaitez nous mandater, pour préparer un éventuel mandat (y compris notre vérification des conflits d'intérêts).",
+          "Merci de ne pas envoyer d'informations confidentielles avant que nous ayons confirmé pouvoir agir pour vous."
+        ]
+      },
+      {
+        "title": "5. Prestataires et communications à l'étranger",
+        "paragraphs": [
+          "Nous recourons aux prestataires suivants, qui traitent des données personnelles pour notre compte et selon nos instructions : notre hébergeur [à confirmer] pour l'hébergement et les journaux de serveur ; Cloudflare, Inc. (États-Unis) pour la diffusion et la sécurité du site ; Google (Google Ireland Ltd. et Google LLC, États-Unis) pour notre messagerie (Google Workspace).",
+          "Ces prestataires peuvent traiter des données dans d'autres pays, y compris les États-Unis. Lorsqu'un pays n'offre pas un niveau de protection adéquat, les transferts sont protégés par des garanties appropriées, telles qu'une certification au titre du Swiss–US ou de l'EU–US Data Privacy Framework ou les clauses contractuelles types reconnues par le Préposé fédéral à la protection des données et à la transparence et par la Commission européenne. Nous ne vendons pas de données personnelles et ne les partageons pas avec des tiers à des fins de marketing propres."
+        ]
+      },
+      {
+        "title": "6. Base légale",
+        "paragraphs": [
+          "Nous traitons les données personnelles conformément à la loi fédérale suisse sur la protection des données (LPD). Lorsque le règlement général de l'UE sur la protection des données (RGPD) s'applique, nous nous fondons sur notre intérêt légitime à exploiter un site sûr et fonctionnel et à répondre aux demandes (art. 6 par. 1 let. f RGPD), sur les mesures précontractuelles prises à votre demande (art. 6 par. 1 let. b RGPD) et sur le respect de nos obligations légales (art. 6 par. 1 let. c RGPD)."
+        ]
+      },
+      {
+        "title": "7. Durée de conservation",
+        "paragraphs": [
+          "Les demandes qui ne débouchent pas sur un mandat sont supprimées dans les 12 mois. Lorsqu'un mandat suit, les données deviennent partie du dossier client et sont conservées pendant la durée du mandat et les délais légaux de conservation qui s'appliquent à nous en tant que cabinet. Les données techniques ne sont conservées par nos prestataires que le temps nécessaire aux finalités décrites ci-dessus."
+        ]
+      },
+      {
+        "title": "8. Vos droits",
+        "paragraphs": [
+          "Vous pouvez demander l'accès à vos données personnelles, leur rectification ou leur effacement, et vous opposer à leur traitement. Lorsque le RGPD s'applique, vous disposez également du droit à la limitation du traitement et à la portabilité des données. Pour exercer vos droits, écrivez à contact@swisstechlaw.com. Vous pouvez déposer une plainte auprès du Préposé fédéral à la protection des données et à la transparence (PFPDT) ou, dans l'UE, auprès de l'autorité de protection des données de votre pays."
+        ]
+      },
+      {
+        "title": "9. Modifications",
+        "paragraphs": [
+          "Nous pouvons mettre à jour cette politique de confidentialité de temps à autre. La version publiée sur cette page fait foi."
+        ]
+      }
+    ]
+  },
+  "terms": {
+    "title": "Conditions générales",
+    "subtitle": "Legal & Compliance. Swiss Fintech Law AG (SFL), 2024",
+    "paragraphs": []
   }
 }
