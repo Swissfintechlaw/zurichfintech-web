@@ -1,23 +1,42 @@
+import type { Metadata } from 'next';
 import { NextIntlClientProvider, hasLocale } from 'next-intl';
-import { getMessages } from 'next-intl/server';
+import { getMessages, getTranslations, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
-import { routing } from '@/i18n/routing';
+import { routing, type Locale } from '@/i18n/routing';
 import { fontVariables } from '@/lib/fonts';
+import { site } from '@/lib/site';
+import { founderJsonLd, organizationJsonLd } from '@/lib/jsonld';
+import JsonLd from '@/components/seo/JsonLd';
+import Header from '@/components/layout/Header';
+import Footer from '@/components/layout/Footer';
 import '../globals.css';
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
 
-export const metadata = {
-  title: 'Swiss Fintech Law AG - Building the Future of Tech in Switzerland',
-  description: 'Comprehensive knowledge hub and technical documentation for innovative financial technology and legal frameworks in Swiss jurisdiction',
-  keywords: 'fintech, blockchain, swiss law, financial technology, regulation, compliance',
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'meta' });
+  return {
+    metadataBase: new URL(site.url),
+    title: {
+      template: `%s | ${site.legalName}`,
+      default: site.legalName,
+    },
+    description: t('siteDescription'),
+    applicationName: site.legalName,
+    robots: { index: true, follow: true },
+  };
+}
 
 export default async function LocaleLayout({
   children,
-  params
+  params,
 }: {
   children: React.ReactNode;
   params: Promise<{ locale: string }>;
@@ -27,15 +46,30 @@ export default async function LocaleLayout({
   if (!hasLocale(routing.locales, locale)) {
     notFound();
   }
+  setRequestLocale(locale);
 
   const messages = await getMessages();
+  // Client components only need the navigation and shared labels; the long
+  // page copy stays on the server.
+  const clientMessages = { nav: messages.nav, common: messages.common };
+
+  const t = await getTranslations({ locale, namespace: 'meta' });
+  const about = await getTranslations({ locale, namespace: 'about' });
+  const founderBio = (
+    about.raw('team.members') as { id: string; bio: string }[]
+  ).find((m) => m.id === 'gregory-aillaud')?.bio;
 
   return (
     // Fonts are self-hosted by next/font — no preconnect or <link> needed.
-    <html lang={locale} className={fontVariables}>
+    <html lang={locale as Locale} className={fontVariables}>
       <body className="antialiased bg-canvas text-ink-800 font-sans">
-        <NextIntlClientProvider messages={messages}>
+        <JsonLd
+          data={[organizationJsonLd(t('siteDescription')), founderJsonLd(founderBio ?? site.founder.jobTitle)]}
+        />
+        <NextIntlClientProvider messages={clientMessages}>
+          <Header />
           {children}
+          <Footer />
         </NextIntlClientProvider>
       </body>
     </html>

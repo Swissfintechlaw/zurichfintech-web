@@ -1,5 +1,6 @@
 'use client';
 
+import { useParams } from 'next/navigation';
 import { useLocale } from 'next-intl';
 import { usePathname, useRouter } from '@/i18n/routing';
 import { routing } from '@/i18n/routing';
@@ -14,6 +15,7 @@ export default function LanguageSwitcher() {
   const locale = useLocale();
   const pathname = usePathname();
   const router = useRouter();
+  const params = useParams();
 
   return (
     <div className="flex items-center gap-3">
@@ -23,7 +25,10 @@ export default function LanguageSwitcher() {
           <button
             key={loc}
             type="button"
-            onClick={() => router.push(pathname, { locale: loc })}
+            onClick={() =>
+              // @ts-expect-error -- next-intl validates params per pathname; they always match the current route.
+              router.push({ pathname, params }, { locale: loc })
+            }
             aria-current={isActive ? 'true' : undefined}
             className={`font-mono text-[0.6875rem] tracking-[0.12em] transition-colors duration-200 ${
               isActive ? 'text-ink-900' : 'text-ink-400 hover:text-ink-700'
