@@ -21,12 +21,19 @@ const LEGACY_HOSTS = [
 const nextConfig: NextConfig = {
   output: 'standalone',
   async redirects() {
-    return LEGACY_HOSTS.map((host) => ({
+    const hosts = LEGACY_HOSTS.map((host) => ({
       source: '/:path*',
       has: [{ type: 'host' as const, value: host }],
       destination: `https://${CANONICAL_HOST}/:path*`,
       permanent: true,
     }));
+    // Old Squarespace URLs of swisstechlaw.com that have no direct equivalent.
+    const squarespacePaths = [
+      { source: '/home', destination: '/en' },
+      { source: '/corporate', destination: '/en/services' },
+      { source: '/terms-and-conditions', destination: '/en/terms' },
+    ].map((r) => ({ ...r, permanent: true }));
+    return [...hosts, ...squarespacePaths];
   },
 };
 

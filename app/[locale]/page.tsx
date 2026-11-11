@@ -6,10 +6,9 @@ import { websiteJsonLd } from '@/lib/jsonld';
 import { site } from '@/lib/site';
 import JsonLd from '@/components/seo/JsonLd';
 import Hero from '@/components/home/Hero';
-import EntryCards from '@/components/home/EntryCards';
-import PracticeAreas from '@/components/home/PracticeAreas';
-import TeamTeaser from '@/components/home/TeamTeaser';
-import Contact from '@/components/home/Contact';
+import ServicesGrid from '@/components/home/ServicesGrid';
+import TeamGrid from '@/components/home/TeamGrid';
+import ContactSection from '@/components/home/ContactSection';
 
 type Props = { params: Promise<{ locale: Locale }> };
 
@@ -28,10 +27,9 @@ export default async function HomePage({ params }: Props) {
       <JsonLd data={websiteJsonLd(site.legalName, t('siteDescription'), locale)} />
       <main>
         <Hero />
-        <EntryCards />
-        <PracticeAreas />
-        <TeamTeaser />
-        <Contact />
+        <ServicesGrid />
+        <TeamGrid />
+        <ContactSection />
       </main>
     </>
   );

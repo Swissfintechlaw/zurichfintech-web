@@ -657,14 +657,38 @@
       "eyebrow": "Cabinet",
       "title": "Faits",
       "facts": [
-        { "label": "Raison sociale", "value": "Swiss Fintech Law AG" },
-        { "label": "Forme juridique", "value": "Société anonyme de droit suisse" },
-        { "label": "Siège", "value": "Hinterbergstrasse 53, 6312 Steinhausen, canton de Zoug, Suisse" },
-        { "label": "Registre du commerce", "value": "Canton de Zoug, CHE-201.843.628" },
-        { "label": "Numéro TVA", "value": "CHE-201.843.628 TVA" },
-        { "label": "Directeur", "value": "Grégory Aillaud" },
-        { "label": "Langues de travail", "value": "Français, anglais, allemand" },
-        { "label": "Horaires", "value": "Du lundi au vendredi, de 9h00 à 18h00" }
+        {
+          "label": "Raison sociale",
+          "value": "Swiss Fintech Law AG"
+        },
+        {
+          "label": "Forme juridique",
+          "value": "Société anonyme de droit suisse"
+        },
+        {
+          "label": "Siège",
+          "value": "Hinterbergstrasse 53, 6312 Steinhausen, canton de Zoug, Suisse"
+        },
+        {
+          "label": "Registre du commerce",
+          "value": "Canton de Zoug, CHE-201.843.628"
+        },
+        {
+          "label": "Numéro TVA",
+          "value": "CHE-201.843.628 TVA"
+        },
+        {
+          "label": "Directeur",
+          "value": "Grégory Aillaud"
+        },
+        {
+          "label": "Langues de travail",
+          "value": "Français, anglais, allemand"
+        },
+        {
+          "label": "Horaires",
+          "value": "Du lundi au vendredi, de 9h00 à 18h00"
+        }
       ]
     },
     "team": {
@@ -853,7 +877,9 @@
       },
       {
         "title": "Personne habilitée à représenter la société",
-        "paragraphs": ["Directeur : Grégory Aillaud."]
+        "paragraphs": [
+          "Directeur : Grégory Aillaud."
+        ]
       },
       {
         "title": "Contenu du Site",
@@ -865,7 +891,7 @@
   },
   "privacy": {
     "title": "Politique de confidentialité",
-    "lastUpdated": "Dernière mise à jour : 5 octobre 2026",
+    "lastUpdated": "Dernière mise à jour : 11 novembre 2026",
     "intro": "Cette politique de confidentialité explique comment Swiss Fintech Law AG traite les données personnelles lorsque vous visitez www.swisstechlaw.com ou nous contactez par ce biais. Les données personnelles des clients traitées dans le cadre d'un mandat sont en outre régies par nos conditions de mandat et par le secret professionnel. Notre application client a sa propre déclaration de confidentialité.",
     "sections": [
       {
@@ -878,7 +904,8 @@
         "title": "2. Lors de la visite du site",
         "paragraphs": [
           "Lorsque vous ouvrez le site, votre navigateur transmet automatiquement des données techniques telles que votre adresse IP, la date et l'heure de l'accès, les pages consultées, la page de provenance, ainsi que votre navigateur et votre système d'exploitation. Ces données sont nécessaires pour fournir le site de manière sûre et fiable et le protéger contre les abus.",
-          "Le site est hébergé sur une infrastructure située en [à confirmer]. L'hébergeur enregistre ces données techniques dans des journaux de serveur et les utilise pour des statistiques de fréquentation agrégées (par exemple le nombre de visites et les pages les plus consultées). Les requêtes vers le site transitent par Cloudflare pour la diffusion et la sécurité. Nous n'utilisons pas ces données pour identifier des visiteurs individuels, ne constituons pas de profils et n'utilisons pas d'outils publicitaires ou de suivi."
+          "Le site est hébergé par Vercel Inc. (États-Unis). L'hébergeur enregistre ces données techniques dans des journaux de serveur et les utilise pour des statistiques de fréquentation agrégées (par exemple le nombre de visites et les pages les plus consultées). Les requêtes vers le site transitent par Cloudflare pour la diffusion et la sécurité. Nous n'utilisons pas ces données pour identifier des visiteurs individuels, ne constituons pas de profils et n'utilisons pas d'outils publicitaires ou de suivi.",
+          "La page d'accueil affiche une carte Google Maps. Lors de son chargement, votre navigateur se connecte à Google, qui reçoit votre adresse IP et des données techniques selon sa propre politique de confidentialité."
         ]
       },
       {
@@ -891,13 +918,14 @@
         "title": "4. E-mail",
         "paragraphs": [
           "Si vous nous écrivez, nous traitons les informations que vous fournissez, telles que votre nom, adresse e-mail, numéro de téléphone, objet et message. Nous les utilisons uniquement pour répondre à votre demande et, si vous souhaitez nous mandater, pour préparer un éventuel mandat (y compris notre vérification des conflits d'intérêts).",
+          "Les messages envoyés via le formulaire de contact sont transmis par notre prestataire d'e-mail directement à notre boîte de réception ; le site lui-même ne les conserve pas.",
           "Merci de ne pas envoyer d'informations confidentielles avant que nous ayons confirmé pouvoir agir pour vous."
         ]
       },
       {
         "title": "5. Prestataires et communications à l'étranger",
         "paragraphs": [
-          "Nous recourons aux prestataires suivants, qui traitent des données personnelles pour notre compte et selon nos instructions : notre hébergeur [à confirmer] pour l'hébergement et les journaux de serveur ; Cloudflare, Inc. (États-Unis) pour la diffusion et la sécurité du site ; Google (Google Ireland Ltd. et Google LLC, États-Unis) pour notre messagerie (Google Workspace).",
+          "Nous recourons aux prestataires suivants, qui traitent des données personnelles pour notre compte et selon nos instructions : Vercel Inc. (États-Unis) pour l'hébergement et les journaux de serveur ; Resend (États-Unis) pour la transmission des messages envoyés via le formulaire de contact ; Cloudflare, Inc. (États-Unis) pour la diffusion et la sécurité du site ; Google (Google Ireland Ltd. et Google LLC, États-Unis) pour notre messagerie (Google Workspace) et pour la carte de la page d'accueil (Google Maps).",
           "Ces prestataires peuvent traiter des données dans d'autres pays, y compris les États-Unis. Lorsqu'un pays n'offre pas un niveau de protection adéquat, les transferts sont protégés par des garanties appropriées, telles qu'une certification au titre du Swiss–US ou de l'EU–US Data Privacy Framework ou les clauses contractuelles types reconnues par le Préposé fédéral à la protection des données et à la transparence et par la Commission européenne. Nous ne vendons pas de données personnelles et ne les partageons pas avec des tiers à des fins de marketing propres."
         ]
       },
@@ -931,5 +959,294 @@
     "title": "Conditions générales",
     "subtitle": "Legal & Compliance. Swiss Fintech Law AG (SFL), 2024",
     "paragraphs": []
+  },
+  "sq": {
+    "nav": {
+      "home": "Accueil",
+      "services": "Services",
+      "corporate": "Droit des sociétés",
+      "fintech": "Réglementation fintech",
+      "venture": "Capital-risque",
+      "ma": "Fusions & acquisitions",
+      "team": "Équipe",
+      "contact": "Contact",
+      "openMenu": "Ouvrir le menu",
+      "closeMenu": "Fermer le menu"
+    },
+    "hero": {
+      "title": "Swiss Fintech Law",
+      "subtitle": "Votre expert juridique entièrement dédié au droit des nouvelles technologies",
+      "cta": "Contact"
+    },
+    "services": {
+      "title": "Services",
+      "learnMore": "En savoir plus",
+      "cards": [
+        {
+          "id": "corporate",
+          "title": "Droit des sociétés",
+          "text": "Nous disposons d’une solide expérience en droit des sociétés, de la gouvernance aux transactions.",
+          "image": "/images/site/corporate.webp"
+        },
+        {
+          "id": "fintech",
+          "title": "Réglementation fintech",
+          "text": "Nous obtenons les autorisations réglementaires des sociétés fintech, notamment des intermédiaires financiers et des prestataires de services de paiement.",
+          "image": "/images/site/regulatory.webp"
+        },
+        {
+          "id": "venture-capital",
+          "title": "Capital-risque & Private Equity",
+          "text": "Nous conseillons les start-up, les fonds de capital-risque et de private equity dans leurs opérations de financement, telles que les SAFE et les prises de participation.",
+          "image": "/images/site/venture-capital.webp"
+        },
+        {
+          "id": "manda",
+          "title": "Fusions & acquisitions",
+          "text": "Nous conseillons lors de l’acquisition et de la cession de petites et moyennes entreprises opérationnelles, de la start-up à la série C, dans les domaines de la fintech, de la DLT, de l’IA et de la cybersécurité.",
+          "image": "/images/site/ma.webp"
+        }
+      ]
+    },
+    "team": {
+      "title": "Équipe",
+      "readBio": "Lire la bio",
+      "members": [
+        {
+          "id": "sandra_schnider",
+          "name": "Sandra Schnider",
+          "role": "Finance & Compliance",
+          "image": "/images/site/sandra-schnider.webp"
+        },
+        {
+          "id": "gregory-aillaud",
+          "name": "Grégory Aillaud",
+          "role": "Avocat senior",
+          "image": "/images/site/gregory-aillaud.webp"
+        }
+      ]
+    },
+    "contact": {
+      "title": "Contact",
+      "form": {
+        "name": "Nom",
+        "firstName": "Prénom",
+        "lastName": "Nom de famille",
+        "required": "(obligatoire)",
+        "email": "E-mail",
+        "subject": "Objet",
+        "message": "Message",
+        "send": "Envoyer",
+        "mapTitle": "Plan : Hinterbergstrasse 53, 6312 Steinhausen",
+        "sending": "Envoi en cours…",
+        "sent": "Merci. Votre message a été envoyé ; nous répondons en général dans un délai d’un jour ouvrable.",
+        "error": "Le message n’a pas pu être envoyé. Merci de nous écrire à contact@swisstechlaw.com."
+      }
+    },
+    "footer": {
+      "category": "Catégorie",
+      "services": "Services",
+      "about": "À propos",
+      "contact": "Contact",
+      "related": "Liens",
+      "lodge": "Swiss Fintech Lodge",
+      "legal": "Informations légales",
+      "terms": "Conditions générales",
+      "legalNotice": "Mentions légales",
+      "privacy": "Protection des données",
+      "language": "Langue"
+    },
+    "servicesPage": {
+      "title": "Services",
+      "sections": [
+        {
+          "id": "corporate",
+          "title": "Droit des sociétés",
+          "image": "/images/site/corporate.webp",
+          "items": [
+            {
+              "title": "Avant la constitution",
+              "text": [
+                "Conseil juridique avant la création : choix de la forme juridique, capital social, gouvernance et positionnement réglementaire de votre projet."
+              ]
+            },
+            {
+              "title": "Start-up",
+              "text": [
+                "Conseil juridique pour la constitution de sociétés et de fondations : statuts, règlements d’organisation, conventions de fondateurs et d’actionnaires."
+              ]
+            },
+            {
+              "title": "Gouvernance d’entreprise",
+              "text": [
+                "Accompagnement juridique des assemblées générales ordinaires et extraordinaires, des modifications du capital, des questions relevant du conseil d’administration et des liquidations de sociétés opérationnelles."
+              ]
+            },
+            {
+              "title": "Transactions de droit des sociétés",
+              "text": [
+                "Rédaction et négociation de contrats de droit des sociétés et de documents de transaction."
+              ]
+            },
+            {
+              "title": "Cybersécurité, droit des TI & protection des données",
+              "text": [
+                "La cybercriminalité est la menace la plus importante pour les entreprises. Une protection insuffisante expose en outre la direction à d’importants risques de responsabilité personnelle. Nous conseillons les entreprises et leurs dirigeants sur la gestion optimale des cyber-risques."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "fintech",
+          "title": "Réglementation fintech",
+          "image": "/images/site/regulatory.webp",
+          "items": [
+            {
+              "title": "Affiliation d’intermédiaires financiers",
+              "text": [
+                "Demande d’affiliation de nouveaux intermédiaires financiers à un organisme d’autorégulation (OAR)",
+                "L’affiliation à un OAR est aussi appelée, de manière approximative, « licence VASP »"
+              ]
+            },
+            {
+              "title": "Autorisation de gestionnaire de fortune",
+              "text": [
+                "Demande d’autorisation de gestionnaire de fortune auprès de la FINMA"
+              ]
+            },
+            {
+              "title": "Prestataires de services de paiement",
+              "text": [
+                "Préparation des documents contractuels liés aux activités des prestataires de services de paiement"
+              ]
+            },
+            {
+              "title": "No action letters de la FINMA",
+              "text": [
+                "Demande de no action letter auprès du régulateur. La FINMA délivre une no action letter après avoir pris connaissance du projet et l’avoir clairement compris. Il s’agit d’une forme de confirmation informelle de la FINMA que les autorités de surveillance n’engageront pas de procédure administrative ou judiciaire contre l’acteur du marché."
+              ]
+            },
+            {
+              "title": "Régulation des marchés financiers & technologie",
+              "text": [
+                "Nous allions notre enthousiasme pour la technologie à notre expertise juridique en droit des marchés financiers et en transactions. Cela nous permet de transposer des technologies complexes dans les régimes juridiques établis et de trouver des solutions optimales pour nos clients."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "venture-capital",
+          "title": "Capital-risque & Private Equity",
+          "image": "/images/site/venture-capital.webp",
+          "items": [
+            {
+              "title": "SAFE",
+              "text": [
+                "Rédaction de SAFE (Simple Agreement for Future Equity) et de toutes les opérations qui en découlent"
+              ]
+            },
+            {
+              "title": "Contrat d’investissement",
+              "text": [
+                "Rédaction de contrats d’investissement en capital et de toutes les opérations de financement qui en découlent"
+              ]
+            },
+            {
+              "title": "Accompagnement des levées de fonds",
+              "text": [
+                "Accompagnement des start-up, des investisseurs en capital-risque et en private equity lors des levées de fonds et des prises de participation."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "manda",
+          "title": "Fusions & acquisitions",
+          "image": "/images/site/ma.webp",
+          "items": [
+            {
+              "title": "Achat et vente de PME",
+              "text": [
+                "Conseil juridique aux acheteurs et vendeurs de petites et moyennes entreprises opérationnelles, en particulier dans la tech et la fintech."
+              ]
+            },
+            {
+              "title": "Transactions transfrontalières",
+              "text": [
+                "Représentation juridique d’acheteurs stratégiques et financiers, de vendeurs et de sociétés cibles dans des transactions de fusions et acquisitions transfrontalières et nationales portant sur des entreprises opérationnelles."
+              ]
+            },
+            {
+              "title": "Spin-offs et carve-outs",
+              "text": [
+                "Structuration et mise en œuvre de joint-ventures, de spin-offs et de carve-outs, en particulier pour des sociétés actives dans la fintech, la DLT, la cybersécurité et l’IA"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "aboutPage": {
+      "title": "Équipe",
+      "members": [
+        {
+          "id": "gregory-aillaud",
+          "name": "Grégory Aillaud",
+          "image": "/images/site/gregory-aillaud.webp",
+          "bio": "Grégory est un avocat d’affaires passionné de technologies et d’innovation. Il a été juriste unique de MTUDDA (Rolls-Royce Power Systems), assistant de juge au Tribunal de Grande Instance et avocat M&A chez Mercedes-Benz Australia.",
+          "education": {
+            "title": "Formation",
+            "items": [
+              {
+                "school": "College of Law",
+                "degree": "Graduate Diploma in Legal Practice Management"
+              },
+              {
+                "school": "Université d’Aix-Marseille III",
+                "degree": "LLM en droit européen des affaires"
+              },
+              {
+                "school": "Université de Tours",
+                "degree": "Master en droit international et européen"
+              },
+              {
+                "school": "University of Sydney",
+                "degree": "Diploma of Law, Legal Profession Admission Board"
+              }
+            ]
+          },
+          "admissions": {
+            "title": "Admissions au barreau",
+            "items": [
+              "Solicitor & Barrister - Supreme Court of New South Wales (2011)",
+              "Solicitor & Barrister - Supreme Court of Victoria (2015)"
+            ]
+          }
+        },
+        {
+          "id": "sandra_schnider",
+          "name": "Sandra Schnider",
+          "image": "/images/site/sandra-schnider.webp",
+          "bio": "Sandra possède 25 ans d’expérience dans les secteurs bancaire et financier, où elle a occupé des postes clés tels que Chief Controller, CFO et Head of Compliance. Au cours de sa carrière, elle a accompagné de nombreuses entreprises dans la mise en place de leurs fonctions compliance et financières. Elle conseille également en matière de restructuration organisationnelle et financière.",
+          "education": {
+            "title": "Formation",
+            "items": [
+              {
+                "school": "Master en management des entreprises",
+                "degree": "Université de Grenoble"
+              },
+              {
+                "school": "Bachelor en économie monétaire et financière",
+                "degree": "Université de Genève"
+              },
+              {
+                "school": "IMD Strategic Marketing and Management Program",
+                "degree": "IMD Business School"
+              }
+            ]
+          }
+        }
+      ]
+    }
   }
 }

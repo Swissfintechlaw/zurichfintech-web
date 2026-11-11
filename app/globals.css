@@ -10,55 +10,53 @@
    ========================================================================== */
 
 @theme {
-  /* --- Type ------------------------------------------------------------ */
-  --font-serif: var(--font-spectral), Georgia, 'Times New Roman', serif;
-  --font-sans: var(--font-arimo), 'Helvetica Neue', Arial, sans-serif;
-  --font-mono: var(--font-plex-mono), ui-monospace, 'SFMono-Regular', monospace;
+  /* --- Type: Roboto everywhere, as on the original Squarespace site ------ */
+  --font-serif: var(--font-roboto), 'Helvetica Neue', Arial, sans-serif;
+  --font-sans: var(--font-roboto), 'Helvetica Neue', Arial, sans-serif;
+  --font-mono: var(--font-roboto), 'Helvetica Neue', Arial, sans-serif;
 
-  --text-display: 5.25rem;
-  --text-display--line-height: 1.02;
+  --text-display: 4.15rem;
+  --text-display--line-height: 0.97;
 
   /* --- Ink (grayscale) ------------------------------------------------- */
   --color-ink-000: #ffffff;
   --color-ink-100: #ececec;
-  --color-ink-200: #d9d9d9;
+  --color-ink-200: #dcdcdc;
   --color-ink-300: #c4c4c4;
   --color-ink-400: #9a9a9a;
-  --color-ink-500: #858585;
-  --color-ink-600: #666666;
+  --color-ink-500: #7a7a7a;
+  --color-ink-600: #5c5c5c;
   --color-ink-700: #3d3d3d;
-  --color-ink-800: #222222;
-  --color-ink-900: #171717;
+  --color-ink-800: #1c1c1c;
+  --color-ink-900: #000000;
 
-  /* --- Sand (warm neutral) --------------------------------------------- */
-  --color-sand-50: #f8f5ef;
-  --color-sand-100: #f1ebe0;
-  --color-sand-200: #e6ddcc;
-  --color-sand-300: #d8cdba;
-  --color-sand-400: #bcac93;
-  --color-sand-500: #9a8c72;
-  --color-sand-600: #7a6e58;
+  /* --- Former warm/bronze/coral tokens, now the site's neutral greys ---- */
+  --color-sand-50: #fafafa;
+  --color-sand-100: #f2f2f2;
+  --color-sand-200: #e6e6e6;
+  --color-sand-300: #d6d6d6;
+  --color-sand-400: #b3b3b3;
+  --color-sand-500: #8c8c8c;
+  --color-sand-600: #6b6b6b;
 
-  /* --- Bronze (accent) -------------------------------------------------- */
-  --color-bronze-100: #eadfca;
-  --color-bronze-300: #cbab7c;
-  --color-bronze-500: #b08d57;
-  --color-bronze-600: #96733f;
-  --color-bronze-700: #785a2f;
+  --color-bronze-100: #e6e6e6;
+  --color-bronze-300: #a0a0a0;
+  --color-bronze-500: #7a7a7a;
+  --color-bronze-600: #4a4a4a;
+  --color-bronze-700: #333333;
 
-  /* --- Coral / terracotta (single-CTA signal) --------------------------- */
-  --color-coral-100: #f3ddd4;
-  --color-coral-300: #e4917a;
-  --color-coral-500: #c05746;
-  --color-coral-600: #a5412f;
-  --color-coral-700: #822f20;
+  --color-coral-100: #ececec;
+  --color-coral-300: #8a8a8a;
+  --color-coral-500: #000000;
+  --color-coral-600: #333333;
+  --color-coral-700: #000000;
 
   /* --- Semantic surfaces ------------------------------------------------ */
-  --color-canvas: #f8f5ef;
+  --color-canvas: #ffffff;
   --color-surface: #ffffff;
-  --color-surface-warm: #fdfbf7;
-  --color-surface-sunk: #f1ebe0;
-  --color-surface-ink: #171717;
+  --color-surface-warm: #ffffff;
+  --color-surface-sunk: #fafafa;
+  --color-surface-ink: #242424;
 
   /* --- Radii ------------------------------------------------------------ */
   --radius-sm: 2px;
@@ -66,15 +64,45 @@
   --radius-lg: 8px;
   --radius-xl: 14px;
 
-  /* --- Shadows (quiet) --------------------------------------------------- */
-  --shadow-xs: 0 1px 2px rgba(23, 23, 23, 0.05);
-  --shadow-sm: 0 2px 6px rgba(23, 23, 23, 0.06);
-  --shadow-md: 0 6px 20px rgba(23, 23, 23, 0.08);
-  --shadow-lg: 0 20px 48px rgba(23, 23, 23, 0.12);
+  /* --- Shadows ---------------------------------------------------------- */
+  --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-sm: 0 2px 6px rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 6px 20px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 20px 48px rgba(0, 0, 0, 0.12);
 
-  /* --- Motion (quiet, no bounce) ---------------------------------------- */
+  /* --- Motion ----------------------------------------------------------- */
   --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
   --ease-standard: cubic-bezier(0.2, 0, 0, 1);
+}
+
+/* Fluid type scale measured on the Squarespace site (1440 / 1024 / 390 px). */
+:root {
+  --gutter: 6vw;
+  --fs-h1: 46.4px;
+  --fs-h2: 31.2px;
+  --fs-h3: 18px;
+  --fs-h4: 20px;
+  --fs-body: 17px;
+  --fs-large: 20px;
+  --fs-small: 15px;
+  --fs-card: 14px;
+  --fs-button: 14px;
+  --fs-logo: 23px;
+}
+@media (min-width: 768px) {
+  :root {
+    --gutter: 4vw;
+    --fs-h1: calc(19.55px + 3.254vw);
+    --fs-h2: calc(17.77px + 1.627vw);
+    --fs-h3: calc(16.24px + 0.217vw);
+    --fs-h4: calc(16.47px + 0.434vw);
+    --fs-body: calc(16.12px + 0.1085vw);
+    --fs-large: calc(16.47px + 0.434vw);
+    --fs-small: 14.3px;
+    --fs-card: 12.6px;
+    --fs-button: 12.6px;
+    --fs-logo: calc(16.82px + 0.76vw);
+  }
 }
 
 /* ==========================================================================
@@ -84,8 +112,7 @@
 @layer base {
   html {
     scroll-behavior: smooth;
-    /* Header is 72px tall; keep anchored sections clear of it */
-    scroll-padding-top: 5rem;
+        scroll-padding-top: 1rem;
   }
 
   body {
@@ -101,13 +128,13 @@
   }
 
   ::selection {
-    background: var(--color-bronze-100);
+    background: #dcdcdc;
     color: var(--color-ink-900);
   }
 
   :focus-visible {
     outline: none;
-    box-shadow: 0 0 0 3px rgba(176, 141, 87, 0.35);
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.25);
   }
 
   /* Scrollbar, tuned to the warm neutral palette */
@@ -129,6 +156,48 @@
 /* ==========================================================================
    Utilities
    ========================================================================== */
+
+/* Squarespace-style pill button: uppercase, 500 weight, slight tracking */
+@utility btn-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 300px;
+  padding: 1.5em 2em;
+  font-size: var(--fs-button);
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  line-height: 1;
+  transition: opacity 0.2s ease;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+/* Squarespace-style headings */
+@utility sq-h1 {
+  font-size: var(--fs-h1);
+  line-height: 0.968;
+  letter-spacing: -0.02em;
+  font-weight: 400;
+}
+@utility sq-h2 {
+  font-size: var(--fs-h2);
+  line-height: 1.034;
+  letter-spacing: -0.02em;
+  font-weight: 400;
+}
+@utility sq-h4 {
+  font-size: var(--fs-h4);
+  line-height: 1.082;
+  letter-spacing: -0.02em;
+  font-weight: 400;
+}
+@utility sq-gutter {
+  padding-left: var(--gutter);
+  padding-right: var(--gutter);
+}
 
 /* Eyebrow label: mono, tracked-out, uppercase */
 @utility eyebrow {

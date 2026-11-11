@@ -51,7 +51,12 @@ export default async function LocaleLayout({
   const messages = await getMessages();
   // Client components only need the navigation and shared labels; the long
   // page copy stays on the server.
-  const clientMessages = { nav: messages.nav, common: messages.common };
+  const sq = messages.sq as Record<string, unknown>;
+  const clientMessages = {
+    nav: messages.nav,
+    common: messages.common,
+    sq: { nav: sq.nav, footer: sq.footer, contact: sq.contact },
+  };
 
   const t = await getTranslations({ locale, namespace: 'meta' });
   const about = await getTranslations({ locale, namespace: 'about' });
@@ -62,7 +67,7 @@ export default async function LocaleLayout({
   return (
     // Fonts are self-hosted by next/font — no preconnect or <link> needed.
     <html lang={locale as Locale} className={fontVariables}>
-      <body className="antialiased bg-canvas text-ink-800 font-sans">
+      <body className="antialiased bg-white text-ink-800 font-sans">
         <JsonLd
           data={[organizationJsonLd(t('siteDescription')), founderJsonLd(founderBio ?? site.founder.jobTitle)]}
         />

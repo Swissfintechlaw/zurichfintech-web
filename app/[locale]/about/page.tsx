@@ -1,28 +1,20 @@
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import type { Locale } from '@/i18n/routing';
 import { breadcrumbs, pageMetadata } from '@/lib/seo';
 import { personJsonLd } from '@/lib/jsonld';
 import JsonLd from '@/components/seo/JsonLd';
-import PageIntro from '@/components/page/PageIntro';
-import Section from '@/components/page/Section';
-import CtaBanner from '@/components/page/CtaBanner';
-import Card from '@/components/ui/Card';
 
 type Props = { params: Promise<{ locale: Locale }> };
 
 interface Member {
   id: string;
   name: string;
-  role: string;
+  image: string;
   bio: string;
-  education: { title: string; items: string[] };
+  education: { title: string; items: { school: string; degree: string }[] };
   admissions?: { title: string; items: string[] };
-}
-
-interface Fact {
-  label: string;
-  value: string;
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -30,77 +22,82 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return pageMetadata({ locale, route: '/about', metaKey: 'about' });
 }
 
+/** Team page with the layout of the original Squarespace page: photo and bio, alternating sides. */
 export default async function AboutPage({ params }: Props) {
   const { locale } = await params;
   setRequestLocale(locale);
-  const t = await getTranslations({ locale, namespace: 'about' });
+  const sq = await getTranslations({ locale, namespace: 'sq.aboutPage' });
+  const about = await getTranslations({ locale, namespace: 'about' });
   const common = await getTranslations({ locale, namespace: 'common' });
 
-  const facts = t.raw('firm.facts') as Fact[];
-  const members = t.raw('team.members') as Member[];
+  const members = sq.raw('members') as Member[];
+  const legacy = about.raw('team.members') as { id: string; name: string; role: string; bio: string }[];
   const trail = breadcrumbs(locale, [
     { label: common('home'), route: '/' },
-    { label: t('title'), route: '/about' },
+    { label: sq('title'), route: '/about' },
   ]);
   // The founder's Person entity is already emitted site-wide in the locale layout.
-  const people = members.filter((m) => m.id !== 'gregory-aillaud').map((m) => personJsonLd(m.name, m.role, m.bio));
+  const people = legacy.filter((m) => m.id !== 'gregory-aillaud').map((m) => personJsonLd(m.name, m.role, m.bio));
+
+  const h4 = 'text-[length:var(--fs-h4)] leading-[1.082] tracking-[-0.02em] text-black';
+  const small = 'text-[14.27px] leading-[1.3] text-ink-800';
 
   return (
     <>
       <JsonLd data={[trail.jsonLd, ...people]} />
-      <main>
-        <PageIntro eyebrow={t('eyebrow')} title={t('title')} intro={t('intro')} crumbs={trail.crumbs} />
+      <main className="bg-white md:pb-[18vw]">
+        <div className="sq-gutter pt-[50px] md:px-[8vw] md:pt-[52px]">
+          <h1 className="sq-h2 text-center text-ink-800">{sq('title')}</h1>
+        </div>
 
-        <Section id="firm" eyebrow={t('firm.eyebrow')} title={t('firm.title')}>
-          <dl className="grid max-w-4xl gap-x-12 gap-y-6 sm:grid-cols-2">
-            {facts.map((fact) => (
-              <div key={fact.label} className="border-t border-ink-300 pt-4">
-                <dt className="eyebrow text-ink-500">{fact.label}</dt>
-                <dd className="mt-2 text-sm leading-relaxed text-ink-800">{fact.value}</dd>
-              </div>
-            ))}
-          </dl>
-        </Section>
-
-        <Section id="team" tone="sunk" eyebrow={t('team.eyebrow')} title={t('team.title')}>
-          <div className="grid gap-6 lg:grid-cols-2">
-            {members.map((member) => (
-              <Card key={member.id} className="p-8 lg:p-10">
-                <h3 className="font-serif text-3xl font-normal leading-snug text-ink-900">{member.name}</h3>
-                <p className="eyebrow mt-3 text-bronze-600">{member.role}</p>
-                <p className="mt-6 text-base leading-relaxed text-ink-700">{member.bio}</p>
-
-                <div className="mt-8 grid gap-8 sm:grid-cols-2">
-                  <div>
-                    <p className="eyebrow text-ink-500">{member.education.title}</p>
-                    <ul className="mt-3 space-y-2">
-                      {member.education.items.map((item) => (
-                        <li key={item} className="text-sm leading-relaxed text-ink-700">
-                          {item}
-                        </li>
-                      ))}
-                    </ul>
+        {members.map((m, i) => {
+          const photoRight = i % 2 === 1;
+          return (
+            <section
+              key={m.id}
+              id={m.id}
+              className="sq-gutter scroll-mt-4 py-[40px] md:px-[8vw] md:py-[57px]"
+            >
+              <div className={`mx-auto grid max-w-[1210px] gap-10 md:gap-[8vw] ${photoRight ? 'md:grid-cols-[2fr_1fr]' : 'md:grid-cols-[1fr_2fr]'}`}>
+                <div className={`flex items-start ${photoRight ? 'md:order-2 md:justify-center' : 'md:justify-start md:pl-[5px]'}`}>
+                  <div className={`relative aspect-[3/4] w-full ${photoRight ? 'max-w-[243px]' : 'max-w-[234px]'}`}>
+                    <Image src={m.image} alt={m.name} fill sizes="243px" className="object-cover" />
                   </div>
-                  {member.admissions && (
+                </div>
+                <div className={photoRight ? 'md:order-1' : ''}>
+                  <h2 className={`${h4} font-bold`}>{m.name}</h2>
+                  <p className={`${small} mt-8`}>{m.bio}</p>
+                  <div className={`mt-10 grid gap-10 ${m.admissions ? 'sm:grid-cols-2 sm:gap-[115px]' : ''}`}>
                     <div>
-                      <p className="eyebrow text-ink-500">{member.admissions.title}</p>
-                      <ul className="mt-3 space-y-2">
-                        {member.admissions.items.map((item) => (
-                          <li key={item} className="text-sm leading-relaxed text-ink-700">
-                            {item}
+                      <h3 className={h4}>{m.education.title}</h3>
+                      <ul className="mt-8 space-y-4">
+                        {m.education.items.map((e) => (
+                          <li key={e.school} className={small}>
+                            <strong>{e.school}</strong>
+                            <br />
+                            {e.degree}
                           </li>
                         ))}
                       </ul>
                     </div>
-                  )}
+                    {m.admissions && (
+                      <div>
+                        <h3 className={h4}>{m.admissions.title}</h3>
+                        <ul className="mt-8 space-y-1">
+                          {m.admissions.items.map((a) => (
+                            <li key={a} className={small}>
+                              •{a}
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
+                  </div>
                 </div>
-              </Card>
-            ))}
-          </div>
-          <p className="mt-10 max-w-3xl text-xs leading-relaxed text-ink-500">{t('note')}</p>
-        </Section>
-
-        <CtaBanner title={t('cta.title')} text={t('cta.text')} cta={t('cta.cta')} />
+              </div>
+            </section>
+          );
+        })}
       </main>
     </>
   );

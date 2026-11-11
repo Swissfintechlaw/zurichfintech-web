@@ -1,31 +1,14 @@
-import { Spectral, Arimo, IBM_Plex_Mono } from 'next/font/google';
+import { Roboto } from 'next/font/google';
 
 /**
- * SFL brand type stack:
- * - Spectral      — serif display, used for headlines and pull statements
- * - Arimo         — Arial-metric sans, used for all UI and body copy
- * - IBM Plex Mono — mono, used for references (contact details, labels)
+ * Type stack copied from the original Squarespace site: Roboto throughout,
+ * regular weight for headings, 500 for buttons, 700 for bold inline text.
  */
-
-export const spectral = Spectral({
-  subsets: ['latin'],
-  weight: ['300', '400', '600'],
-  style: ['normal', 'italic'],
+export const roboto = Roboto({
+  subsets: ['latin', 'latin-ext'],
+  weight: ['400', '500', '700'],
   display: 'swap',
-  variable: '--font-spectral',
+  variable: '--font-roboto',
 });
 
-export const arimo = Arimo({
-  subsets: ['latin'],
-  display: 'swap',
-  variable: '--font-arimo',
-});
-
-export const ibmPlexMono = IBM_Plex_Mono({
-  subsets: ['latin'],
-  weight: ['400', '500'],
-  display: 'swap',
-  variable: '--font-plex-mono',
-});
-
-export const fontVariables = `${spectral.variable} ${arimo.variable} ${ibmPlexMono.variable}`;
+export const fontVariables = roboto.variable;

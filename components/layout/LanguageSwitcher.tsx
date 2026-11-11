@@ -30,8 +30,8 @@ export default function LanguageSwitcher() {
               router.push({ pathname, params }, { locale: loc })
             }
             aria-current={isActive ? 'true' : undefined}
-            className={`font-mono text-[0.6875rem] tracking-[0.12em] transition-colors duration-200 ${
-              isActive ? 'text-ink-900' : 'text-ink-400 hover:text-ink-700'
+            className={`text-[12.6px] tracking-[0.05em] transition-opacity duration-200 ${
+              isActive ? 'underline underline-offset-4' : 'opacity-60 hover:opacity-100'
             }`}
           >
             {LANGUAGE_NAMES[loc]}

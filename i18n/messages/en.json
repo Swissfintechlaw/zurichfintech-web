@@ -657,14 +657,38 @@
       "eyebrow": "Firm",
       "title": "Facts",
       "facts": [
-        { "label": "Legal name", "value": "Swiss Fintech Law AG" },
-        { "label": "Legal form", "value": "Company limited by shares (Aktiengesellschaft) under Swiss law" },
-        { "label": "Seat", "value": "Hinterbergstrasse 53, 6312 Steinhausen, Canton Zug, Switzerland" },
-        { "label": "Commercial register", "value": "Canton of Zug, CHE-201.843.628" },
-        { "label": "VAT number", "value": "CHE-201.843.628 MWST" },
-        { "label": "Managing director", "value": "Grégory Aillaud" },
-        { "label": "Working languages", "value": "English, German, French" },
-        { "label": "Office hours", "value": "Monday to Friday, 09:00 to 18:00" }
+        {
+          "label": "Legal name",
+          "value": "Swiss Fintech Law AG"
+        },
+        {
+          "label": "Legal form",
+          "value": "Company limited by shares (Aktiengesellschaft) under Swiss law"
+        },
+        {
+          "label": "Seat",
+          "value": "Hinterbergstrasse 53, 6312 Steinhausen, Canton Zug, Switzerland"
+        },
+        {
+          "label": "Commercial register",
+          "value": "Canton of Zug, CHE-201.843.628"
+        },
+        {
+          "label": "VAT number",
+          "value": "CHE-201.843.628 MWST"
+        },
+        {
+          "label": "Managing director",
+          "value": "Grégory Aillaud"
+        },
+        {
+          "label": "Working languages",
+          "value": "English, German, French"
+        },
+        {
+          "label": "Office hours",
+          "value": "Monday to Friday, 09:00 to 18:00"
+        }
       ]
     },
     "team": {
@@ -853,7 +877,9 @@
       },
       {
         "title": "Authorised representative",
-        "paragraphs": ["Managing Director: Grégory Aillaud."]
+        "paragraphs": [
+          "Managing Director: Grégory Aillaud."
+        ]
       },
       {
         "title": "Content of the Website",
@@ -865,7 +891,7 @@
   },
   "privacy": {
     "title": "Privacy policy",
-    "lastUpdated": "Last updated: 5 October 2026",
+    "lastUpdated": "Last updated: 11 November 2026",
     "intro": "This privacy policy explains how Swiss Fintech Law AG processes personal data when you visit www.swisstechlaw.com or contact us through it. Personal data of clients processed in the course of a mandate is additionally governed by our engagement terms and by professional secrecy. Our client app has its own privacy notice.",
     "sections": [
       {
@@ -878,7 +904,8 @@
         "title": "2. When you visit the website",
         "paragraphs": [
           "When you open the website, your browser automatically transmits technical data such as your IP address, the date and time of access, the pages viewed, the referring page, and your browser and operating system. This data is needed to deliver the website securely and reliably, and to protect it against misuse.",
-          "The website is hosted on infrastructure in [to be confirmed]. The hosting provider records this technical data in server logs and uses it for aggregated visitor statistics (for example, the number of visits and the most viewed pages). Requests to the website are routed through Cloudflare for delivery and security. We do not use the data to identify individual visitors, we do not build profiles, and we do not use advertising or tracking tools."
+          "The website is hosted by Vercel Inc. (USA). The hosting provider records this technical data in server logs and uses it for aggregated visitor statistics (for example, the number of visits and the most viewed pages). Requests to the website are routed through Cloudflare for delivery and security. We do not use the data to identify individual visitors, we do not build profiles, and we do not use advertising or tracking tools.",
+          "The home page shows a map from Google Maps. When it loads, your browser connects to Google, which receives your IP address and technical data under its own privacy policy."
         ]
       },
       {
@@ -891,13 +918,14 @@
         "title": "4. Email",
         "paragraphs": [
           "If you write to us, we process the details you provide, such as your name, email address, phone number, subject and message. We use them only to answer your enquiry and, where you ask us to act for you, to prepare a possible engagement (including our conflict check).",
+          "Messages sent through the contact form are passed by our email provider directly to our mailbox; the website itself does not store them.",
           "Please do not send confidential information before we have confirmed that we can act for you."
         ]
       },
       {
         "title": "5. Service providers and transfers abroad",
         "paragraphs": [
-          "We use the following providers, who process personal data on our behalf and according to our instructions: our hosting provider [to be confirmed] for hosting and server logs; Cloudflare, Inc. (USA) for the delivery and security of the website; Google (Google Ireland Ltd. and Google LLC, USA) for our email (Google Workspace).",
+          "We use the following providers, who process personal data on our behalf and according to our instructions: Vercel Inc. (USA) for hosting and server logs; Resend (USA) for passing on messages sent through the contact form; Cloudflare, Inc. (USA) for the delivery and security of the website; Google (Google Ireland Ltd. and Google LLC, USA) for our email (Google Workspace) and for the map on the home page (Google Maps).",
           "These providers may process data in other countries, including the United States. Where a country does not offer an adequate level of data protection, transfers are protected by appropriate safeguards, such as certification under the Swiss–US or EU–US Data Privacy Framework or the standard contractual clauses recognised by the Swiss Federal Data Protection and Information Commissioner and the European Commission. We do not sell personal data or share it with third parties for their own marketing."
         ]
       },
@@ -957,5 +985,294 @@
       "This Proposal of Service shall be valid for a period of ten (10) days from the date of its delivery under Art. 3 of the Swiss Code of Obligations.",
       "Swiss Fintech Law AG"
     ]
+  },
+  "sq": {
+    "nav": {
+      "home": "Home",
+      "services": "Services",
+      "corporate": "Corporate Law",
+      "fintech": "Fintech Regulatory",
+      "venture": "Venture Capital",
+      "ma": "M&A",
+      "team": "Team",
+      "contact": "Contact",
+      "openMenu": "Open menu",
+      "closeMenu": "Close menu"
+    },
+    "hero": {
+      "title": "Swiss Fintech Law",
+      "subtitle": "Your legal expert fully dedicated to the law of new technologies",
+      "cta": "Contact"
+    },
+    "services": {
+      "title": "Services",
+      "learnMore": "Learn more",
+      "cards": [
+        {
+          "id": "corporate",
+          "title": "Corporate Law",
+          "text": "We have a strong background in general corporate law from governance to transactions.",
+          "image": "/images/site/corporate.webp"
+        },
+        {
+          "id": "fintech",
+          "title": "Fintech Regulatory",
+          "text": "We obtain regulatory approvals for fintech companies such as financial intermediaries and payment service providers.",
+          "image": "/images/site/regulatory.webp"
+        },
+        {
+          "id": "venture-capital",
+          "title": "Venture Capital & Private Equity",
+          "text": "We advise startups, VCs and private equity firms on funding transactions such as SAFE and equity investment.",
+          "image": "/images/site/venture-capital.webp"
+        },
+        {
+          "id": "manda",
+          "title": "M&A",
+          "text": "We advise on the acquisition and divestment of small to medium-size operating companies, from startups to series C, in the areas of fintech, DLT, AI and cyber security.",
+          "image": "/images/site/ma.webp"
+        }
+      ]
+    },
+    "team": {
+      "title": "Team",
+      "readBio": "Read bio",
+      "members": [
+        {
+          "id": "sandra_schnider",
+          "name": "Sandra Schnider",
+          "role": "Finance & Compliance",
+          "image": "/images/site/sandra-schnider.webp"
+        },
+        {
+          "id": "gregory-aillaud",
+          "name": "Grégory Aillaud",
+          "role": "Senior Lawyer",
+          "image": "/images/site/gregory-aillaud.webp"
+        }
+      ]
+    },
+    "contact": {
+      "title": "Contact",
+      "form": {
+        "name": "Name",
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "required": "(required)",
+        "email": "Email",
+        "subject": "Subject",
+        "message": "Message",
+        "send": "Send",
+        "mapTitle": "Map: Hinterbergstrasse 53, 6312 Steinhausen",
+        "sending": "Sending…",
+        "sent": "Thank you. Your message has been sent; we usually reply within one working day.",
+        "error": "The message could not be sent. Please write to us at contact@swisstechlaw.com."
+      }
+    },
+    "footer": {
+      "category": "Category",
+      "services": "Services",
+      "about": "About",
+      "contact": "Contact",
+      "related": "Related",
+      "lodge": "Swiss Fintech Lodge",
+      "legal": "Legal information",
+      "terms": "Terms & Conditions",
+      "legalNotice": "Legal notice",
+      "privacy": "Privacy Policy",
+      "language": "Language"
+    },
+    "servicesPage": {
+      "title": "Services",
+      "sections": [
+        {
+          "id": "corporate",
+          "title": "Corporate Law",
+          "image": "/images/site/corporate.webp",
+          "items": [
+            {
+              "title": "Pre-Incorporation",
+              "text": [
+                "Legal advice before you set up: choice of legal form, share capital, governance and the regulatory positioning of your project."
+              ]
+            },
+            {
+              "title": "Startups",
+              "text": [
+                "Legal advice on the formation of companies and foundations: articles of association, organisational regulations, founders’ and shareholders’ agreements."
+              ]
+            },
+            {
+              "title": "Corporate Governance",
+              "text": [
+                "Legal support for annual and extraordinary general meetings, capital changes, board matters and liquidations of operating companies."
+              ]
+            },
+            {
+              "title": "Corporate Transactions",
+              "text": [
+                "Drafting and negotiation of corporate agreements and transaction documents."
+              ]
+            },
+            {
+              "title": "Cyber-security, IT Law & Data Protection",
+              "text": [
+                "Cybersecurity is the most significant threat for companies. Inadequate protection also exposes the management to significant personal liability risks. We advise both companies and their executives on the optimal management of cyber risks."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "fintech",
+          "title": "Fintech Regulatory",
+          "image": "/images/site/regulatory.webp",
+          "items": [
+            {
+              "title": "Financial intermediaries affiliation",
+              "text": [
+                "Application for the affiliation of new financial intermediaries to a self regulatory organisation (SRO)",
+                "The SRO affiliation is also loosely referred to as a \"VASP Licence\""
+              ]
+            },
+            {
+              "title": "Asset Management Authorisation",
+              "text": [
+                "Application to FINMA for asset management authorisation"
+              ]
+            },
+            {
+              "title": "Payment Services Providers",
+              "text": [
+                "Preparation of contractual documents pertaining to the operations of payment services providers"
+              ]
+            },
+            {
+              "title": "FINMA No Action Letters",
+              "text": [
+                "Application for no action letters from the regulator. No action letters are issued by FINMA, after having acknowledged and understood clearly the projects. The letter is a form of loose release from FINMA that the supervising authorities will not initiate administrative or legal action against the market participant."
+              ]
+            },
+            {
+              "title": "Financial Market Regulation & Technology",
+              "text": [
+                "We combine our enthusiasm for technology with our legal expertise in financial market regulation and transactions. This enables us to translate complex technologies into established legal regimes to ensure optimal solutions for our clients."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "venture-capital",
+          "title": "Venture Capital & Private Equity",
+          "image": "/images/site/venture-capital.webp",
+          "items": [
+            {
+              "title": "SAFE",
+              "text": [
+                "Drafting of sale agreement for future equity and all subsequent operations"
+              ]
+            },
+            {
+              "title": "Equity Investment Agreement",
+              "text": [
+                "Drafting of equity investment agreements and all subsequent funding related operations"
+              ]
+            },
+            {
+              "title": "Funding rounds support",
+              "text": [
+                "Support for startups, venture capitalists, and private equity investors in funding rounds and financial investments."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "manda",
+          "title": "M&A",
+          "image": "/images/site/ma.webp",
+          "items": [
+            {
+              "title": "Sale and purchase of small to mid size companies",
+              "text": [
+                "Legal advice to buyers and sellers of small to mid-size operating businesses, particularly tech and fintech companies."
+              ]
+            },
+            {
+              "title": "Cross-border transactions",
+              "text": [
+                "Legal representation of strategic and financial buyers, sellers and target companies in cross-border and domestic M&A transactions involving operating businesses."
+              ]
+            },
+            {
+              "title": "Spin-offs and Carve out",
+              "text": [
+                "Structuring and implementation of joint ventures, spin-offs and carve-out transactions with a particular focus on fintech, DLT, cyber-security and AI companies"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "aboutPage": {
+      "title": "Team",
+      "members": [
+        {
+          "id": "gregory-aillaud",
+          "name": "Grégory Aillaud",
+          "image": "/images/site/gregory-aillaud.webp",
+          "bio": "Grégory is a corporate lawyer passionate about technologies & innovation, with previous experience as sole in house counsel for MTUDDA (Rolls Royce Power Systems), judge assistant in Tribunal de Grande Instance and M&A Corporate lawyer at Mercedes-Benz Australia.",
+          "education": {
+            "title": "Education",
+            "items": [
+              {
+                "school": "College of Law",
+                "degree": "Graduate Diploma in Legal Practice Management"
+              },
+              {
+                "school": "University of Aix-Marseille III",
+                "degree": "LLM in European Business Law"
+              },
+              {
+                "school": "University of Tours",
+                "degree": "Master of International and European Law"
+              },
+              {
+                "school": "University of Sydney",
+                "degree": "Diploma of Law, Legal Profession Admission Board"
+              }
+            ]
+          },
+          "admissions": {
+            "title": "Bar Admissions",
+            "items": [
+              "Solicitor & Barrister - Supreme Court of New South Wales (2011)",
+              "Solicitor & Barrister - Supreme Court of Victoria (2015)"
+            ]
+          }
+        },
+        {
+          "id": "sandra_schnider",
+          "name": "Sandra Schnider",
+          "image": "/images/site/sandra-schnider.webp",
+          "bio": "Sandra brings 25 years of experience in the banking and financial sectors, having held key positions such as Chief Controller, CFO, and Head of Compliance. Throughout her career, Sandra has successfully assisted numerous companies in establishing their compliance and financial services. Her expertise extends to consulting on organisational and financial restructuring.",
+          "education": {
+            "title": "Education",
+            "items": [
+              {
+                "school": "Master’s degree in Business Management",
+                "degree": "University of Grenoble"
+              },
+              {
+                "school": "Bachelor’s degree in Monetary and Financial Economics",
+                "degree": "University of Geneva"
+              },
+              {
+                "school": "IMD Strategic Marketing and Management Program",
+                "degree": "IMD Business School"
+              }
+            ]
+          }
+        }
+      ]
+    }
   }
 }

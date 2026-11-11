@@ -1,60 +1,29 @@
+import Image from 'next/image';
 import { useTranslations } from 'next-intl';
-import { Clock, Languages, MapPin } from 'lucide-react';
 import ButtonLink from '@/components/ui/ButtonLink';
-import { site } from '@/lib/site';
 
+/** Full-height hero copied from the Squarespace home page: photo, 50 % black overlay, centred text. */
 export default function Hero() {
-  const t = useTranslations('home.hero');
-  const common = useTranslations('common');
-
-  const facts = [
-    { key: 'address', Icon: MapPin, value: `${site.address.street}, ${site.address.postalCode} ${site.address.locality}` },
-    { key: 'hours', Icon: Clock, value: site.openingHours.display },
-    { key: 'languages', Icon: Languages, value: common('languagesValue') },
-  ] as const;
+  const t = useTranslations('sq.hero');
 
   return (
-    <section className="relative overflow-hidden border-b border-ink-200 bg-surface-warm">
-      <div
-        aria-hidden="true"
-        className="pointer-events-none absolute inset-0 bg-gradient-to-br from-sand-50 via-surface-warm to-sand-200"
+    <section className="relative flex min-h-[100svh] items-center justify-center overflow-hidden bg-black text-[#fafafa]">
+      <Image
+        src="/images/site/hero.webp"
+        alt=""
+        fill
+        priority
+        sizes="100vw"
+        className="object-cover opacity-50"
       />
-      <div
-        aria-hidden="true"
-        className="pointer-events-none absolute inset-y-0 right-0 w-1/2 bg-gradient-to-l from-sand-300/50 to-transparent"
-      />
-
-      <div className="relative mx-auto max-w-7xl px-6 pb-20 pt-40 lg:px-8 lg:pb-28 lg:pt-48">
-        <p className="flex items-center gap-4 text-bronze-600">
-          <span aria-hidden="true" className="h-px w-8 bg-bronze-500" />
-          <span className="eyebrow">{t('eyebrow')}</span>
+      <div className="sq-gutter relative w-full pb-32 pt-32 text-center md:pt-[208px] md:px-[11.7vw]">
+        <h1 className="sq-h1">{t('title')}</h1>
+        <p className="mt-[0.9em] text-[length:var(--fs-large)] leading-[1.3] tracking-[-0.02em] md:mt-8">
+          {t('subtitle')}
         </p>
-
-        <h1 className="mt-8 max-w-5xl text-balance font-serif text-5xl font-normal leading-[1.05] tracking-[-0.01em] text-ink-900 sm:text-6xl lg:text-7xl">
-          {t('title.line1')}
-          <br />
-          {t('title.line2')}
-        </h1>
-
-        <p className="mt-7 max-w-xl text-lg leading-relaxed text-ink-600">{t('subtitle')}</p>
-
-        <div className="mt-10 flex flex-col gap-4 sm:flex-row sm:items-center">
-          <ButtonLink href="/contact">{t('cta.primary')}</ButtonLink>
-          <ButtonLink href="/services" variant="secondary">
-            {t('cta.secondary')}
-          </ButtonLink>
-        </div>
-
-        {/* Verifiable facts in place of marketing figures (BGFA Art. 12 lit. d). */}
-        <dl className="mt-16 flex flex-wrap gap-x-12 gap-y-5">
-          {facts.map(({ key, Icon, value }) => (
-            <div key={key} className="flex items-center gap-3">
-              <Icon aria-hidden="true" strokeWidth={1.5} className="h-4 w-4 shrink-0 text-bronze-600" />
-              <dt className="sr-only">{common(`labels.${key}`)}</dt>
-              <dd className="font-mono text-xs tracking-[0.04em] text-ink-600">{value}</dd>
-            </div>
-          ))}
-        </dl>
+        <ButtonLink href={{ pathname: '/', hash: 'contact' }} variant="light" className="mt-[50px] md:mt-[118px]">
+          {t('cta')}
+        </ButtonLink>
       </div>
     </section>
   );
